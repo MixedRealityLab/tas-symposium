@@ -1,0 +1,52 @@
+{%- assign cache = site.time | date: '%s%N' -%}
+<html lang="{{ site.lang }}" class="h-100">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, viewport-fit=cover">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        {%- include header_css.html -%}
+        {%- include header_javascript.html -%}
+        {%- if page.name == "index.md" %}
+            <title>{{ site.conference.longname }}</title>
+        {%- else -%}
+            <title>
+                {{- page.title | escape | replace: "!!conference.shortname!!", site.conference.shortname | replace: "!!conference.longname!!", site.conference.longname }} - {{ site.title -}}
+            </title>
+        {% endif %}
+        {%- include header_social.html -%}
+    </head>
+    <body class="m-0 p-0">
+        <header>
+            <div class="d-flex flex-row px-3 py-3 p-0">
+                <a href="{{ "/" | relative_url }}" title="{{ site.title }} homepage" alt="{{ site.description }}" class="d-block ms-0 me-auto py-1 {% if page.url != "/" %}d-md-block d-none{% endif %}">
+                    <img src="{{ "/assets/img/logo.png" | relative_url }}" alt="{{ site.description }} logo" class="logo">
+                </a>
+                <div class="d-flex flex-column header-content">                
+                    {% if page.url != "/" %}
+                    <div class="text-md-end fw-bold mt-md-2 mb-md-3 mt-2 mb-0 fw-bold">
+                        <span class="d-inline-block pt-md-2 pt-1 pe-md-0 pe-3">
+                            {{ site.conference.longname }} <span class="d-sm-inline d-none">({{ site.conference.shortname }})</span>
+                        </span>
+                    </div>
+                    {% endif %}
+                    <div class="navbar-container d-flex flex-column justify-content-center text-md-end text-start {% if page.url == "/" %}pt-4 mt-2{% endif %} pb-3">
+                        {%- include header_menu.html -%}
+                    </div>
+                </div>
+
+                <div class="navbar-toggler-container align-self-end d-flex ms-auto d-md-none"">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation" id="navbarLabel">
+                        <i class="bi bi-menu-app-fill"></i>
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <section>
+            {{- content -}}
+        </section>
+        <footer class="container text-center small pb-3 text-muted">
+            {%- include footer.html -%}
+        </footer>
+    </body>
+</html>

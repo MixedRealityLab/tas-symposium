@@ -1,0 +1,55 @@
+papers:
+  -  label: Abstracts and metadata due
+     date: Wednesday 15th February 2023
+
+  -  label: Papers due
+     date: Wednesday 22nd February 2023
+
+  -  label: Notifications
+     date: Wednesday 29th March 2023
+
+  -  label: Shepherded & conditionally-accepted drafts due
+     date: Thursday 20th April 2023
+
+  -  label: Final notifications due
+     date: Thursday 27th April 2023
+
+  -  label: Camera ready/TAPS due
+     date: Thursday 11th May 2023
+
+provocations:
+  -  label: Submissions due
+     extended_date: Monday 17th April 2023
+
+  -  label: Notifications
+     date: Monday 15th May 2023
+
+  -  label: Camera ready/TAPS due
+     date: Thursday 11th May 2023
+
+posters:
+  -  label: Submissions due
+     extended_date: Monday 17th April 2023
+
+  -  label: Notifications
+     date: Monday 15th May 2023
+
+  -  label: Camera ready/TAPS due
+     date: Thursday 11th May 2023
+
+demos:
+  -  label: Submissions due
+     extended_date: Monday 17th April 2023
+
+  -  label: Notifications
+     date: Monday 15th May 2023
+
+  -  label: Camera ready/TAPS due
+     date: Thursday 11th May 2023
+
+featured_talks:
+  -  label: Submissions due
+     date: 21st May 2021
+
+  -  label: Notifications
+     date: 4th June 2021

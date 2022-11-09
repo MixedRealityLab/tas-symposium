@@ -1,0 +1,39 @@
+<nav class="navbar navbar-expand-md p-0" id="navbarSupportedContent">
+    <div class="container-fluid m-0 p-0">
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="navbar" aria-labelledby="navbarLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title pt-2" id="offcanvasLabel">{{ site.conference.shortname }}</h5>
+                <button type="button" class="btn btn-lg bg-transparent ms-auto mt-2 p-0 shadow-0 rounded-0" data-bs-dismiss="offcanvas" aria-label="Close">
+                    <i class="bi bi-x-lg"></i>
+                </button>
+            </div>
+            <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1">
+                    {%- for item in site.menus.main -%}
+                        {% if item.children %}
+                            <li class="nav-item dropdown d-md-block d-none">
+                                <a class="nav-link py-md-0 py-4 dropdown-toggle {% if page.url contains item.url %}active{% endif %}" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" id="organisersLink">
+                                    {{ item.title }}
+                                </a>
+                                <div class="dropdown-menu text-md-left text-center mt-2 mx-md-0 p-1 shadow" aria-labelledby="organisersLink">
+                                    {%- include menu.html menu=item.children -%}
+                                </div>
+                            </li>
+                            <li class="nav-item d-md-none">
+                                <a class="nav-link py-md-0 py-4 text-center" href="{{ item.url | absolute_url }}" title="Go to {{ item.title }}">
+                                    {{ item.title }}
+                                </a>
+                            </li>
+                        {%- else -%}
+                        <li class="nav-item">
+                            <a class="nav-link py-md-0 py-4 text-center {% if page.url == item.url %}active{% endif %}" href="{{ item.url | absolute_url }}" title="Go to {{ item.title }}">
+                                {{ item.title }}
+                            </a>
+                        </li>
+                        {%- endif -%}
+                    {%- endfor -%}
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav>

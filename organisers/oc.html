@@ -1,0 +1,50 @@
+---
+title: Organising Committee
+label: Organising Committee
+description: The Organising Committee for !!conference.shortname!!.
+lastmod:
+  type: data
+  file: oc.yml
+
+menus:
+  organisers:
+    title: Organising Committee
+    alt: Volunteers leading the organisation and running of the !!conference.longname!!
+    weight: 2
+---
+
+
+<p>
+    The TAS '23 Organising Committee is comprised of members of the UKRI-funded TAS Network (TAS Hub, Nodes, Pump-Priming and Responsibility projects). The symposium is aligned with the aims and values of the <a href="https://www.tas.ac.uk/" title="The UKRI Trustworthy Autonomous Systems (TAS) Hub">TAS Programme</a>.  
+</p>
+
+{% assign num_roles_chairs = site.data.oc | size %}
+{% assign half_num_roles_chairs = num_roles_chairs | plus: 1 | divided_by: 2%}
+
+<div class="row">
+	<div class="col-md-6 col-12 mblast-0">
+        {% for chairs in site.data.oc offset:0 limit:half_num_roles_chairs %}{% for role in chairs %}
+        
+		<h2 class="h4">{{ role[1].label }} <a href="{{ role.email }}" title="Retrieve the email address for {{ site.conference.shortname }} {{ role[1].label }}"><span alt="An envelope icon" class="d-inline-block icon-email ml-1"></span></a></h2>
+		<ul class="list-unstyled">
+			{% for people in role[1]['people'] %}
+            <li class="pb-1">{{ people.name }}<br><span class="text-muted small">{{ people.institution }}<!--, {{ people.country }}--></span></li>
+			{% endfor %}
+		</ul>
+        {% endfor %}{% endfor %}
+	</div>
+	<div class="col-md-6 col-12 mblast-0">
+        {% for chairs in site.data.oc offset:half_num_roles_chairs %}{% for role in chairs %}
+		<h2 class="h4">{{ role[1].label }} <a href="{{ role[1].email }}" title="Retrieve the email address for {{ site.conference.year }} {{ role[1].label }}"><span alt="An envelope icon" class="d-inline-block icon-email ml-1"></span></a></h2>
+		<ul class="list-unstyled">
+			{% for people in role[1]['people'] %}
+            <li class="pb-1">{{ people.name }}<br><span class="text-muted small">{{ people.institution }}<!--, {{ people.country }}--></span></li>
+			{% endfor %}
+		</ul>
+        {% endfor %}{% endfor %}
+	</div>
+</div>
+
+{% unless forloop.last %}
+<hr>
+{% endunless %}

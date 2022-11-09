@@ -1,0 +1,16 @@
+---
+layout: outerpage
+---
+{%- if page.title or page.splash_title -%}
+    {%- include outerpage_splash.html title = page.splash_title -%}
+{%- endif -%}
+
+{%- if page.feature -%}
+    {%- include outerpage_feature.html title = page.feature.title body = page.feature.body -%}
+{%- endif -%}
+
+{%- include outerpage_contentstart.html -%}
+<article>
+    {{- content -}}
+</article>
+{%- include outerpage_contentend.html -%}

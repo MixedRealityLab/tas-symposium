@@ -1,0 +1,30 @@
+---
+title: Submission information
+label: Submit
+description: Information on submitting to CUI !!conference.year!!.
+
+splash_title: Submit to CUI !!conference.year!!
+
+lastmod: page
+---
+
+<p>
+    CUI {{ site.conference.year }} consists of numerous publication tracks for authors to submit their work too. Accepted authors from all tracks will be invited to present their work at CUI {{ site.conference.year }} in {{ site.conference.location }}. Each track consists of a different emphasis, and respective deadlines and submission requirements:
+</p>
+
+<ul>
+{% for item in site.menus.submit %}
+    {% if item.is_track != true %}{% continue %}{% endif %}
+    <li>
+        <a class="" href="{{ item.url | absolute_url }}" title="{{ item.alt | escape | replace: "!!conference.year!!", site.conference.year  | replace: "!!conference.location!!", site.conference.location  | replace: "!!conference.dates!!", site.conference.dates }}">
+            {{ item.title }}
+        </a>
+    </li>
+{% endfor %}
+</ul>
+
+<p>
+    For those new to CUI, each paper track is designed to respond and allow authors to present their work in the most appropriate way, however, crucially expect novel research contributions within the field of conversational user interfaces. This space is, of course, incredibly broad, ranging from the implementation of new algorithms or evaluations of user experience, through to studies of conversational interaction, and everything in between. 
+</p>
+
+

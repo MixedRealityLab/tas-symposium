@@ -1,0 +1,111 @@
+  - general:
+        label: General chairs
+        contact: yes
+        email: ???@nottingham.ac.uk
+        people:
+          - name: Kate Devlin
+            institution: King's College London
+            country: UK
+          - name: Joel Fischer
+            institution: University of Nottingham
+            country: UK
+  - programme:
+        label: Programme chairs
+        people:
+          - name: Joe Deville
+            institution: Lancaster University
+            country: UK
+          - name: Helena Webb
+            institution: University of Nottingham
+            country: UK
+  - papers:
+        label: Papers chairs
+        people:
+          - name: Benedicte Legastelois
+            institution: King's College London
+            country: UK
+          - name: Daria Onitiu
+            institution: University of Edinburgh
+            country: UK
+          - name: Burak Yuksek
+            institution: Cranfield University
+            country: UK
+          - name: Katie Parnell
+            institution: University of Southampton
+            country: UK
+  - posters:
+        label: Posters chairs
+        people:
+          - name: Jeremie Clos
+            institution: University of Nottingham
+            country: UK
+          - name: Lisa Dorn
+            institution: Cranfield University
+            country: UK
+          - name: Xinwei Fang 
+            institution: University of York
+            country: UK
+  - local:
+        label: Local Arrangements chair
+        people:
+          - name: Peter McKenna
+            institution: Heriot-Watt University
+            country: Edinburgh
+  - finance:
+        label: Finance chair
+        people:
+          - name: Angela Westley
+            institution: University of Southampton
+            country: UK
+  - travelgrants:
+        label: Travel Grants chairs
+        people:
+          - name: Swaroop Panda
+            institution: Durham University
+            country: UK
+          - name: Suet Lee
+            institution: University of Bristol
+            country: UK
+          - name: Ben Coomber
+            institution: University of Nottingham
+            country: UK
+  - publicity:
+        label: Publicity chairs
+        people:
+          - name: Liz Dowthwaite
+            institution: University of Nottingham
+            country: UK
+          - name: Lou Male
+            institution: University of Southampton
+            country: UK
+  - registration:
+        label: Diversity & Accessibility chairs
+        people:
+          - name: Genovefa Kefalidou
+            institution: University of Leicester
+            country: UK
+          - name: Gisela Reyes-Cruz 
+            institution: University of Nottingham
+            country: UK
+  - sv:
+        label: Student Volunteers
+        people:
+          - name: Adeshola Lawal
+            institution: University of Southampton
+            country: UK
+          - name: Eryn Rigley
+            institution: University of Southampton
+            country: UK
+          - name: Alison Tebbutt 
+            institution: University of Southampton
+            country: UK
+  - ecr:
+        label: Early Career Researchers
+        people:
+          - name: Zhengxin (Cynthia) Yu 
+            institution: Lancaster University
+            country: UK
+          - name: Fatma Faruq
+            institution: University of Manchester
+            country: UK
+

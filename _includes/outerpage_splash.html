@@ -1,0 +1,23 @@
+<div class="shadow py-5 text-start splash">
+    <div class="d-flex flex-column container col-md-8 col-12 py-md-3 py-0">
+        <h1 class="d-inline-block m-0"><span class="">
+            {%- if include.title -%}
+                {%- assign title = include.title -%}
+            {%- else -%}
+                {%- assign title = page.title -%}
+            {%- endif -%}
+            {{- title | replace: "!!conference.shortname!!", site.conference.shortname  | replace: "!!conference.longname!!", site.conference.longname -}}
+        </span></h1>
+        {%- if page.cta.text -%}
+            {% if page.cta.link and page.cta.title %}
+                <div class="flex-grow-0">
+                    <a href="{{ page.cta.link }}" class="mt-3 btn btn-lg btn-light" title="{{ page.cta.title }}">{{ page.cta.text }} &rarr;</a>
+                </div>
+            {% else %}
+                <div class="flex-grow-0">
+                    <a class="mt-3 btn btn-lg btn-outline-light disabled">{{ page.cta.text }}</a>
+                </div>
+            {% endif %}
+        {%- endif -%}
+    </div>
+</div>
