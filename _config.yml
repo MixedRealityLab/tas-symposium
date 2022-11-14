@@ -18,9 +18,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-name: TAS 2023
+name: "TAS '23"
 author: Martin Porcheron
-title: TAS 2023
+title: "TAS '23"
 email: martin+taswebsite@porcheron.uk
 lang: en-GB
 description: >-
@@ -32,7 +32,7 @@ conference:
   completename: First International Symposium on Trustworthy Autonomous Systems (TAS '23)
   year: 2023
   location: Edinburgh, United Kingdom
-  dates: '10–11th July 2023'
+  dates: '11–12th July 2023'
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://localhost:4000" # the base hostname & protocol for your site, e.g. http://example.com
@@ -47,7 +47,7 @@ social:
     twitter:
         username: tas_hub
         card: /assets/icn/twittercard.png
-        card_alt: 'TAS 2023 will be in Edinburgh, UK from 10–11th July 2023'
+        card_alt: 'TAS '23 will be in Edinburgh, UK from 11–12th July 2023'
 
 # Build settings
 # plugins_dir: ./_plugins
