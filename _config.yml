@@ -18,9 +18,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-name: "TAS '23"
+name: TAS '23
 author: Martin Porcheron
-title: "TAS '23"
+title: TAS '23
 email: martin+taswebsite@porcheron.uk
 lang: en-GB
 description: >-
@@ -47,7 +47,7 @@ social:
     twitter:
         username: tas_hub
         card: /assets/icn/twittercard.png
-        card_alt: 'TAS '23 will be in Edinburgh, UK from 11–12th July 2023'
+        card_alt: TAS '23 will be in Edinburgh, UK from 11–12th July 2023
 
 # Build settings
 # plugins_dir: ./_plugins
