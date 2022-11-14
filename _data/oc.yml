@@ -105,7 +105,13 @@
           - name: Zhengxin (Cynthia) Yu 
             institution: Lancaster University
             country: UK
-          - name: Fatma Faruq
-            institution: University of Manchester
-            country: UK
-
+  - ops:
+        label: Operations Support
+        people: 
+          - name: Helen Shaw
+            institution: University of Southampton
+            country: UL
+          - name: Katie Drury,
+            institution: University of Bristol
+            country: UL
+            
