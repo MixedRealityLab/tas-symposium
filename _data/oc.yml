@@ -39,9 +39,6 @@
           - name: Jeremie Clos
             institution: University of Nottingham
             country: UK
-          - name: Lisa Dorn
-            institution: Cranfield University
-            country: UK
           - name: Xinwei Fang 
             institution: University of York
             country: UK
@@ -75,6 +72,9 @@
           - name: Liz Dowthwaite
             institution: University of Nottingham
             country: UK
+          - name: Katie Drury
+            institution: University of Bristol
+            country: UL
           - name: Lou Male
             institution: University of Southampton
             country: UK
@@ -105,13 +105,13 @@
           - name: Zhengxin (Cynthia) Yu 
             institution: Lancaster University
             country: UK
+          - name: Mohammad Soorati
+            institution: University of Southampton
+            country: UK
   - ops:
         label: Operations Support
         people: 
           - name: Helen Shaw
             institution: University of Southampton
-            country: UL
-          - name: Katie Drury,
-            institution: University of Bristol
             country: UL
             
