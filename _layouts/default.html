@@ -7,7 +7,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         {%- include header_css.html -%}
         {%- include header_javascript.html -%}
-        {%- if page.name == "index.md" %}
+        {%- if page.url == "/" %}
             <title>{{ site.conference.longname }}</title>
         {%- else -%}
             <title>
