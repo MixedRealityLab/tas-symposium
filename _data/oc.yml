@@ -1,7 +1,7 @@
   - general:
         label: General chairs
         contact: yes
-        email: contact@tas.ac.uk
+        email: mailto:contact@tas.ac.uk
         people:
           - name: Kate Devlin
             institution: King's College London
