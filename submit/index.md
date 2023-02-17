@@ -12,8 +12,13 @@ track:
 
 menus:
   main:
-    title: Submission instructions
+    title: Submit
+    identifier: submit
     weight: 2
+  submit:
+    title: Instructions
+    alt: Instructions on submitting to TAS '23
+    weight: 0
 ---
 
 We invite full-paper submissions and posters (extended abstracts) that take a multidisciplinary approach to address the challenges of designing, building, and deploying Trustworthy Autonomous Systems (TAS). Contributions should consider social, legal, ethical, and technical issues and their impacts on individuals, society, and the economy.  
