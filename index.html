@@ -7,6 +7,9 @@ layout: outerpage
 description: > 
  !!conference.longname!! TAS '23 will take place in Edinburgh, UK on 11–12th July 2023.
 
+track:
+  dates: submissions
+  
 feature:
   title: Welcome!
   body: >
@@ -65,11 +68,11 @@ menus:
     </p>
 
     <p>
-        The symposium is aligned with the aims and values of the TAS Programme (see tas.ac.uk).
+        The symposium is aligned with the aims and values of the TAS Programme (see <a href="https://www.tas.ac.uk" title="Trustworthy Autonomous Systems Hub">tas.ac.uk</a>).
     </p>
 
     <p>
-        The symposium will include a networking event for Early Career Researchers (ECRs) and travel grants will be available for ECRs.        
+    	The symposium will include a networking event for Early Career Researchers (ECRs) and travel grants will be available for ECRs.        
     </p>
 
 </article>
@@ -80,25 +83,20 @@ menus:
 
         <h3>Dates</h3>
 
-        <p>
-            <strong>Paper submission deadline</strong><br>
-            Wednesday 1st March 2023
-        </p>
+{% for date in site.data.track_dates[page.track.dates] -%}
+<p {% if forloop.last %}class="mb-0"{% endif %}><strong>{{ date.label }}</strong><br>{% if date.extended_date %}<strike>{{ date.date }}</strike> {{ date.extended_date }}{% else %}{{ date.date }}{% endif %}</p>
+{%- endfor -%}
 
-        <p>
-            <strong>Poster submission deadline</strong><br>
-            Wednesday 15th March 2023
-        </p>
+    </div>
 
-        <p>
-            <strong>Notifications</strong><br>
-            May 2023 (TBC)
-        </p>
+    <div class="my-3 p-xl-4 p-3 shadow">
 
-        <p class="mb-0">
-            <strong>Conference</strong><br>
-            Tuesday 11th–Wednesday 12th July 2023
-        </p>
+        <h3>Travel Grants</h3>
+
+		<p class="mb-0">
+			The TAS Hub will offer a limited number of <a href="{{ "/attend/travel-grants/" | relative_url }}" title="TAS '23 Travel Grants'">travel grants for ECRs to attend TAS '23</a>.
+		</p>
+
     </div>
 
 
