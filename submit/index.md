@@ -48,11 +48,13 @@ All submissions will proceed through the following process. Please contact the P
 
 Submissions of full papers and extended abstract must be in English, in PDF format, anonymised using the [CHI anonymization policy](https://chi2022.acm.org/for-authors/presenting/papers/chi-anonymization-policy/ "ACM CHI 2022 Anonymization Policy"), and (including figures, tables, proofs, appendixes, and any other content excluding references and acknowledgments). Extended abstracts for the posters track should be no longer than 3,000 words, full papers should be approximately (6,000-8,000 words). 
 
-You must use the [ACM LaTeX or Word templates](https://www.acm.org/publications/proceedings-template "ACM templates for Microsoft Word and LaTeX") to prepare your submission.  LaTeX users may start their work by using the official ACM template available on [Overleaf](https://www.overleaf.com/latex/templates/acm-conference-proceedings-primary-article-template/wbvnghjbzwpc "ACM Primary Article Template templates on Overleaf"), which we strongly encourage. LaTeX users should have the following document class: <code>\documentclass[sigconf, screen, review, anonymous]{acmart}</code> for submission.
+For more information about the paper templates, please refer to [the ACM TAPS workflow](https://authors.acm.org/proceedings/production-information/taps-production-workflow).
+
+<!--You must use the [ACM LaTeX or Word templates](https://www.acm.org/publications/proceedings-template "ACM templates for Microsoft Word and LaTeX") to prepare your submission.  LaTeX users may start their work by using the official ACM template available on [Overleaf](https://www.overleaf.com/latex/templates/acm-conference-proceedings-primary-article-template/wbvnghjbzwpc "ACM Primary Article Template templates on Overleaf"), which we strongly encourage. LaTeX users should have the following document class: <code>\documentclass[sigconf, screen, review, anonymous]{acmart}</code> for submission.
 
 Word users should use [the double-column "Interim Template"](https://www.acm.org/publications/proceedings-template#h-interim-template "ACM Interim Template for submissions") during submission and review and should be prepared to submit to TAPS _approximately one week earlier_ than the stated camera-ready deadline. Word users may be required to reimplement their paper, if accepted, into the correct document format for the publishing process. ACM's CCS concepts and keywords are not required for submission and peer review but are required if your paper is accepted and published by the ACM.
 
-For more information about the paper templates, please refer to [ACM Primary Article Template](https://www.acm.org/publications/proceedings-template "Information on ACM Primary Article Template") page.
+For more information about the paper templates, please refer to [ACM Primary Article Template](https://www.acm.org/publications/proceedings-template "Information on ACM Primary Article Template") page.-->
 
 
 ### 2. Submit your paper / extended abstract
