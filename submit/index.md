@@ -1,7 +1,7 @@
 ---
 title: Submission instructions
 label: Submission instructions
-description: Information on submitting to CUI !!conference.year!!.
+description: Information on submitting to TAS '23
 
 splash_title: Submission instructions
 
@@ -102,6 +102,7 @@ We strongly encourage authors to work on improving the accessibility of their pa
 
  * [Creating accessible PDFs](https://sigchi.org/conferences/author-resources/accessibility-guide/)
  * [Accessible presentation guide](http://www.sigaccess.org/welcome-to-sigaccess/resources/accessible-presentation-guide/)
+* [Check the accessibility of a PDF document](https://checkers.eiii.eu/en/pdfcheck/)
 
 If you have any questions or concerns about creating accessible submissions, please contact us.
 
