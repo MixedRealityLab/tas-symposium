@@ -72,7 +72,7 @@ menus:
     </p>
 
     <p>
-    	The symposium will include a networking event for Early Career Researchers (ECRs) and travel grants will be available for ECRs.        
+		The symposium will include a Doctoral/Early Career Researcher (ECR) Colloquium and networking event on the afternoon of Monday 10 July. Travel grants will be available for ECRs.
     </p>
 
 </article>
@@ -86,6 +86,18 @@ menus:
 {% for date in site.data.track_dates[page.track.dates] -%}
 <p {% if forloop.last %}class="mb-0"{% endif %}><strong>{{ date.label }}</strong><br>{% if date.extended_date %}<strike>{{ date.date }}</strike> {{ date.extended_date }}{% else %}{{ date.date }}{% endif %}</p>
 {%- endfor -%}
+
+    </div>
+    
+    
+    <div class="my-3 p-xl-4 p-3 shadow">
+
+        <h3>Doctoral / ECR Colloquium</h3>
+
+		<p class="mb-0">
+			<strong>Mon. 10 July 2023 (afternoon)</strong><br>
+			A pre-Symposium event for PhD students and Early Career Researchers.
+		</p>
 
     </div>
 
