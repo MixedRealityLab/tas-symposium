@@ -74,7 +74,7 @@
             country: UK
           - name: Katie Drury
             institution: University of Bristol
-            country: UL
+            country: UK
           - name: Lou Male
             institution: University of Southampton
             country: UK
@@ -111,7 +111,7 @@
   - ops:
         label: Operations Support
         people: 
-          - name: Helen Shaw
+          - name: Laura Armstrong
             institution: University of Southampton
-            country: UL
+            country: UK
             
