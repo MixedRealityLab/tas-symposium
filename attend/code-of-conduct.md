@@ -9,4 +9,5 @@ menus:
     title: Code of Conduct
     alt: TAS '23 Code of Conduct
     weight: 6
+    sep_before: true
 ---
