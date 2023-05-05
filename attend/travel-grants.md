@@ -1,6 +1,7 @@
 ---
 label: Travel Grants
 description: Information on financial support for early career researchers to travel to TAS '23.
+title: Travel Grants
 splash_title: Travel Grants
 
 lastmod: page

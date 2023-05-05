@@ -2,6 +2,7 @@
 label: Registration
 description: Details about registration for the TAS '23 symposium.
 registration_open: false
+title: Registration
 splash_title: Conference Registration
 
 lastmod: page

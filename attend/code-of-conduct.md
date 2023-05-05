@@ -8,6 +8,6 @@ menus:
   attend:
     title: Code of Conduct
     alt: TAS '23 Code of Conduct
-    weight: 6
+    weight: 25
     sep_before: true
 ---
