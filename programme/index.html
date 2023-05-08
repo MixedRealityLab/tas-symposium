@@ -1,0 +1,239 @@
+---
+label: Programme
+title:  Provisional programme
+redirect_from:
+  - /program/
+description: The online programme for TAS '23 symposium.
+
+splash_title:  TAS '23 Provisional programme
+
+menus:
+#  main:
+#    title: Programme
+#    alt: The online programme for the TAS '23 symposium
+#    weight: 8
+#    identifier: programme
+  programme:
+    title: Programme
+    alt: The online programme for the TAS '23 symposium
+    weight: 0
+
+---
+
+{% assign summer_time = true %}
+{% assign num_sessions = site.data.prg_sessions | size %}
+{% assign num_keynotes = 0 %}
+{% assign num_full_papers = 0 %}
+{% assign num_provocation_papers = 0 %}
+{% assign num_panels = 0 %}
+{% assign num_demos = 0 %}
+{% assign num_posters = 0 %}
+{% assign num_featured_talks = 0 %}
+
+{% assign sorted_sessions = site.data.prg_sessions | sort: "start_time" %}
+{% assign days = "" | split: ',' %}
+{% for session in sorted_sessions %}
+    {% assign day = session.start_time | date: "%-d %B %Y" %}
+    {% assign days = days | push: day %}
+
+    {% if session.type == 'EOD' %}
+    {% assign num_sessions = num_sessions | plus: -1 %}
+    {% elsif session.type == 'Break' %}
+    {% assign num_sessions = num_sessions | plus: -1 %}
+    {% elsif session.type == 'Innerbreak' %}
+    {% assign num_sessions = num_sessions | plus: -1 %}
+    {% elsif session.type == 'Reception' %}
+    {% assign num_sessions = num_sessions | plus: -1 %}
+    {% endif %}
+
+    {% for presentation in site.data.prg_presentations[session.id]
+     %}
+        {% if presentation.type == "Full Paper" %}
+            {% assign num_full_papers = num_full_papers | plus: 1 %}
+        {% elsif presentation.type == "Provocation Paper" %}
+            {% assign num_provocation_papers = num_provocation_papers | plus: 1 %}
+        {% elsif presentation.type == "Panel" %}
+            {% assign num_panels = num_panels | plus: 1 %}
+        {% elsif presentation.type == "Demo" %}
+            {% assign num_demos = num_demos | plus: 1 %}
+        {% elsif presentation.type == "Poster" %}
+            {% assign num_posters = num_posters | plus: 1 %}
+        {% elsif presentation.type == "Featured Talk" %}
+            {% assign num_featured_talks = num_featured_talks | plus: 1 %}
+        {% elsif presentation.type == "Keynote" %}
+            {% assign num_keynotes = num_keynotes | plus: 1 %}
+        {% endif %}
+    {% endfor %}
+{% endfor %}
+{% assign days = days | uniq %}
+{% assign num_days = days | size %}
+
+
+<ul class="nav nav-pills mb-3 pg-days-selector justify-items-center" role="tablist" aria-label="Days of the conference">
+	<span class="pt-2 pe-3">Day:</span>
+	{% for day in days %}
+		<li class="nav-item" role="presentation">
+			{% assign date = day | truncate: 2, '' %}
+			{% assign date = date | strip %}
+			{%- if date == "1" or date == "21" or date == "31" -%}
+				{%- assign suffix = "st" -%}
+			{%- elsif date == "2" or date == "22" -%}
+				{%- assign suffix = "nd" -%}
+			{%- elsif date == "3" or date == "23" -%}
+				{%- assign suffix = "rd" -%}
+			{%- else -%}
+				{%- assign suffix = "th" -%}
+			{%- endif -%}
+			{% assign rest = day | slice: 2, 100 %}
+			<button class="nav-link {% if forloop.index0 == 0 %}active{% endif %} me-2" id="programmeDay{{ forloop.index0 }}" data-bs-toggle="pill" data-bs-target="#programme{{ forloop.index0 }}" type="button" role="tab" aria-controls="programme{{ forloop.index0 }}" aria-selected="{% if forloop.index0 == 0 %}true{% else %}false{% endif %}">{{ date }}{{ suffix }} {{ rest }}</button>
+		</li>
+	{% endfor %}
+</ul>
+
+<div id="programmeSchedule" class="tab-content">
+{% for day in days %}
+	<div class="card tab-pane fade show {% if forloop.index0 == 0 %}active{% endif %}" role="tabpanel" aria-labelledby="programmeDay{{ forloop.index0 }}" id="programme{{ forloop.index0 }}">
+		<ul class="list-unstyled prg-day mb-0 border-0 rounded-0">
+			{%- for session in site.data.prg_sessions %}
+				{% if summer_time %}
+					{% assign start_time = session.start_time | date: '%s' %}
+					{% assign end_time = session.end_time | date: '%s'  %}
+				{% else %}
+					{% assign start_time = session.start_time %}
+					{% assign end_time = session.end_time %}
+				{% endif %}
+
+				{% assign temp_day = start_time | date: "%-d %B %Y" %}
+				{% if temp_day != day %}
+					{% continue %}
+				{% endif %}
+
+				{% if session.type == "EOD" %}
+				{% elsif session.type == "Innerbreak" %}
+				{% elsif session.type == "Break" %}
+				<li class="d-flex p-3 bg-lightest border-bottom rounded-0" id="session-{{ session.id }}">
+					<div class="flex-grow-1 ms-3 text-center text-muted">
+						{% if session.description %}
+						{% assign time_str = start_time | date: "%H:%M" %}
+						{% assign time_str = time_str | append: "–" %}
+						{% assign end_time_str = end_time | date: "%H:%M" %}
+						{% assign time_str = time_str | append: end_time_str %}
+						{{ session.description | replace: "####", time_str }}
+						{% endif %}
+					</div>
+				</li>
+				{% else %}
+				<li class="d-flex prg-row p-3 rounded bg-light  border-bottom rounded-0 flex-md-row flex-column" id="session-{{ session.id }}">
+					<div class="flex-shrink-0 me-md-3 mb-md-0 mb-3 d-flex flex-md-column flex-row">
+						<div class="text-capitalize mb-md-2 me-3"><span class="badge bg-primary">{{ session.type }}</span></div>
+						<div class="mb-md-1 me-md-0 me-3 small">
+							<span alt="A clock" class="d-inline-block prg-icon-timing prg-icon-start me-2"></span><span class="d-inline-block prg-text-timing">Starts <span class="d-md-inline d-none">at</span> <span class="prg-timing" data-timestamp="{{ start_time | date: "%FT%T.000Z" }}" data-programme-scheduled="{{ start_time | date: "%d" }}" data-day-alert="different-day-{{ forloop.index0 }}"><span></span>{{ start_time | date: "%H:%M" }}</span>
+						</div>
+						<div class="mt-md-1 small">
+							<span alt="A stopwatch" class="d-inline-block prg-icon-timing prg-icon-end me-2"></span><span class="d-inline-block prg-text-timing">Ends <span class="d-md-inline d-none">at</span> <span class="prg-timing" data-timestamp="{{ end_time | date: "%FT%T.000Z" }}"><span></span>{{ end_time | date: "%H:%M" }}</span>
+						</div>
+					</div>
+					<div class="flex-grow-1 ms-md-3 me-md-0 me-3 mb-0 w-100">
+						<div class="float-end d-flex flex-row mt-md-0 mt-1 ms-1">
+							{% if session.info %}
+							{% unless session.subtitle %}
+							<a href="{{ session.info }}" title="Read more about this session" class="d-block prg-icon-info-sm me-2">
+								<span class="visually-hidden">Read more about this session</span>
+							</a>
+							{% endunless  %}
+							{% endif %}
+							<!--{% capture calendar_url %}/programme/ics/{{ session.id }}.ics{% endcapture %}
+							<a href="{{ calendar_url | absolute_url }}" title="Download an iCal (ICS) file for this session in the programme" class="d-block prg-icon-cal me-2">
+								<span class="visually-hidden">iCalendar (ICS) file for this session</span>
+							</a>
+							{% capture session_url %}/programme/link/{{ session.id }}{% endcapture %}
+							<a href="{{ session_url | absolute_url }}" title="Get the permanent link to this session in the programme" class="d-block prg-icon-link">
+								<span class="visually-hidden">Permalink to this session</span>
+							</a>-->
+						</div>
+						<h4 class="text-primary mt-0 mb-1">{{ session.title }}</h4>
+						{% if session.presenters %}
+						{{ session.presenters }}
+						{% endif %}
+						{% if session.chairs %}
+						<em class="small">Chaired by {{ session.chairs }}</em>
+						{% endif %}
+						{% if session.subtitle %}
+						<h5 class="text-center mt-3">
+						{{ session.subtitle }}
+						{% if session.info %}
+						<a href="{{ session.info }}" title="Read more about this session" class="d-inline-block prg-icon-info-sm ms-2 align-down-small-icon">
+							<span class="visually-hidden">Read more about this session</span>
+						</a>
+						{% endif %}
+						</h5>
+						{% endif %}
+						
+						{% if session.description %}
+						<p class="mb-0">{{ session.description }}</p>
+						{% endif %}
+
+						{% assign presentations = site.data.prg_presentations[session.id] %}
+						{% if presentations.size > 0 %}
+						<ol class="list-group mt-3">
+						{%- for presentation in site.data.prg_presentations[session.id] %}
+							<li class="list-group-item pb-3">
+								{% if presentation.aaai %}
+								<div class="float-end">
+									<a href="{{ presentation.aaai }}" title="View the paper on the AAAI website" class="d-block prg-inner-icon prg-icon-aaai">
+										<span class="visually-hidden">View paper on the AAAI website</span>
+									</a>
+								</div>
+								{% endif %}
+								{% if presentation.acmdl %}
+								<div class="float-end">
+									<a href="{{ presentation.acmdl }}" title="View the paper in the ACM Digital Library" class="d-block prg-inner-icon prg-icon-acmdl">
+										<span class="visually-hidden">View paper in the ACM Digital Library</span>
+									</a>
+								</div>
+								{% endif %}
+								{% if presentation.sagepub %}
+								<div class="float-end">
+									<a href="{{ presentation.sagepub }}" title="View the paper on Sage Publishing's website" class="d-block prg-inner-icon prg-icon-sagepub">
+										<span class="visually-hidden">View paper on Sage Publishing's website</span>
+									</a>
+								</div>
+								{% endif %}
+								{% if presentation.springerlink %}
+								<div class="float-end">
+									<a href="{{ presentation.springerlink }}" title="View the paper on Springer's website" class="d-block prg-inner-icon prg-icon-springerlink">
+										<span class="visually-hidden">View paper on Springer's website</span>
+									</a>
+								</div>
+								{% endif %}
+								{% if presentation.info %}
+								<div class="float-end">
+									<a href="{{ presentation.info }}" title="Read more about this presentation" class="d-block prg-inner-icon prg-icon-info">
+										<span class="visually-hidden">Read more about this presentation</span>
+									</a>
+								</div>
+								{% endif %}
+								<strong>{{ presentation.title }}{% if presentation.type != "Panel Member" %}{% if presentation.type != "Panel" %} <span class="badge badge-secondary">{{ presentation.type }}</span>{% endif %}{% endif %}</strong><br>
+
+								{{ presentation.authors }}
+
+								{% if presentation.preview %}
+								<br><a href="{{ presentation.preview.link }}" title="{{ presentation.preview.text }}" target="_blank">{{ presentation.preview.text }} &rarr;</a>
+								{% endif %}
+
+								{% if presentation.award %}
+								<br><br>🏆 {{ presentation.award }}
+								{% endif %}
+							</li>
+						{%- endfor -%}
+						</ol>
+						{% endif %}
+
+					</div>
+				</li>
+				{% endif %}
+			{%- endfor -%}
+			</ul>
+	</div>
+{% endfor %}
+</div>

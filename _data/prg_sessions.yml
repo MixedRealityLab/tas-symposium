@@ -1,0 +1,188 @@
+# - id:
+#   type:
+#   title:
+#   location:
+#   presenters:
+#   chairs:
+#   start_time:
+#   end_time:
+
+- id: ecr_day
+  type: ECR
+  title: ECR Day (for PhD students and those who identify as Early Career Researchers)
+  description: "Ahead of the main programme we are planning an optional event for Early Career Researchers (ECR). This will be open to all PhD students and those who identify as ECRs attending the symposium. It will run from 3pm to 6pm and will provide an opportunity for relaxed engagement and networking. The full content and format will be determined by the numbers attending but we expect to include ice breaker talks and roundtable discussions on topics relevant to ECRSs – which may include, for instance, engaging with industry, interdisciplinarity, and career progression."
+  start_time: 2023-07-10T14:00:00.000Z
+  end_time: 2023-07-10T17:00:00.000Z
+
+- id: eod_monday
+  type: EOD
+  description: The main symposium activities start tomorrow
+  start_time: 2023-07-10T17:00:00.000Z
+  end_time: 2023-07-10T17:00:00.000Z
+
+
+
+- id: registration
+  type: Registration
+  title: Registration
+  description: Register and collect your badges for TAS '23.
+  start_time: 2023-07-11T08:30:00.000Z
+  end_time: 2023-07-11T09:00:00.000Z
+
+- id: welcome
+  type: Plenary
+  title: "Welcome"
+  description: "Welcome to TAS '23 from the symposium chairs."
+  start_time: 2023-07-11T09:00:00.000Z
+  end_time: 2023-07-11T09:15:00.000Z
+
+- id: session_1
+  type: Plenary
+  title: "Session 1: Plenary"
+  start_time: 2023-07-11T09:15:00.000Z
+  end_time: 2023-07-11T10:00:00.000Z
+
+- id: break_1
+  type: Break
+  description: Refreshment break (####)
+  start_time: 2023-07-11T10:00:00.000Z
+  end_time: 2023-07-11T10:30:00.000Z
+
+- id: session_2
+  type: Papers
+  title: "Session 2: Papers"
+  description: "Three papers will be presented."
+  start_time: 2023-07-11T10:30:00.000Z
+  end_time: 2023-07-11T11:30:00.000Z
+
+- id: lunch_1
+  type: Break
+  description: Lunch (####)
+  start_time: 2023-07-11T11:30:00.000Z
+  end_time: 2023-07-11T12:15:00.000Z
+
+- id: posters_1
+  type: Posters
+  title: "Poster session 1"
+  start_time: 2023-07-11T12:15:00.000Z
+  end_time: 2023-07-11T13:00:00.000Z
+
+- id: session_3
+  type: Papers
+  title: "Session 3: Papers"
+  description: "Three papers will be presented."
+  start_time: 2023-07-11T13:00:00.000Z
+  end_time: 2023-07-11T14:00:00.000Z
+
+- id: break_2
+  type: Break
+  description: Refreshment break (####)
+  start_time: 2023-07-11T14:00:00.000Z
+  end_time: 2023-07-11T14:30:00.000Z
+
+- id: panel_1
+  type: Panel
+  title: "Session 4: Ways forward for TAS?"
+  start_time: 2023-07-11T14:30:00.000Z
+  end_time: 2023-07-11T15:30:00.000Z
+
+- id: break_3
+  type: Break
+  description: Finish & walk to Robotarium (####)
+  start_time: 2023-07-11T15:30:00.000Z
+  end_time: 2023-07-11T15:45:00.000Z
+
+- id: reception
+  type: Reception
+  title: Robotarium reception
+  location: Robotarium
+  start_time: 2023-07-11T15:45:00.000Z
+  end_time: 2023-07-11T17:00:00.000Z
+
+- id: break_4
+  type: Break
+  description: Symposim activities have finish for the day
+  start_time: 2023-07-11T17:00:00.000Z
+  end_time: 2023-07-11T17:00:00.000Z
+
+- id: dinner
+  type: Dinner
+  title: (Optional) Symposium dinner
+  description: "Dinner at the Surgeon’s Quarter (central Edinburgh)"
+  start_time: 2023-07-11T18:00:00.000Z
+  end_time: 2023-07-11T21:00:00.000Z
+
+- id: eod_tuesday
+  type: EOD
+  description: The symposium resumes tomorrow
+  start_time: 2023-07-11T19:00:00.000Z
+  end_time: 2023-07-11T19:00:00.000Z
+
+
+
+
+
+
+- id: session_1
+  type: Papers
+  title: "Session 5: Papers"
+  description: "Five papers will be presented."
+  start_time: 2023-07-12T08:20:00.000Z
+  end_time: 2023-07-12T10:00:00.000Z
+
+- id: break_5
+  type: Break
+  description: Refreshment break (####)
+  start_time: 2023-07-12T10:00:00.000Z
+  end_time: 2023-07-12T10:30:00.000Z
+
+- id: session_2
+  type: Plenary
+  title: "Session 6: Plenary"
+  start_time: 2023-07-12T10:30:00.000Z
+  end_time: 2023-07-12T11:30:00.000Z
+
+- id: lunch_2
+  type: Break
+  description: Lunch (####)
+  start_time: 2023-07-12T11:30:00.000Z
+  end_time: 2023-07-12T12:15:00.000Z
+
+- id: posters_2
+  type: Posters
+  title: "Poster session 2"
+  start_time: 2023-07-12T12:15:00.000Z
+  end_time: 2023-07-12T13:00:00.000Z
+
+- id: session_3
+  type: Papers
+  title: "Session 7: Papers"
+  description: "Three papers will be presented."
+  start_time: 2023-07-12T13:00:00.000Z
+  end_time: 2023-07-12T14:00:00.000Z
+
+- id: panel_2
+  type: Panel
+  title: "Session 8: RRI panel discussion"
+  start_time: 2023-07-12T14:30:00.000Z
+  end_time: 2023-07-12T15:30:00.000Z
+  
+- id: awards
+  type: Awards
+  title: "Session 9: Best paper/poster award"
+  start_time: 2023-07-12T15:30:00.000Z
+  end_time: 2023-07-12T16:00:00.000Z
+
+- id: break_3
+  type: Break
+  description: Finish (& optional explore of Robotarium, participants to confirm interest) 
+  start_time: 2023-07-12T16:00:00.000Z
+  end_time: 2023-07-12T16:00:00.000Z
+
+- id: eod_wednesday
+  type: EOD
+  description: The symposium activities have finished
+  start_time: 2023-07-12T16:00:00.000Z
+  end_time: 2023-07-12T16:00:00.000Z
+
+
