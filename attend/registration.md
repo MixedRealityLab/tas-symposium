@@ -3,7 +3,7 @@ label: Registration
 description: Details about registration for the TAS '23 symposium.
 registration_open: false
 title: Registration
-splash_title: Conference Registration
+splash_title: Symposium registration
 
 lastmod: page
 
@@ -16,7 +16,13 @@ menus:
 
 Registration for the TAS Symposium 2023 will open in early May. 
 
-Please check the Symposium website for details of how to register.
+Authors with papers accepted must register by midday on 30th June 2023. At least one author of each accepted paper must be registered to attend the conference in person. A paper without a corresponding registration may be withheld from publication. There will be no onsite registration.
+
+Please ensure you register at the correct rate—if you do not, you will be liable to pay the difference. You can revise your registration online up to one week before the conference.
+
+## Registration fees
+
+There are four different rates for registration at TAS’23 and two different registration deadlines:
 
 <table class="registration-rates mx-auto mb-3">
 	<thead>
@@ -31,9 +37,18 @@ Please check the Symposium website for details of how to register.
 				<td class="text-center">£100</td>
 		</tr>
 		<tr>
-				<td class="py-2 px-3">Registration deadline<br><span class="small">(30th June 2023)</span></td>
+				<td class="py-2 px-3">Registration deadline<br><span class="small">(midday 30th June 2023)</span></td>
 				<td class="text-center">£75</td>
 				<td class="text-center">£150</td>
 		</tr>
 	</tbody>
 </table>
+
+There is an optional extra to attend the Conference Dinner on 11th July, which is £80 per head.
+
+The reduced rates are restricted to registered and currently active students and [individuals based in economically developing countries](/attend/reduced-rates/ "Reduced rate for individuals based in economically developing countries"). You may be asked to provide evidence of your student or residential status. If you cannot provide proof of status, you will be required to register as a professional attendee.
+
+All registration fees above are inclusive of Value Added Tax (VAT).
+
+## Need support or have a question?
+If you need any support or have questions about the registration process, please contact the TAS’23  Registration chairs.
