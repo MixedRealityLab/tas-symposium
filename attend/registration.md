@@ -51,4 +51,4 @@ The reduced rates are restricted to registered and currently active students and
 All registration fees above are inclusive of Value Added Tax (VAT).
 
 ## Need support or have a question?
-If you need any support or have questions about the registration process, please contact the TAS’23  Registration chairs.
+If you need any support or have questions about the registration process, please contact <a href="mailto:contact@tas.ac.uk" title="TAS '23 Registration chairs">the TAS’23 Registration chairs</a>.
