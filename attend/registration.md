@@ -36,8 +36,8 @@ There are four different rates for registration at TAS’23 and two different re
 <table class="registration-rates mx-auto mb-3">
 	<thead>
 		<th></th>
-		<th class="py-2 px-3">Student rate</th>
-		<th class="py-2 px-3">Full Delegate rate</th>
+		<th class="py-2 px-3">Reduced rate</th>
+		<th class="py-2 px-3">Full delegate rate</th>
 	</thead>
 	<tbody>
 		<tr>
