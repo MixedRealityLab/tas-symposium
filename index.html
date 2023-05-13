@@ -8,7 +8,7 @@ description: >
  TAS '23 will take place in Edinburgh, UK on 11–12th July 2023.
 
 track:
-  dates: submissions
+  dates: homepage
 
 menus:
   main:
@@ -92,7 +92,7 @@ menus:
 
     <div class="my-3 p-xl-4 p-3 shadow">
 
-        <h3>Dates</h3>
+        <h3>Upcoming dates</h3>
 
 {% for date in site.data.track_dates[page.track.dates] -%}
 <p {% if forloop.last %}class="mb-0"{% endif %}><strong>{{ date.label }}</strong><br>{% if date.extended_date %}<strike>{{ date.date }}</strike> {{ date.extended_date }}{% else %}{{ date.date }}{% endif %}</p>
