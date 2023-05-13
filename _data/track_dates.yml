@@ -8,10 +8,13 @@ submissions:
 #      extended_date: 22nd March 2023
 
   -  label: Notifications
-     date: May 2023 (TBC)
+     date: May 2023
 
+  -  label: Revised papers due
+     date: 19th May 2023
+     
   -  label: Camera ready due
-     date: May 2023 (TBC)
+     date: 9th June 2023
 
   -  label: Registration open
      date: Imminent
