@@ -19,7 +19,7 @@ header > *, nav, .splash > *, section {
 }
 
 header {
-    border-top: $header-border-t;
+//     border-top: $header-border-t;
     color: $header-fg;
 
     .header-content {
@@ -101,7 +101,7 @@ header {
 }
 
 
-@include media-breakpoint-up(md) {
+@include media-breakpoint-up(lg) {
     .navbar-nav {
         border: 0;
 
@@ -147,7 +147,7 @@ article {
     }
 }
 
-@include media-breakpoint-up(md) {
+@include media-breakpoint-up(lg) {
     .navbar-container {
         margin-right: -8px;
     }

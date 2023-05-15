@@ -17,31 +17,28 @@
         {%- include header_social.html -%}
     </head>
     <body class="m-0 p-0">
-        <header>
+        <header class="container">
             <div class="d-flex flex-row px-3 py-3 p-0">
-                <a href="{{ "/" | relative_url }}" title="{{ site.title }} homepage" alt="{{ site.description }}" class="d-block ms-0 me-auto py-1 {% if page.url != "/" %}d-md-block d-none{% endif %}">
-                    <img src="{{ "/assets/img/logo.png" | relative_url }}" alt="{{ site.description }} logo" class="logo">
+                <a href="{{ "/" | relative_url }}" title="{{ site.title }} homepage" alt="{{ site.description }}" class="d-block ms-0 me-auto py-1">
+                    <img src="{{ "/assets/img/newlogo.png" | relative_url }}" alt="{{ site.description }} logo" class="logo">
                 </a>
-                <div class="d-flex flex-column header-content">                
-                    {% if page.url != "/" %}
-                    <div class="text-md-end fw-bold mt-md-2 mb-md-3 mt-2 mb-0 fw-bold">
-                        <span class="d-inline-block pt-md-2 pt-1 pe-md-0 pe-3">
-                            {{ site.conference.longname }} <span class="d-sm-inline d-none">({{ site.conference.shortname }})</span>
-                        </span>
-                    </div>
+                <div class="align-self-center">
+					{% if page.url != "/" %}
+					<span class="d-none d-xl-block fw-bold">
+						{{ site.conference.longname }} <span class="d-sm-inline d-none">({{ site.conference.shortname }})</span>
+					</span>
                     {% endif %}
-                    <div class="navbar-container d-flex flex-column justify-content-center text-md-end text-start {% if page.url == "/" %}pt-4 mt-2{% endif %} pb-3">
-                        {%- include header_menu.html -%}
-                    </div>
-                </div>
-                <div class="navbar-toggler-container align-self-end d-flex ms-auto d-md-none"">
+					<div class="navbar-container d-flex flex-column justify-content-center text-lg-end text-start">
+						{%- include header_menu.html -%}
+					</div>
+				</div>
+                <div class="navbar-toggler-container align-self-end d-flex ms-auto d-lg-none">
                     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation" id="navbarLabel">
                         <i class="bi bi-menu-app-fill"></i>
                     </button>
                 </div>
             </div>
         </header>
-
         <section>
             {{- content -}}
         </section>

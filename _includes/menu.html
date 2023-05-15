@@ -2,7 +2,7 @@
     {% if item.sep_before %}
         <div class="dropdown-divider"></div>
     {% endif %}
-    <a class="dropdown-item dropdown-item-{{ forloop.index }} rounded px-3 py-3" href="{{ item.url | absolute_url }}" title="{{ item.alt | escape | replace: "!!conference.longname!!", site.conference.longname  | replace: "!!conference.shortname!!", site.conference.shortname }}">
+    <a class="dropdown-item dropdown-item-{{ forloop.index }} rounded px-3 py-2" href="{{ item.url | absolute_url }}" title="{{ item.alt | escape | replace: "!!conference.longname!!", site.conference.longname  | replace: "!!conference.shortname!!", site.conference.shortname }}">
         {{ item.title }}
     </a>
 {% endfor %}
