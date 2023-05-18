@@ -126,7 +126,7 @@
 - id: arrival
   type: Break
   description: Arrival refreshments (####)
-  start_time: 2023-07-12T07:45.000Z
+  start_time: 2023-07-12T07:45:00.000Z
   end_time: 2023-07-12T08:15:00.000Z
 
 - id: welcome_2
