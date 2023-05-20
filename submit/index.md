@@ -98,12 +98,7 @@ The specific details of the presentation will be provided closer to the conferen
 
 #### Accessibility of Papers and Presentations 
 
-We strongly encourage authors to work on improving the accessibility of their papers and presentations including adding figure descriptions. For more information about accessibility requirements for papers and posters, please refer to the sources given below:
-
- * [Creating accessible PDFs](https://sigchi.org/conferences/author-resources/accessibility-guide/)
- * [Accessible presentation guide](http://www.sigaccess.org/welcome-to-sigaccess/resources/accessible-presentation-guide/)
-* [Check the accessibility of a PDF document](https://checkers.eiii.eu/en/pdfcheck/)
-
+We strongly encourage authors to work on improving the accessibility of their papers and presentations including adding figure descriptions. For more information about accessibility requirements for papers and posters. Please see [the TAPS '23 guidance on making your paper accessible]({{"/submit/accessibility/"|relative_url}}).
 If you have any questions or concerns about creating accessible submissions, please contact us.
 
 
