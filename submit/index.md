@@ -16,7 +16,7 @@ menus:
     identifier: submit
     weight: 2
   submit:
-    title: Instructions
+    title: Archival Instructions
     alt: Instructions on submitting to TAS '23
     weight: 0
 ---

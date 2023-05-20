@@ -9,4 +9,5 @@ menus:
     title: EasyChair login
     alt: Go to the submission system for TAS '23
     weight: 4
+    sep_before: true
 ---
