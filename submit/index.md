@@ -92,7 +92,7 @@ You will be invited to present your work at TAS 2023.
 
 **Papers.** Accepted papers will be invited to present their paper as a talk in a paper session at the conference. 
 
-**Posters.** Accepted posters will be on display during the symposium, and presenters will have the opportunity to discuss their work with attendees during designated poster sessions. 
+**Posters.** Accepted posters will be on display during the symposium, and presenters will have the opportunity to discuss their work with attendees during designated poster sessions. An [optional poster template]({{"/assets/pptx/UKRI-TAS-Hub-Research-Poster-Template.pptx" | relative_url}}) is available (authors are free to design their own poster).
 
 The specific details of the presentation will be provided closer to the conference.
 
