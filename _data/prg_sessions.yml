@@ -173,6 +173,12 @@
   start_time: 2023-07-12T13:00:00.000Z
   end_time: 2023-07-12T14:00:00.000Z
 
+- id: break_6
+  type: Break
+  description: Refreshment break (####)
+  start_time: 2023-07-12T14:00:00.000Z
+  end_time: 2023-07-12T14:30:00.000Z
+
 - id: panel_2
   type: Panel
   title: "Session 8: RRI panel discussion"
@@ -185,7 +191,7 @@
   start_time: 2023-07-12T15:30:00.000Z
   end_time: 2023-07-12T16:00:00.000Z
 
-- id: break_3
+- id: break_7
   type: Break
   description: Finish (& optional explore of Robotarium, participants to confirm interest) 
   start_time: 2023-07-12T16:00:00.000Z
