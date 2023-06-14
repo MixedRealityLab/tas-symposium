@@ -30,6 +30,8 @@ menus:
 {% assign num_posters = 0 %}
 {% assign num_featured_talks = 0 %}
 
+{% assign index_day_show_first = 0 %}
+
 {% assign sorted_sessions = site.data.prg_sessions | sort: "start_time" %}
 {% assign days = "" | split: ',' %}
 {% for session in sorted_sessions %}
@@ -45,7 +47,7 @@ menus:
     {% elsif session.type == 'Reception' %}
     {% assign num_sessions = num_sessions | plus: -1 %}
     {% endif %}
-
+ 
     {% for presentation in site.data.prg_presentations[session.id]
      %}
         {% if presentation.type == "Full Paper" %}
@@ -65,6 +67,7 @@ menus:
         {% endif %}
     {% endfor %}
 {% endfor %}
+
 {% assign days = days | uniq %}
 {% assign num_days = days | size %}
 
@@ -86,14 +89,14 @@ menus:
 				{%- assign suffix = "th" -%}
 			{%- endif -%}
 			{% assign rest = day | slice: 2, 100 %}
-			<button class="nav-link {% if forloop.index0 == 0 %}active{% endif %} me-2" id="programmeDay{{ forloop.index0 }}" data-bs-toggle="pill" data-bs-target="#programme{{ forloop.index0 }}" type="button" role="tab" aria-controls="programme{{ forloop.index0 }}" aria-selected="{% if forloop.index0 == 0 %}true{% else %}false{% endif %}">{{ date }}{{ suffix }} {{ rest }}</button>
+			<button class="programme-dates nav-link me-2" id="programmeDay{{ forloop.index0 }}" data-date="{{ day | date: "%F" }}" data-bs-toggle="pill" data-bs-target="#programme{{ forloop.index0 }}" type="button" role="tab" aria-controls="programme{{ forloop.index0 }}" aria-selected="{% if forloop.index0 == 0 %}true{% else %}false{% endif %}">{{ date }}{{ suffix }} {{ rest }}</button>
 		</li>
 	{% endfor %}
 </ul>
 
 <div id="programmeSchedule" class="tab-content">
 {% for day in days %}
-	<div class="card tab-pane fade show {% if forloop.index0 == 0 %}active{% endif %}" role="tabpanel" aria-labelledby="programmeDay{{ forloop.index0 }}" id="programme{{ forloop.index0 }}">
+	<div class="card tab-pane fade show" role="tabpanel" aria-labelledby="programmeDay{{ forloop.index0 }}" id="programme{{ forloop.index0 }}">
 		<ul class="list-unstyled prg-day mb-0 border-0 rounded-0">
 			{%- for session in site.data.prg_sessions %}
 				{% if summer_time %}
@@ -238,3 +241,23 @@ menus:
 	</div>
 {% endfor %}
 </div>
+
+<script>
+window.addEventListener('load', () => {
+	const dates = document.querySelectorAll('.programme-dates');
+	const currentDate = (new Date()).toISOString().substring(0,10);
+
+	var shownDate = false;
+	dates.forEach((date) => {
+		console.log(date.dataset.date + " == " + currentDate);
+		if(!shownDate && date.dataset.date == currentDate) {
+			(new bootstrap.Tab("#" + date.id)).show();
+			shownDate = true;
+			return;
+		}
+	});
+	if(!shownDate) {
+		(new bootstrap.Tab("#" + dates[0].id)).show();
+	}
+});
+</script>
