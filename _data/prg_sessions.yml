@@ -86,7 +86,8 @@
 - id: session_4
   type: Papers
   title: "Session 4: Questions of ethics in Autonomous Systems"
-  chairs: Gisela Reyes Cruz
+  chairs: Gisela Reyes Cruza
+  location: James Watt<br>Auditorium 
   start_time: 2023-07-11T13:00:00.000Z
   end_time: 2023-07-11T14:10:00.000Z
 
@@ -100,6 +101,7 @@
   type: Panel
   title: "Session 5: Creativity in TAS"
   start_time: 2023-07-11T14:30:00.000Z
+  location: James Watt<br>Auditorium 
   end_time: 2023-07-11T15:30:00.000Z
 
 - id: break_3
