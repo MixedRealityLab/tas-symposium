@@ -11,8 +11,7 @@ menus:
   submit:
     title: Poster Printing
     alt: Instructions on poster printing services for TAS '23 accepted poster presenters
-    weight: 4
-    sep_before: true
+    weight: 5
 ---
 
 [HWU Media Services](https://www.hw.ac.uk/uk/services/media-services.htm "Heriot-Watt University Media Services") have offered printing services on campus.

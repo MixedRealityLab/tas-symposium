@@ -19,3 +19,5 @@ menus:
 <p>Please <a href="https://forms.office.com/e/wXJA1TA5et">submit your title and abstract using this online form</a> by 16/06/2023 (23:59 BST).</p>
 
 <p>Decisions will be returned by 23/06/2023, one week before the closure of registrations on 30/06/2023.</p>
+
+<p>Please see <a href="{{ "/attend/poster-instructions/" | relative_url }}" title="Poster instructions">this guidance</a> on preparing your poster for TAS '23.
