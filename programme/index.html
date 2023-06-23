@@ -136,6 +136,9 @@ menus:
 						<div class="mt-md-1 small">
 							<span alt="A stopwatch" class="d-inline-block prg-icon-timing prg-icon-end me-2"></span><span class="d-inline-block prg-text-timing">Ends <span class="d-md-inline d-none">at</span> <span class="prg-timing" data-timestamp="{{ end_time | date: "%FT%T.000Z" }}"><span></span>{{ end_time | date: "%H:%M" }}</span>
 						</div>
+						{% if session.location %}
+						<small class="d-inner-block mt-3"><em>{{ session.location }}</em></small>
+						{% endif %}
 					</div>
 					<div class="flex-grow-1 ms-md-3 me-md-0 me-3 mb-0 w-100">
 						<div class="float-end d-flex flex-row mt-md-0 mt-1 ms-1">
@@ -218,6 +221,10 @@ menus:
 								</div>
 								{% endif %}
 								<strong>{{ presentation.title }}{% if presentation.type != "Panel Member" %}{% if presentation.type != "Panel" %} <span class="badge badge-secondary">{{ presentation.type }}</span>{% endif %}{% endif %}</strong><br>
+
+								{% if presentation.subtitle %}
+								<strong><small><em>{{ presentation.subtitle }}</em></small></strong><br>
+								{% endif %}
 
 								{{ presentation.authors }}
 

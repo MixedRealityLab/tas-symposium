@@ -26,76 +26,92 @@
   type: Registration
   title: Registration
   description: Register and collect your badges for TAS '23. Refreshments on arrival.
-  start_time: 2023-07-11T08:30:00.000Z
-  end_time: 2023-07-11T09:00:00.000Z
+  location: James Watt<br>Auditorium 
+  start_time: 2023-07-11T08:15:00.000Z
+  end_time: 2023-07-11T08:45:00.000Z
 
 - id: welcome
   type: Plenary
   title: "Welcome"
-  description: "Welcome to TAS '23 from the symposium chairs."
-  start_time: 2023-07-11T09:00:00.000Z
-  end_time: 2023-07-11T09:15:00.000Z
+  description: "Welcome to TAS '23 from the symposium chairs, Kate Devlin and Joel Fischer."
+  location: James Watt<br>Auditorium 
+  start_time: 2023-07-11T08:45:00.000Z
+  end_time: 2023-07-11T09:00:00.000Z
 
 - id: session_1
   type: Plenary
-  title: "Session 1: Plenary"
-  start_time: 2023-07-11T09:15:00.000Z
+  title: "Session 1: Plenary: Prof. Sharon Strover"
+  chairs: "Kate Devlin & Joel Fischer"
+  description: "Dr. Strover is the Philip G. Warner Regents Professor in Communication, former Chair of the Radio-TV-Film Department at the University of Texas, and now Professor in the School of Journalism and Media where she teaches communication technology and policy courses and directs the Technology and Information Policy Institute. <a href='https://symposium.tas.ac.uk/programme/plenaries/#sharon-strover--university-of-texas-at-austin'>Read more...</a>"
+  location: James Watt<br>Auditorium 
+  start_time: 2023-07-11T09:00:00.000Z
   end_time: 2023-07-11T10:00:00.000Z
 
 - id: break_1
   type: Break
   description: Refreshment break (####)
   start_time: 2023-07-11T10:00:00.000Z
-  end_time: 2023-07-11T10:30:00.000Z
+  end_time: 2023-07-11T10:20:00.000Z
 
-- id: session_2
+- id: session_2a
   type: Papers
-  title: "Session 2: Papers"
-  description: "Three papers will be presented."
-  start_time: 2023-07-11T10:30:00.000Z
+  title: "Session 2a (twin track): Robotics and robot encounters"
+  chairs: "Liz Dowthwaite"
+  location: James Watt<br>Auditorium 
+  start_time: 2023-07-11T10:20:00.000Z
+  end_time: 2023-07-11T11:30:00.000Z
+
+- id: session_2b
+  type: Papers
+  title: "Session 2b (twin track): Health and wellbeing in Autonomous Systems"
+  chairs: "Peter McKenna"
+  location: Hall
+  start_time: 2023-07-11T10:20:00.000Z
   end_time: 2023-07-11T11:30:00.000Z
 
 - id: lunch_1
   type: Break
   description: Lunch (####)
   start_time: 2023-07-11T11:30:00.000Z
-  end_time: 2023-07-11T12:15:00.000Z
-
-- id: posters_1
-  type: Posters
-  title: "Poster session 1"
-  start_time: 2023-07-11T12:15:00.000Z
   end_time: 2023-07-11T13:00:00.000Z
 
 - id: session_3
+  type: Posters
+  title: "Session 3: Posters"
+  description: "Posters are presented in the James Watt Lounge during the latter half of the lunch break."
+  location: James Watt Lounge
+  start_time: 2023-07-11T12:00:00.000Z
+  end_time: 2023-07-11T13:00:00.000Z
+
+- id: session_4
   type: Papers
-  title: "Session 3: Papers"
-  description: "Three papers will be presented."
+  title: "Session 4: Questions of ethics in Autonomous Systems"
+  chairs: Gisela Reyes Cruz
   start_time: 2023-07-11T13:00:00.000Z
-  end_time: 2023-07-11T14:00:00.000Z
+  end_time: 2023-07-11T14:10:00.000Z
 
 - id: break_2
   type: Break
   description: Refreshment break (####)
-  start_time: 2023-07-11T14:00:00.000Z
+  start_time: 2023-07-11T14:10:00.000Z
   end_time: 2023-07-11T14:30:00.000Z
 
-- id: panel_1
+- id: session_5
   type: Panel
-  title: "Session 4: Ways forward for TAS?"
+  title: "Session 5: Creativity in TAS"
   start_time: 2023-07-11T14:30:00.000Z
   end_time: 2023-07-11T15:30:00.000Z
 
 - id: break_3
   type: Break
-  description: Finish & walk to Robotarium (####)
+  description: Finish & walk to The National Robotarium (####)
   start_time: 2023-07-11T15:30:00.000Z
   end_time: 2023-07-11T15:45:00.000Z
 
 - id: reception
   type: Reception
-  title: Robotarium reception
-  location: Robotarium
+  title: National Robotarium reception
+  location: The National<br>Robotarium
   description: ECR Awards presentation.
   start_time: 2023-07-11T15:45:00.000Z
   end_time: 2023-07-11T17:00:00.000Z
@@ -122,55 +138,49 @@
 
 
 
-
-- id: arrival
-  type: Break
-  description: Arrival refreshments (####)
-  start_time: 2023-07-12T07:45:00.000Z
-  end_time: 2023-07-12T08:15:00.000Z
-
-- id: welcome_2
-  type: Plenary
-  title: "Welcome"
-  start_time: 2023-07-12T08:15:00.000Z
-  end_time: 2023-07-12T08:20:00.000Z
- 
-- id: session_1
+- id: session_6
   type: Papers
-  title: "Session 5: Papers"
-  description: "Five papers will be presented."
-  start_time: 2023-07-12T08:20:00.000Z
-  end_time: 2023-07-12T10:00:00.000Z
+  title: "Session 6: Autonomous systems on land and sea"
+  chairs: Burak Yuksek
+  location: James Watt<br>Auditorium 
+  start_time: 2023-07-12T08:15:00.000Z
+  end_time: 2023-07-12T09:40:00.000Z
 
 - id: break_5
   type: Break
   description: Refreshment break (####)
-  start_time: 2023-07-12T10:00:00.000Z
-  end_time: 2023-07-12T10:30:00.000Z
+  start_time: 2023-07-12T09:40:00.000Z
+  end_time: 2023-07-12T10:00:00.000Z
 
-- id: session_2
+- id: session_7
   type: Plenary
-  title: "Session 6: Plenary"
-  start_time: 2023-07-12T10:30:00.000Z
-  end_time: 2023-07-12T11:30:00.000Z
+  title: "Session 7: Plenary: Prof. Gina Neff"
+  description: "Gina Neff is the Executive Director of the Minderoo Centre for Technology & Democracy at the University of Cambridge. Her books include Venture Labor (MIT Press 2012), Self-Tracking (MIT Press 2016) and Human-Centered Data Science (MIT Press 2022). <a href='https://symposium.tas.ac.uk/programme/plenaries/#gina-neff--university-of-cambridge'>Read more...</a>"
+  chairs: Gopal Ramchurn & Helena Webb
+  location: James Watt<br>Auditorium 
+  start_time: 2023-07-12T10:00:00.000Z
+  end_time: 2023-07-12T11:00:00.000Z
 
 - id: lunch_2
   type: Break
-  description: Lunch (####)
-  start_time: 2023-07-12T11:30:00.000Z
-  end_time: 2023-07-12T12:15:00.000Z
+  description: Lunch and posters (####)
+  start_time: 2023-07-12T11:00:00.000Z
+  end_time: 2023-07-12T12:30:00.000Z
 
-- id: posters_2
+- id: session_8
   type: Posters
-  title: "Poster session 2"
-  start_time: 2023-07-12T12:15:00.000Z
-  end_time: 2023-07-12T13:00:00.000Z
+  title: "Session 8: Posters"
+  description: "Posters are presented in the James Watt Lounge during the last hour of the lunch break."
+  location: James Watt<br>Lounge 
+  start_time: 2023-07-12T11:30:00.000Z
+  end_time: 2023-07-12T12:30:00.000Z
 
-- id: session_3
+- id: session_9
   type: Papers
-  title: "Session 7: Papers"
-  description: "Three papers will be presented."
-  start_time: 2023-07-12T13:00:00.000Z
+  title: "Session 9: How can we trust in and engage with Autonomous Systems?"
+  location: James Watt<br>Auditorium 
+  chairs: Katie Parnell
+  start_time: 2023-07-12T12:30:00.000Z
   end_time: 2023-07-12T14:00:00.000Z
 
 - id: break_6
@@ -179,27 +189,39 @@
   start_time: 2023-07-12T14:00:00.000Z
   end_time: 2023-07-12T14:30:00.000Z
 
-- id: panel_2
+- id: session_10
   type: Panel
-  title: "Session 8: RRI panel discussion"
+  title: "Session 10: Responsibility in TAS"
+  chairs: Elvira Perez Vallejos
+  description: "Panel discussion exploring what it means to be responsible in Autonomous Systems, and the place of responsible research and innovation in the TAS programme."
+  location: James Watt<br>Auditorium 
   start_time: 2023-07-12T14:30:00.000Z
   end_time: 2023-07-12T15:30:00.000Z
   
-- id: awards
+- id: session_11
   type: Awards
-  title: "Session 9: Best paper/poster award"
+  title: "Session 11: Best paper/poster award"
+  location: James Watt<br>Auditorium 
+  chairs: Jeremie Clos & Katie Parnell
   start_time: 2023-07-12T15:30:00.000Z
+  end_time: 2023-07-12T15:50:00.000Z
+
+- id: conclusion
+  type: Conclusion
+  title: Concluding comments
+  description: "Proceedings end with concluding comments from Kate Devlin, Joel Fischer and Gopal Ramchurn."
+  location: James Watt<br>Auditorium 
+  start_time: 2023-07-12T15:50:00.000Z
   end_time: 2023-07-12T16:00:00.000Z
 
-- id: break_7
+- id: end
   type: Break
-  description: Finish (& optional explore of Robotarium, participants to confirm interest) 
+  description: "Symposium finishes"
   start_time: 2023-07-12T16:00:00.000Z
   end_time: 2023-07-12T16:00:00.000Z
 
 - id: eod_wednesday
   type: EOD
-  description: The symposium activities have finished
   start_time: 2023-07-12T16:00:00.000Z
   end_time: 2023-07-12T16:00:00.000Z
 

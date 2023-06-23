@@ -1,0 +1,116 @@
+
+
+session_2a:
+ - id: paper_1
+   type: Paper
+   title: 'Trustworthy swarms'
+   authors: James Wilson, Pete Winter, Greg Chance, Suet Lee, Emma Milner, Shane Windsor, John Downer, Kerstin Eder, Jonathan Ives and Sabine Hauert
+
+ - id: paper_2
+   type: Paper
+   title: '"What’s that robot doing here?": Perceptions of incidental encounters with autonomous quadruped robots'
+   authors: Elliott Hauser, Yao-Cheng Chan, Geethika Hemkumar, Daksh Dua, Parth Chonkar, Efren Mendoza Enriquez, Tiffany Kao, Shikhar Gupta, Huihai Wang, Justin Hart, Reuth Mirsky, Joydeep Biswas, Junfeng Jiao and Peter Stone 
+
+ - id: paper_3
+   type: Paper
+   title: '"There is a bit of grace missing": Understanding non-use of mobile robotic telepresence in a global technology company'
+   authors: Andriana Boudouraki, Stuart Reeves, Joel Fischer and Sean Rintel 
+
+ - id: paper_4
+   type: Paper
+   title: 'Resilient strategies for socially compliant autonomous assistive dressing robots'
+   authors: Katie Parnell, Siobhan Merriman, Sinem Getir Yaman, Katherine Plant and Radu Calinescu
+   
+
+
+session_2b:
+ - id: paper_5
+   type: Paper
+   title: 'Challenges in explaining brain tumor detection'
+   authors: Benedicte Legastelois, Amy Rafferty, Paul Brennan, Hana Chockler, Ajitha Rajan and Vaishak Belle
+
+ - id: paper_6
+   type: Paper
+   title: 'Socio-technical resilience for community healthcare'
+   authors: Amel Bennaceur, Avelie Stuart, Blaine A. Price, Arosha Bandara, Mark Levine, Linda Clare, Jessica Cohen, Ciaran Mccormick, Vikram Mehta, Mohamed Bennasar, Daniel Gooch, Carlos Gavidia Calderon, Anastasia Kordoni and Bashar Nuseibeh
+
+ - id: paper_7
+   type: Paper
+   title: 'Stay stress-free with complete confidence: Trustworthiness of autonomous stress detection systems for smart devices'
+   authors: Héctor Menéndez and Gema Bello Orgaz
+
+ - id: paper_8
+   type: Paper
+   title: 'Regulating AI/ML-enabled medical devices'
+   authors: Phoebe Li, Robin Williams, Stephen Gilbert and Stuart Anderson
+
+
+session_4:
+ - id: paper_9
+   type: Paper
+   title: "Ethics in conversation: Building an ethics assurance case for autonomous voice agents in healthcare"
+   authors: Marten Kaas, Zoe Porter, Ernest Lim, Aisling Higham, Sarah Khavandi and Ibrahim Habli
+
+ - id: paper_10
+   type: Paper
+   title: "RE-centric recommendations for the development of trustworthy(er) Autonomous Systems"
+   authors: Krishna Ronanki, Beatriz Cabrero-Daniel, Christian Berger and Jennifer Horkoff
+
+ - id: paper_11
+   type: Paper
+   title: "Ethics of trust/worthiness in Autonomous Systems: A scoping review "
+   authors: Helen Smith, Arianna Manzini, Mari-Rose Kennedy and Jonathan Ives
+
+ - id: paper_12
+   type: Paper
+   title: "Ethics and safety of human-machine teaming "
+   authors: Zena Assaad and Christine Boshuijzen van Burken
+
+session_5:
+ - id: panel_1
+   type: Panel
+   title: "Five provocations for a more creative TAS"
+   subtitle: "Presented by Steve Benford, followed by a panel discussion"
+   authors: Steve Benford, Adrian Hazzard, Craig Vear, Helena Webb, Alan Chamberlain, Chris Greenhalgh, Richard Ramchurn and Joe Marshall
+   
+session_6:
+ - id: paper_18
+   title: 'Anticipating accidents through reasoned simulation'
+   authors: Craig Innes, Andrew Ireland, Yuhui Lin and Subramanian Ramamoorthy
+
+ - id: paper_19
+   title: 'The well-being of autonomous vehicle users under uncertain situations'
+   authors: Mohammad Naiseh and Paurav Shukla
+
+ - id: paper_20
+   title: 'Safety engineering, role responsibility and lessons from the Uber ATG Tempe accident'
+   authors: Philippa Ryan Conmy, John McDermid, Ibrahim Habli and Zoe Porter
+
+ - id: paper_21
+   title: 'Intersectional analysis of the challenges and opportunities of equitable remote operation in the UK maritime sector'
+   authors: An Cai, Caitlin Bentley, Efpraxia Zamani, Mohammad Naiseh and Laura Sbaffi
+
+ - id: paper_22
+   title: 'Ten regulatory principles to scaffold the design, manufacture, and use of trustworthy Autonomous Systems, illustrated in a maritime context'
+   authors: Rachel Horne, Caroline Law-Walsh, Zena Assaad and Keith Joiner
+
+session_9:
+ - id: paper_23
+   title: 'An exploration of how trust online relates to psychological and subjective wellbeing'
+   authors: Liz Dowthwaite, Elvira Perez Vallejos, Virginia Portillo, Menisha Patel, Jun Zhao and Helen Creswick'
+
+ - id: paper_24
+   title: 'The social impact of decision-making algorithms: Reviewing the influence of agency, responsibility and accountability on trust and blame'
+   authors: Dan Heaton, Jeremie Clos, Elena Nichele and Joel Fischer
+
+ - id: paper_25
+   title: 'Perceived trustworthiness of natural language generators'
+   authors: Beatriz Cabrero-Daniel and Andrea Sanagustín Cabrero
+
+ - id: paper_26
+   title: 'Designing for trust: A human-centered methodology for identifying metrics of operational trust in mission autonomy'
+   authors: Sarah Rigsbee, Alexis Basantis, Bryan Camacho and Cara LaPointe
+
+ - id: paper_27
+   title: 'Recommender systems, autonomy and user engagement'
+   authors: Joshua Krook and Jan Blockx
