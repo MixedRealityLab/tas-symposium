@@ -18,12 +18,12 @@ Heriot-Watt University’s Edinburgh campus is located on the western edge of th
 
 The Transport for Edinburgh app will help you decide where to stay and when to travel. It is free and [can be downloaded here](https://tfeapp.com/ "Download the Transport for Edinburgh app") (available on iOS and Android).  
 
-## Campus Halls of Residence 
-This section will be updated in due course… 
-
 ## Campus Hotel 
-There is a hotel on campus, Courtyard by Marriot. It is located a short 5mins walk from the conference venue. For more details and booking information [click here](https://www.marriott.com/en-us/hotels/edihw-courtyard-edinburgh-west/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0 "Book a room at the Courtyard by Marriot hotel").  
- 
+**Unfortunately, the campus hotel is now fully booked.**
+
+<!--There is a hotel on campus, Courtyard by Marriot. It is located a short 5mins walk from the conference venue. For more details and booking information [click here](https://www.marriott.com/en-us/hotels/edihw-courtyard-edinburgh-west/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0 "Book a room at the Courtyard by Marriot hotel").  
+--> 
+
 ## Edinburgh Accommodation 
 The campus is situated on the city's western edge, so accommodation along the 25 Bus route would make for easier travel arrangements (see map). 
 
