@@ -71,10 +71,9 @@ menus:
 {% assign days = days | uniq %}
 {% assign num_days = days | size %}
 
-<p>The below programme is provisional, and will be updated soon with more details including specific presentations, posters, and other session details.</p>
+<!--<p>The below programme is provisional, and will be updated soon with more details including specific presentations, posters, and other session details.</p>-->
 
 <ul class="nav nav-pills mb-3 pg-days-selector justify-items-center" role="tablist" aria-label="Days of the conference">
-	<span class="pt-2 pe-3">Day:</span>
 	{% for day in days %}
 		<li class="nav-item" role="presentation">
 			{% assign date = day | truncate: 2, '' %}
@@ -128,7 +127,7 @@ menus:
 				</li>
 				{% else %}
 				<li class="d-flex prg-row p-3 rounded bg-light  border-bottom rounded-0 flex-md-row flex-column" id="session-{{ session.id }}">
-					<div class="flex-shrink-0 me-md-3 mb-md-0 mb-3 d-flex flex-md-column flex-row">
+					<div class="flex-shrink-0  flex-grow-0 me-md-3 mb-md-0 mb-3 d-flex flex-md-column flex-row">
 						<div class="text-capitalize mb-md-2 me-3"><span class="badge bg-primary">{{ session.type }}</span></div>
 						<div class="mb-md-1 me-md-0 me-3 small">
 							<span alt="A clock" class="d-inline-block prg-icon-timing prg-icon-start me-2"></span><span class="d-inline-block prg-text-timing">Starts <span class="d-md-inline d-none">at</span> <span class="prg-timing" data-timestamp="{{ start_time | date: "%FT%T.000Z" }}" data-programme-scheduled="{{ start_time | date: "%d" }}" data-day-alert="different-day-{{ forloop.index0 }}"><span></span>{{ start_time | date: "%H:%M" }}</span>
@@ -137,7 +136,14 @@ menus:
 							<span alt="A stopwatch" class="d-inline-block prg-icon-timing prg-icon-end me-2"></span><span class="d-inline-block prg-text-timing">Ends <span class="d-md-inline d-none">at</span> <span class="prg-timing" data-timestamp="{{ end_time | date: "%FT%T.000Z" }}"><span></span>{{ end_time | date: "%H:%M" }}</span>
 						</div>
 						{% if session.location %}
-						<small class="d-inner-block mt-3"><em>{{ session.location }}</em></small>
+						<div class="mt-md-2 small ms-md-0 ms-3 d-sm-inline-block d-none">
+							<span alt="A map pin" class="d-inline-block prg-icon-timing prg-icon-location me-2"></span><span class="d-inline-block prg-text-timing">
+							{% if session.location_link %}
+								<a href="{{ session.location_link }}" title="Link to {{ session.location }}" class="text-secondary">{{ session.location }}</a>
+							{% else %}
+								{{ session.location }}
+							{% endif %}</span>
+						</div>
 						{% endif %}
 					</div>
 					<div class="flex-grow-1 ms-md-3 me-md-0 me-3 mb-0 w-100">
@@ -159,6 +165,17 @@ menus:
 							</a>-->
 						</div>
 						<h4 class="text-primary mt-0 mb-1">{{ session.title }}</h4>
+						
+						{% if session.location %}
+						<div class="small ms-1 mb-2 d-sm-none">
+							<span alt="A map pin" class="d-inline-block prg-icon-timing prg-icon-location me-2"></span><span class="d-inline-block prg-text-timing">
+							{% if session.location_link %}
+								<a href="{{ session.location_link }}" title="Link to {{ session.location }}" class="text-secondary">{{ session.location }}</a>
+							{% else %}
+								{{ session.location }}
+							{% endif %}</span>
+						</div>
+						{% endif %}
 						{% if session.presenters %}
 						{{ session.presenters }}
 						{% endif %}
