@@ -11,6 +11,8 @@
   type: ECR
   title: ECR Day (for PhD students and those who identify as Early Career Researchers)
   description: "Ahead of the main programme we will be running an optional event for Early Career Researchers (ECR). This will be open to all PhD students and those who identify as ECRs who are attending the symposium. It will provide an opportunity for relaxed engagement and networking.<br><br>Please indicate that you wish to attend this session when you register.  All are welcome, but we have a limited space in the room so sign up is necessary.<br><br>Venue: Edinburgh Business School, Heriot-Watt University<br><br>Provisional Programme: <br>15:00 Registration and coffee<br>15:15 Introduction: Zhengxin Yu, Helena Webb, Mohammad Soorati, Joe Deville<br>15:30 Speed networking (round 1)<br>15:50 Roundtable 1: Engaging with RRI as an ECR Scholar<br>16:25 Break<br>16:45 Speed networking (round 2)<br>17:05 Roundtable 2: Engaging with Industry<br>17:45 Concluding discussion<br>18:00 Close"
+  location: Edinburgh Business School
+  location_link: https://goo.gl/maps/b3vs3XeftPpPxbf5A
   start_time: 2023-07-10T14:00:00.000Z
   end_time: 2023-07-10T17:00:00.000Z
 
@@ -128,6 +130,8 @@
   type: Dinner
   title: (Optional) Symposium dinner
   description: "Dinner at the Surgeon’s Quarter (central Edinburgh)"
+  location: Surgeon's Quarter
+  location_link: https://goo.gl/maps/Be9k5YkKZdyjvZk48
   start_time: 2023-07-11T18:00:00.000Z
   end_time: 2023-07-11T21:00:00.000Z
 
