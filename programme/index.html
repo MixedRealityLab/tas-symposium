@@ -127,7 +127,7 @@ menus:
 				</li>
 				{% else %}
 				<li class="d-flex prg-row p-3 rounded bg-light  border-bottom rounded-0 flex-md-row flex-column" id="session-{{ session.id }}">
-					<div class="flex-shrink-0  flex-grow-0 me-md-3 mb-md-0 mb-3 d-flex flex-md-column flex-row">
+					<div class="prg-left flex-shrink-0 flex-grow-0 me-md-3 mb-md-0 mb-3 d-flex flex-md-column flex-row">
 						<div class="text-capitalize mb-md-2 me-3"><span class="badge bg-primary">{{ session.type }}</span></div>
 						<div class="mb-md-1 me-md-0 me-3 small">
 							<span alt="A clock" class="d-inline-block prg-icon-timing prg-icon-start me-2"></span><span class="d-inline-block prg-text-timing">Starts <span class="d-md-inline d-none">at</span> <span class="prg-timing" data-timestamp="{{ start_time | date: "%FT%T.000Z" }}" data-programme-scheduled="{{ start_time | date: "%d" }}" data-day-alert="different-day-{{ forloop.index0 }}"><span></span>{{ start_time | date: "%H:%M" }}</span>
@@ -136,13 +136,13 @@ menus:
 							<span alt="A stopwatch" class="d-inline-block prg-icon-timing prg-icon-end me-2"></span><span class="d-inline-block prg-text-timing">Ends <span class="d-md-inline d-none">at</span> <span class="prg-timing" data-timestamp="{{ end_time | date: "%FT%T.000Z" }}"><span></span>{{ end_time | date: "%H:%M" }}</span>
 						</div>
 						{% if session.location %}
-						<div class="mt-md-2 small ms-md-0 ms-3 d-sm-inline-block d-none">
-							<span alt="A map pin" class="d-inline-block prg-icon-timing prg-icon-location me-2"></span><span class="d-inline-block prg-text-timing">
-							{% if session.location_link %}
+						<div class="mt-md-2 small ms-md-0 ms-3 d-sm-flex flex-columns d-none">
+							<span alt="A map pin" class="d-inline-block flex-shrink-0 prg-icon-timing prg-icon-location me-2"></span><span class="d-inline prg-text-timing">
+							{%- if session.location_link -%}
 								<a href="{{ session.location_link }}" title="Link to {{ session.location }}" class="text-secondary">{{ session.location }}</a>
-							{% else %}
-								{{ session.location }}
-							{% endif %}</span>
+							{%- else -%}
+								{{- session.location | strip -}}
+							{%- endif -%}</span>
 						</div>
 						{% endif %}
 					</div>
@@ -167,7 +167,7 @@ menus:
 						<h4 class="text-primary mt-0 mb-1">{{ session.title }}</h4>
 						
 						{% if session.location %}
-						<div class="small ms-1 mb-2 d-sm-none">
+						<div class="small mt-2 pt-1 mb-2 d-sm-none">
 							<span alt="A map pin" class="d-inline-block prg-icon-timing prg-icon-location me-2"></span><span class="d-inline-block prg-text-timing">
 							{% if session.location_link %}
 								<a href="{{ session.location_link }}" title="Link to {{ session.location }}" class="text-secondary">{{ session.location }}</a>
