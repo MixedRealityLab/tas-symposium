@@ -87,8 +87,8 @@ menus:
 			{%- else -%}
 				{%- assign suffix = "th" -%}
 			{%- endif -%}
-			{% assign rest = day | slice: 2, 100 %}
-			<button class="programme-dates nav-link me-2" id="programmeDay{{ forloop.index0 }}" data-date="{{ day | date: "%F" }}" data-bs-toggle="pill" data-bs-target="#programme{{ forloop.index0 }}" type="button" role="tab" aria-controls="programme{{ forloop.index0 }}" aria-selected="{% if forloop.index0 == 0 %}true{% else %}false{% endif %}">{{ date }}{{ suffix }} {{ rest }}</button>
+			{% assign rest = day | slice: 2, 100 | truncatewords: 1, '' %}
+			<button class="programme-dates small nav-link me-md-2 me-1 px-md-3 p-2" id="programmeDay{{ forloop.index0 }}" data-date="{{ day | date: "%F" }}" data-bs-toggle="pill" data-bs-target="#programme{{ forloop.index0 }}" type="button" role="tab" aria-controls="programme{{ forloop.index0 }}" aria-selected="{% if forloop.index0 == 0 %}true{% else %}false{% endif %}">{{ date }}{{ suffix }} {{ rest }}</button>
 		</li>
 	{% endfor %}
 </ul>
