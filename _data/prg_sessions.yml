@@ -10,17 +10,77 @@
 - id: ecr_day
   type: ECR
   title: ECR Day (for PhD students and those who identify as Early Career Researchers)
-  description: "Ahead of the main programme we will be running an optional event for Early Career Researchers (ECR). This will be open to all PhD students and those who identify as ECRs who are attending the symposium. It will provide an opportunity for relaxed engagement and networking.<br><br>Please indicate that you wish to attend this session when you register.  All are welcome, but we have a limited space in the room so sign up is necessary.<br><br>Venue: Edinburgh Business School, Heriot-Watt University<br><br>Provisional Programme: <br>15:00 Registration and coffee<br>15:15 Introduction: Zhengxin Yu, Helena Webb, Mohammad Soorati, Joe Deville<br>15:30 Speed networking (round 1)<br>15:50 Roundtable 1: Engaging with RRI as an ECR Scholar<br>16:25 Break<br>16:45 Speed networking (round 2)<br>17:05 Roundtable 2: Engaging with Industry<br>17:45 Concluding discussion<br>18:00 Close"
+  description: "Ahead of the main programme we will be running an optional event for Early Career Researchers (ECR). This will be open to all PhD students and those who identify as ECRs who are attending the symposium. It will provide an opportunity for relaxed engagement and networking.<br><br>Please indicate that you wish to attend this session when you register.  All are welcome, but we have a limited space in the room so sign up is necessary."
   location: Edinburgh Business School
   location_link: https://goo.gl/maps/b3vs3XeftPpPxbf5A
   start_time: 2023-07-10T14:00:00.000Z
   end_time: 2023-07-10T17:00:00.000Z
+  
+- id: ecr_1
+  type: Innerevent
+  description: "Registration and coffee"
+  start_time: 2023-07-10T14:00:00.000Z
+  end_time: 2023-07-10T14:15:00.000Z
+  
+- id: ecr_2
+  type: Innerevent
+  description: "Introduction: Zhengxin Yu, Helena Webb, Mohammad Soorati, Joe Deville"
+  start_time: 2023-07-10T14:15:00.000Z
+  end_time: 2023-07-10T14:30:00.000Z
+  
+- id: ecr_3
+  type: Innerevent
+  description: "Speed networking (round 1)"
+  start_time: 2023-07-10T14:30:00.000Z
+  end_time: 2023-07-10T14:50:00.000Z
+  
+- id: ecr_3
+  type: Innerevent
+  description: "Roundtable 1: Engaging with RRI as an ECR Scholar"
+  start_time: 2023-07-10T14:50:00.000Z
+  end_time: 2023-07-10T15:25:00.000Z
+  
+- id: ecr_4
+  type: Innerevent
+  description: "Break"
+  start_time: 2023-07-10T15:25:00.000Z
+  end_time: 2023-07-10T15:45:00.000Z
+  
+- id: ecr_5
+  type: Innerevent
+  description: "Speed networking (round 2)"
+  start_time: 2023-07-10T15:45:00.000Z
+  end_time: 2023-07-10T16:05:00.000Z
+  
+- id: ecr_6
+  type: Innerevent
+  description: "Roundtable 2: Engaging with Industry"
+  start_time: 2023-07-10T16:05:00.000Z
+  end_time: 2023-07-10T16:45:00.000Z
+  
+- id: ecr_7
+  type: Innerevent
+  description: "Concluding discussion"
+  start_time: 2023-07-10T16:45:00.000Z
+  end_time: 2023-07-17T17:00:00.000Z
+
+# 15:00 Registration and coffee
+# 15:15 Introduction: Zhengxin Yu, Helena Webb, Mohammad Soorati, Joe Deville
+# 15:30 Speed networking (round 1)
+# 15:50 Roundtable 1: Engaging with RRI as an ECR Scholar
+# 16:25 Break
+# 16:45 Speed networking (round 2)
+# 17:05 Roundtable 2: Engaging with Industry
+# 17:45 Concluding discussion
+# 18:00 Close
 
 - id: eod_monday
   type: EOD
   description: The main symposium activities start tomorrow
   start_time: 2023-07-10T17:00:00.000Z
   end_time: 2023-07-10T17:00:00.000Z
+
+
 
 
 

@@ -112,6 +112,7 @@ menus:
 				{% endif %}
 
 				{% if session.type == "EOD" %}
+				{% elsif session.type == "Innerevent" %}
 				{% elsif session.type == "Innerbreak" %}
 				{% elsif session.type == "Break" %}
 				<li class="d-flex p-3 bg-lightest border-bottom rounded-0" id="session-{{ session.id }}">
@@ -195,6 +196,35 @@ menus:
 						
 						{% if session.description %}
 						<p class="mb-0">{{ session.description }}</p>
+						{% endif %}
+						
+						{% assign next = forloop.index %}
+						{% if site.data.prg_sessions[next] and site.data.prg_sessions[next].type == 'Innerevent' %}
+							<div class="media-body border bg-lightest my-3 mb-2 p-2 text-start small">
+								<ol class="list-unstyled">
+							{% for i in (1..99) %}
+								{% if site.data.prg_sessions[next] and site.data.prg_sessions[next].type == 'Innerevent' %}
+									{% if site.data.prg_sessions[forloop.index].description %}
+										{% if summer_time %}
+											{% assign innerbreak_start_time = site.data.prg_sessions[forloop.index].start_time | date: '%s' %}
+											{% assign innerbreak_end_time = site.data.prg_sessions[forloop.index].end_time | date: '%s'  %}
+										{% else %}
+											{% assign innerbreak_start_time = site.data.prg_sessions[forloop.index].start_time %}
+											{% assign innerbreak_end_time = site.data.prg_sessions[forloop.index].end_time %}
+										{% endif %}
+										{% assign time_str =  innerbreak_start_time | date: "%H:%M" %}
+										{% assign time_str = time_str | append: "–" %}
+										{% assign end_time_str =  innerbreak_end_time | date: "%H:%M" %}
+										{% assign time_str = time_str | append: end_time_str %}
+										<li><strong>{{ time_str }}</strong> {{ site.data.prg_sessions[forloop.index].description }}</li>
+									{% endif %}
+									{% assign next = next | plus: 1 %}
+								{% else %}
+									{% break %}
+								{% endif %}
+							{% endfor %}
+								</ol>
+							</div>
 						{% endif %}
 
 						{% assign presentations = site.data.prg_presentations[session.id] %}
