@@ -144,6 +144,13 @@
 
 
 
+
+- id: refreshments
+  type: Break
+  title: Arrival Refreshments (####)
+  start_time: 2023-07-12T07:45:00.000Z
+  end_time: 2023-07-12T08:15:00.000Z
+
 - id: session_6
   type: Papers
   title: "Session 6: Autonomous systems on land and sea"
