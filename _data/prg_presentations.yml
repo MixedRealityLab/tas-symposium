@@ -70,7 +70,7 @@ session_5:
  - id: panel_1
    type: Panel
    title: "Five provocations for a more creative TAS"
-   subtitle: "Presented by Steve Benford, followed by a panel discussion"
+   subtitle: "Presented by Steve Benford, with contributions from Kate Devlin, Marion Oswald, Gopal Ramchurn, and Luca Vigano"
    authors: Steve Benford, Adrian Hazzard, Craig Vear, Helena Webb, Alan Chamberlain, Chris Greenhalgh, Richard Ramchurn and Joe Marshall
    
 session_6:
@@ -114,3 +114,4 @@ session_9:
  - id: paper_27
    title: 'Recommender systems, autonomy and user engagement'
    authors: Joshua Krook and Jan Blockx
+   
