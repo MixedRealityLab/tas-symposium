@@ -69,7 +69,7 @@ session_4:
 session_5:
  - id: panel_1
    type: Panel
-   authors: "Panel authors: Steve Benford, Adrian Hazzard, Craig Vear, Helena Webb, Alan Chamberlain, Chris Greenhalgh, Richard Ramchurn and Joe Marshall"
+   authors: "Paper authors: Steve Benford, Adrian Hazzard, Craig Vear, Helena Webb, Alan Chamberlain, Chris Greenhalgh, Richard Ramchurn and Joe Marshall"
    
 session_6:
  - id: paper_18
