@@ -27,6 +27,14 @@ header {
     }
 }
 
+h3 {
+	color: #111 !important;
+}
+
+h4 {
+	color: #333 !important;
+}
+
 @each $breakpoint in map-keys($grid-breakpoints) {
     @include media-breakpoint-up($breakpoint) {
         .logo, .header-content, .navbar-toggler {
@@ -146,7 +154,7 @@ h2, h3, h4 {
 
 article {
     h2, h3, h3 {
-        padding: 1.5rem 0;
+        padding: 1.5rem 0 .5rem 0;
     }
 }
 
