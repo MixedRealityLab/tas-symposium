@@ -267,8 +267,9 @@ menus:
 									</a>
 								</div>
 								{% endif %}
+								{% if presentation.title %}
 								<strong>{{ presentation.title }}{% if presentation.type != "Panel Member" %}{% if presentation.type != "Panel" %} <span class="badge badge-secondary">{{ presentation.type }}</span>{% endif %}{% endif %}</strong><br>
-
+								{% endif %}
 								{% if presentation.subtitle %}
 								<strong><small><em>{{ presentation.subtitle }}</em></small></strong><br>
 								{% endif %}

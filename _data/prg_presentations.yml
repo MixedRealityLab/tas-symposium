@@ -69,9 +69,7 @@ session_4:
 session_5:
  - id: panel_1
    type: Panel
-   title: "Five provocations for a more creative TAS"
-   subtitle: "Presented by Steve Benford, with contributions from Kate Devlin, Marion Oswald, Gopal Ramchurn, and Luca Vigano"
-   authors: Steve Benford, Adrian Hazzard, Craig Vear, Helena Webb, Alan Chamberlain, Chris Greenhalgh, Richard Ramchurn and Joe Marshall
+   authors: "Panel authors: Steve Benford, Adrian Hazzard, Craig Vear, Helena Webb, Alan Chamberlain, Chris Greenhalgh, Richard Ramchurn and Joe Marshall"
    
 session_6:
  - id: paper_18
