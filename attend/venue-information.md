@@ -57,6 +57,46 @@ Toilets are located at the back of the atrium and off the back left hand corner 
 
  
  
+## National Robotarium
+
+The National Robotarium (building 24 on the Campus Map) is situated at the north edge of the campus, with a boundary road passing in front of it. Please see the image below for information about public parking and bus stops closest to the National Robotarium.  
+
+<div class="text-center my-3">
+<img src="/assets/img/nationalrobotarium.png " alt="An image of the schematic for the location of The National Robotarium on campus" style="max-width: 600px;">
+<small class="d-block"> 
+National Robotarium access and car parking information. Note that the nearest public car park to the National Robotarium is Car Park I.
+</small>
+</div>
+
+
+
+### Walking route from the James Watt Centre to the National Robotarium
+
+On the evening of Day 1 (11th July) from 1645-1800 a reception will be held at the National Robotarium. This will include the [ECR Awards presentation](https://symposium.tas.ac.uk/programme/#session-reception "Reception at the National Robotarium in the TAS '23 programme").
+
+As such delegates will need to make their way from the main venue, the James Watt Centre, to the National Robotarium, on the other side of the campus.
  
- 
- 
+The image below provides an accessible walking map from the James Watt Centre to the Robotarium. 
+
+ <div class="text-center my-3">
+<img src="/assets/img/walkingroute.png" alt="An image of the walking route from the James Watt Centre to the National Robotarium" style="max-width: 600px;">
+<small class="d-block"> 
+Directions from the James Watt Centre to the National Robotarium (details below).
+</small>
+</div>
+
+
+### James Watt Center to National Robotarium navigation steps
+
+1. Exit the James Watt Centre Main entrance (see map above), turn right, and make your way to the skyway linking corridor. The skyway can also be accessed by entering the building at the Main reception, turning right, and following the corridor.
+2. From the skyway, continue straight walking until you reach a set of stepsteps. Alternatively, there is a lift at the end of the skyway on the left hand side.
+3. Once you have taken the lift/stairs down you will see a shop, bank machine, and café (The Piece) on your left. Continue down this corridor until you reach The Piece café.
+4. Opposite The Piece Café there is a set of doors leading out onto the lawn. Exit through these doors, follow the footpath to the left, and take either the steps or ramp down to the next level. There is a cycle path on the next level down, so be careful on your approach.
+5. You will now be situated somewhere between buildings 17 (David Brewster) and 19 (William Perkin) on the Campus map. There is a road (Gait 2) that runs between them. Follow this to the end, and join the pavement on the left once you pass the postgraduate centre.
+6. Continue along the pavement to the left and you will reach a pedestrian crossing near a bus stop.
+7. Cross the road and continue onto the National Robotarium.   
+
+## We’re here to help!
+
+If you have any questions about navigating the Heriot-Watt Campus, please speak to the student volunteers or event staff. They are ready and willing to help!  
+
