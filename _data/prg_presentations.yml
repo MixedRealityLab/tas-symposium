@@ -1,5 +1,12 @@
 
 
+session_1:
+ - id: keynote_1
+   type: keynote_1
+   title: Charting a Path toward Ethical AI
+   abstract: Getting beyond simple binaries of good AI and bad AI means developing a more nuanced understanding of how large scale technologies become integrated into broad social processes.  Designing AI for good purposes is only the beginning of a path toward a working, ethical framework for a society penetrated with data gathering and algorithmic routines.  The agenda for scholarly researchers needs to consider how we can prepare people for a datafied life.<hr>Dr. Strover is the Philip G. Warner Regents Professor in Communication, former Chair of the Radio-TV-Film Department at the University of Texas, and now Professor in the School of Journalism and Media where she teaches communication technology and policy courses and directs the Technology and Information Policy Institute. <a href='https://symposium.tas.ac.uk/programme/plenaries/#sharon-strover--university-of-texas-at-austin'>Read more...</a>
+
+
 session_2a:
  - id: paper_1
    type: Paper

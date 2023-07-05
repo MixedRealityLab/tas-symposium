@@ -268,13 +268,15 @@ menus:
 								</div>
 								{% endif %}
 								{% if presentation.title %}
-								<strong>{{ presentation.title }}{% if presentation.type != "Panel Member" %}{% if presentation.type != "Panel" %} <span class="badge badge-secondary">{{ presentation.type }}</span>{% endif %}{% endif %}</strong><br>
+								<strong>{{ presentation.title }}{% if presentation.type != "Panel Member" %}{% if presentation.type != "Panel" %} <span class="badge badge-secondary">{{ presentation.type }}</span>{% endif %}{% endif %}</strong>
 								{% endif %}
 								{% if presentation.subtitle %}
 								<strong><small><em>{{ presentation.subtitle }}</em></small></strong><br>
 								{% endif %}
 
-								{{ presentation.authors }}
+								{% if presentation.authors %}
+								<br>{{ presentation.authors }}
+								{% endif %}
 
 								{% if presentation.preview %}
 								<br><a href="{{ presentation.preview.link }}" title="{{ presentation.preview.text }}" target="_blank">{{ presentation.preview.text }} &rarr;</a>
@@ -282,6 +284,10 @@ menus:
 
 								{% if presentation.award %}
 								<br><br>🏆 {{ presentation.award }}
+								{% endif %}
+
+								{% if presentation.abstract %}
+								<br>{{ presentation.abstract }}
 								{% endif %}
 							</li>
 						{%- endfor -%}
