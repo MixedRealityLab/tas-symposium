@@ -106,8 +106,8 @@ One option is to follow the same route as you would to the National Robotarium (
 
 The other option is to follow the pavement outside the main reception, back towards the roundabout, and to take a left. Follow the pavement down boundary road east until you reach the north-east corner of the campus, where media services are located.  
 
-<div class="text-center my-3">
-<img src="/assets/img/mediaservices.png" alt="An image of the location of Media Services at Heriot-Watt University style="max-width: 600px;">
+
+ <div class="text-center my-3"><img src="/assets/img/mediaservices.png" alt="An image of the location of Media Services at Heriot-Watt University" style="max-width: 600px;">
 <small class="d-block"> 
 Map of walking routes to HWU Media Services are indicated by the red dotted lines. Other footpaths are shown in yellow. Delegates collecting their posters from this Media Services are encouraged to make their collection in a timely manner. 
 </small>
