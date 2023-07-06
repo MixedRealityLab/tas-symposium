@@ -96,6 +96,23 @@ Directions from the James Watt Centre to the National Robotarium (details below)
 6. Continue along the pavement to the left and you will reach a pedestrian crossing near a bus stop.
 7. Cross the road and continue onto the National Robotarium.   
 
+
+
+### Collecting posters from Media services
+
+Media services ([location G on the Campus map](https://www.hw.ac.uk/documents/edinburgh-campus-map.pdf)) are located on the north-eastern edge of the campus, next to boundary road north. Delegates who have had posters printed at Media services will need to make their way there and back to the James Watt Centre. Below is a map that shows the possible walking routes to Media services.
+
+One option is to follow the same route as you would to the National Robotarium (see route details above), but to take a right on a pavement as you pass the Postgraduate centre, instead of taking a left. Media services are located at the end of the pavement on the right-hand side. 
+
+The other option is to follow the pavement outside the main reception, back towards the roundabout, and to take a left. Follow the pavement down boundary road east until you reach the north-east corner of the campus, where media services are located.  
+
+<div class="text-center my-3">
+<img src="/assets/img/mediaservices.png" alt="An image of the location of Media Services at Heriot-Watt University style="max-width: 600px;">
+<small class="d-block"> 
+Map of walking routes to HWU Media Services are indicated by the red dotted lines. Other footpaths are shown in yellow. Delegates collecting their posters from this Media Services are encouraged to make their collection in a timely manner. 
+</small>
+</div>
+
 ## We’re here to help!
 
 If you have any questions about navigating the Heriot-Watt Campus, please speak to the student volunteers or event staff. They are ready and willing to help!  
