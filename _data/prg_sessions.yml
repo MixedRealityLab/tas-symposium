@@ -139,8 +139,9 @@
 - id: session_3
   type: Posters
   title: "Session 3: Posters"
-  description: "Posters are presented in the James Watt Lounge during the latter half of the lunch break."
+  description: "Posters are presented in the James Watt Lounge during the last hour of the lunch break."
   location: James Watt Lounge
+  info: https://symposium.tas.ac.uk/programme/posters/
   start_time: 2023-07-11T12:00:00.000Z
   end_time: 2023-07-11T13:00:00.000Z
 
@@ -246,6 +247,7 @@
   title: "Session 8: Posters"
   description: "Posters are presented in the James Watt Lounge during the last hour of the lunch break."
   location: James Watt<br>Lounge 
+  info: https://symposium.tas.ac.uk/programme/posters/
   start_time: 2023-07-12T11:30:00.000Z
   end_time: 2023-07-12T12:30:00.000Z
 
