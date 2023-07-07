@@ -1,0 +1,37 @@
+---
+label: Posters
+title:  Posters
+redirect_from: 
+  - /posters/
+description: A list of all posters being presented at the TAS '23 symposium.
+
+splash_title:  Posters at TAS '23
+
+menus:
+  programme:
+    title: Posters
+    alt: A list of all posters being presented at the TAS '23 symposium
+    weight: 3
+
+---
+
+<table class="w-100 mb-2">
+	<thead>
+		<tr class="fw-bold text-center">
+			<td class="p-2 col-1">Floorplan ID</td>
+			<td class="p-2 col-4">Title</td>
+			<td class="p-2 col-4">Author(s)</td>
+			<td class="p-2 col-1">Theme</td>
+		</tr>
+	</thead>
+	<tbody>
+		{%- for poster in site.data.prg_posters -%}
+			<tr class="border-top">
+				<td class="p-2 text-center">{{ poster["id"] }}</td>
+				<td class="p-2">{{ poster["title"] }}</td>
+				<td class="p-2">{{ poster["authors"] }}</td>
+				<td class="p-2 text-center">{{ poster["theme"] }}</td>
+			</tr>
+		{%- endfor -%}
+	</tbody>
+</table>

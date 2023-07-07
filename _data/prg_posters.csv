@@ -1,0 +1,47 @@
+id,title,authors,theme
+1,"The Equality, Diversity and Inclusion in Research Cards – Introduction and Work in Progress","Peter Craigon, Debra Fearnshaw, Oliver Fisher and Emma Hadfield-Hudson",RRI
+2,Implementing Responsible Research Innovation Prompts and Practice Cards in a project investigating Instantaneous Trust,"Sachini Weerawardhana, Justyna Lisinska, Michael Akintunde, Hugo Araujo, Genovefa Kefalidou, Elena Nichele, Yang Lu, Oli Malpass, Aaron Roberts and Ioana Sandu",RRI
+3,Responsible Research and Innovation (RRI) Prompts and Practice Cards: a Tool to Support Responsible Practice,"Virginia Portillo, Chris Greenhalgh, Peter J. Craigon and Carolyn Ten Holter",RRI
+4,Ethnography in Support of RRI: Understanding Social Contexts in Autonomous Systems Design,"Glenn Mcgarry, Andrew Crabtree and Alan Chamberlain",RRI
+5,Responsible AI and the Arts: The Ethical and Legal Implications of AI in the Arts and Creative Industries,"Anna Maria Piskopani, Alan Chamberlain and Carolyn Ten Holter",RRI 
+6,Using a Knowledge Cafe approach as a public engagement activity for raising awareness of data protection issues in robotics for health and social care,"Anna Maria Piskopani, Helena Webb and Praminda Caleb-Solly",RRI 
+7,Responsible Agency Through Answerability: Cultivating the Moral Ecology of Trustworthy Autonomous Systems,"Shannon Vallor, Nadin Kokciyan, Nayha Sethi, Michael Rovatsos, Tillmann Vierkant, Louise Hatherall and Dilara Kekulluoglu",Assessment & Validation
+8,A Framework for Assurance and Trustworthiness Assessment of Autonomous Systems,Adeshola Lawal,Assessment & Validation
+9,Designing for Continuous Validation in Adaptive Systems,Chris Bennett,Assessment & Validation
+10,Safe and Ethical Algorithms for Navigation of Automated Vehicles (C-NAV) on a Highway with a Variable Trust Setting,James E. Pickering,"AV, Ethics"
+11,Mental Workload Estimation using fNIRS in Robotic Teleoperation,Aleksandra Landowska,Brain Computer Interfaces
+12,Insight of Neuroimaging: Quantifying Cognitive Stress for Human-Robot Collaboration in Smart Factories,Arshia Arif,Brain Computer Interfaces
+13,Digital twins for human-assistive robot teams in ambient assisted living,"Jialin Chen, Jeremie Clos, Dominic Price and Praminda Caleb-Solly",Digital Twins
+14,Swarm Medicine:  Developing guidance for in-human testing of emerging swarm-based cancer nanomedicines,"Matimba Swana, Jonathan Ives and Sabine Hauert",Drones
+15,Applying the Schema World Action Research method to Maritime Autonomous Surface Ships to investigate potential system errors,"Kirsty Lynch, Katherine Plant, Aaron Roberts, Victoria Banks and Dominic Taunton",Drones
+16,From Sim-to-Real: Evaluating Fault Discriminatory Metrics for a Robot Swarm,Suet Lee and Sabine Hauert,Drones
+17,Probabilistic Modeling for Trustworthy Artificial Intelligence in Drone-Supported Autonomous Wheelchairs,"Franca Corradini, Francesco Flammini and Alessandro Antonucci",Drones
+18,Investigating stakeholder participation in UK agricultural robotics development,"Kirsten Ayris, Eliot Dixon, Alice Mauchline and David Christian Rose",Drones
+19,Towards explainable and trustworthy autonomous underwater search using logic-based machine learning,Alan Hunter,Drones
+20,Control Framework for Trustworthy Autonomous Drone Considering Ethical and Dynamic Constraints,Abdul Manan Khan,"Drones, Ethics"
+21,Intuitive judgements towards AI verdicts of moral transgressions,Yuxin Liu,Ethics
+22,Explanation Styles for Trustworthy Autonomous Systems,David Robb,Explanation
+23,Theory of Mind and Trust in Human-Robot Navigation,"Peter E McKenna, Marta Romeo, Jhielson Pementel, Mohammed Diab and Meriam Moujahid",HRI
+24,Memory Practices for More Trustworthy Artificial Intelligence and Robotics: Toward Living and Working with Robots Better,"Samuel Baker, Elliott Hauser and Justin Hart",HRI
+25,Cooking Up Trust: Eye Gaze and Posture for Trust-Aware Action Selection in Human-Robot Collaboration,Cedric Goubard and Yiannis Demiris,HRI
+26,TAS for Cats: An Artist-led Exploration of Trustworthy Autonomous Systems for Companion Animals,"Eike Schneiders, Alan Chamberlain, Joel E. Fischer, Steve Benford, Simon Castle-Green, Ayse Kucukyilmaz, Pepita Barnard, Ju Row Farr, Matt Adams, Nick Tandavanitj, Kate Devlin, Clara Mancini and Daniel Mills",HRI
+27,Building Trust in Assistive Robotics: Insights From a Real-World Mobile Navigation Experiment,Nico Lingg and Yiannis Demiris,HRI
+28,Empowering future care workforces: Scoping human capabilities to leverage assistive robotics,"Cian O'Donovan, Praminda Caleb-Solly, Siabhainn Russell and Praveen Kumar",HRI
+29,A Privacy-Preserving Observatory of Misinformation using Linguistic Markers - A Work in Progress,"Jeremie Clos, Emma McClaughlin, Pepita Barnard, Tino Tom and Sudarshan Yajaman",NLP
+30,Predicting Stance to Detect Misinformation in Few-shot Learning,"Xin Yu Liew, Nazia Hameed, Jeremie Clos and Joel E. Fischer",NLP
+31,Meet your Maker: A Social Identity Analysis of Robotics Software Engineering,"Carlos Gavidia-Calderon, Amel Bennaceur, Tamara Lopez, Anastasia Kordoni, Mark Levine and Bashar Nuseibeh",Psychology
+32,Would you cross the road? Modelling interactions between the factors influencing pedestrians’ decisions when exposed to automated vehicles,"Sachita Shahi, Stewart Birrell, Ashim Debnath, Ben Horan and William Payre","Psychology, AV"
+33,Evaluating (semi)-autonomous systems in policing and national security: a new framework based on the concept of ‘intelligence’,"Marion Oswald, Luke Chambers and Angela Paul","Sociotechnical Systems, HAI & HRI"
+34,Confiance.ai Days 2022- Booklet of articles & posters,Alix,Outreach
+35,TAME Pain: Trustworthy AssessMEnt of Pain from Speech and Audio for the Empowerment of Patients,"Eike Schneiders, Jennifer Williams, Arya Farahi, Tina Seabrooke, Ganesh Vigneswaran, John Robert Bautista, Liz Dowthwaite and Anna-Maria Piskopani","Sociotechnical Systems, HAI & HRI"
+36,Storyboarding a Serious Game Environment for Evaluating the Impact of Empathetic AI for Sonar Operators,"Madalin Facino, Alan Hunter, Christof Lutteroth, Aaron Roberts and Samantha Dugelay","Sociotechnical Systems, HAI & HRI"
+37,DORIAN: Doctor-centred Auditing of Healthcare AI With Testing of Fairness,"Pepita Barnard, John Robert Bautista, Joshua Krook, Anqi Liu, Héctor Menéndez, Aurora Schmidt and Tamim Sookoor","Sociotechnical Systems, HAI & HRI"
+38,"Embodied Conversational Agents: Trust, Deception and the Suspension of Disbelief","Matthew Aylett, Mei Yii Lim, Katerina Pappa, Bruce Wilson, Ruth Aylett and Mario Parra","Sociotechnical Systems, HAI & HRI"
+39,Verifiably Safe and Trusted Human-AI Systems: A Socio-technical Perspective,"Michael Akintunde, Victoria Young, Vahid Yazdanpanah, Asieh Salehi Fathabadi, Pauline Leonard, Michael Butler and Luc Moreau","Sociotechnical Systems, HAI & HRI"
+40,Augmented Robotic Telepresence (ART): A Prototype for Enhancing Remote Interaction and Participation,"Gisela Reyes-Cruz, Andriana Boudouraki, Dominic Price, Joel Fischer, Stuart Reeves, Maria Galvez Trigo and Horia Maior",Telepresence
+41,Trust and Trustworthiness in Robotic Surgery: A Narrative Review,"Gowri Pradeep, Prokar Dasgupta, Sylvaine Tuncer and Paul Luff",
+42,AGRITRUST: A Testbed to Enable Trustworthy Smart AgriTech,"Carl Dickinson, Shishir Nagaraja, Mujeeb Ahmed and Richard Hyde",
+43,Co-creating Museum Robots with People that are Autistic and/or have Learning Disabilites,"Harriet Cameron, Matthew Story, Gisela Reyes Cruz, and Maria Jose Galvez Trigo",
+44,ATRACT,Alireza Tamaddoni Nezhad,
+AD1,A Practical Taxonomy of TAS-related Usecase Scenarios,"Peta Masters, Victoria Young, Alan Chamberlain, Sachini Weerawardhana, Peter McKenna, Yang Lu, Liz Dowthwaite, Paul Luff and Luc Moreau",Artistic demo 1 
+AD2,Jess+ ,Craig Vear ,Artistic demo 2 
