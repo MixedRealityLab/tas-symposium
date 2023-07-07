@@ -268,26 +268,26 @@ menus:
 								</div>
 								{% endif %}
 								{% if presentation.title %}
-								<strong>{{ presentation.title }}{% if presentation.type != "Panel Member" %}{% if presentation.type != "Panel" %} <span class="badge badge-secondary">{{ presentation.type }}</span>{% endif %}{% endif %}</strong>
+								<strong class="d-block">{{ presentation.title }}{% if presentation.type != "Panel Member" %}{% if presentation.type != "Panel" %} <span class="badge badge-secondary">{{ presentation.type }}</span>{% endif %}{% endif %}</strong>
 								{% endif %}
 								{% if presentation.subtitle %}
-								<strong><small><em>{{ presentation.subtitle }}</em></small></strong><br>
+								<strong class="d-block"><small><em>{{ presentation.subtitle }}</em></small></strong>
 								{% endif %}
 
 								{% if presentation.authors %}
-								<br>{{ presentation.authors }}
+								<span  class="d-block">{{ presentation.authors }}</span>
 								{% endif %}
 
 								{% if presentation.preview %}
-								<br><a href="{{ presentation.preview.link }}" title="{{ presentation.preview.text }}" target="_blank">{{ presentation.preview.text }} &rarr;</a>
+								<span  class="d-block"><a href="{{ presentation.preview.link }}" title="{{ presentation.preview.text }}" target="_blank">{{ presentation.preview.text }} &rarr;</a></span>
 								{% endif %}
 
 								{% if presentation.award %}
-								<br><br>🏆 {{ presentation.award }}
+								<span class="d-block">🏆 {{ presentation.award }}</span>
 								{% endif %}
 
 								{% if presentation.abstract %}
-								<br>{{ presentation.abstract }}
+								<span class="d-block">{{ presentation.abstract }}</span>
 								{% endif %}
 							</li>
 						{%- endfor -%}
