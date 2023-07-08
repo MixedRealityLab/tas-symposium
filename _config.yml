@@ -54,6 +54,7 @@ social:
 # plugins_dir: ./_plugins
 plugins:
  - jekyll-menus
+ - jekyll-datapage-generator
  - jekyll-titles-from-headings
 #  - jekyll-github-metadata
 #   - jekyll-feed
@@ -82,19 +83,19 @@ sass:
 #     collections: true
 
 # Page generation from data
-# page_gen-dirs: true # uncomment, if you prefer to generate named folders
-# page_gen:
+page_gen-dirs: true # uncomment, if you prefer to generate named folders
+page_gen:
 #    - data: prg_sessions
 #      template: programme-ical
 #      name: id
 #      extension: ics
 #      dir: '/programme/ics'
 #      index_files: false
-#    - data: prg_sessions
-#      template: programme-redirect
-#      name: id
-#      dir: '/programme/link/'
-#      index_files: false
+   - data: prg_sessions
+     template: programme-redirect
+     name: id
+     dir: '/programme/link/'
+     index_files: false
 
 # Pagination
 pagination:

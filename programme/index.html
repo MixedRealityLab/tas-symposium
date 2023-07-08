@@ -95,6 +95,7 @@ menus:
 
 <div id="programmeSchedule" class="tab-content">
 {% for day in days %}
+	{%- assign day_index = forloop.index0 -%}
 	<div class="card tab-pane fade show" role="tabpanel" aria-labelledby="programmeDay{{ forloop.index0 }}" id="programme{{ forloop.index0 }}">
 		<ul class="list-unstyled prg-day mb-0 border-0 rounded-0">
 			{%- for session in site.data.prg_sessions %}
@@ -115,7 +116,7 @@ menus:
 				{% elsif session.type == "Innerevent" %}
 				{% elsif session.type == "Innerbreak" %}
 				{% elsif session.type == "Break" %}
-				<li class="d-flex p-3 bg-lightest border-bottom rounded-0" id="session-{{ session.id }}">
+				<li class="d-flex p-3 bg-lightest border-bottom rounded-0" id="session-{{ session.id }}" data-tab="programmeDay{{ day_index }}">
 					<div class="flex-grow-1 ms-3 text-center text-muted">
 						{% if session.description %}
 						{% assign time_str = start_time | date: "%H:%M" %}
@@ -127,7 +128,7 @@ menus:
 					</div>
 				</li>
 				{% else %}
-				<li class="d-flex prg-row p-3 rounded bg-light  border-bottom rounded-0 flex-md-row flex-column" id="session-{{ session.id }}">
+				<li class="d-flex prg-row p-3 rounded bg-light  border-bottom rounded-0 flex-md-row flex-column" id="session-{{ session.id }}" data-tab="programmeDay{{ day_index }}">
 					<div class="prg-left flex-shrink-0 flex-grow-0 me-md-3 mb-md-0 mb-3 d-flex flex-md-column flex-row">
 						<div class="text-capitalize mb-md-2 me-3"><span class="badge bg-primary">{{ session.type }}</span></div>
 						<div class="mb-md-1 me-md-0 me-3 small">
@@ -159,11 +160,11 @@ menus:
 							<!--{% capture calendar_url %}/programme/ics/{{ session.id }}.ics{% endcapture %}
 							<a href="{{ calendar_url | absolute_url }}" title="Download an iCal (ICS) file for this session in the programme" class="d-block prg-icon-cal me-2">
 								<span class="visually-hidden">iCalendar (ICS) file for this session</span>
-							</a>
+							</a>-->
 							{% capture session_url %}/programme/link/{{ session.id }}{% endcapture %}
 							<a href="{{ session_url | absolute_url }}" title="Get the permanent link to this session in the programme" class="d-block prg-icon-link">
 								<span class="visually-hidden">Permalink to this session</span>
-							</a>-->
+							</a>
 						</div>
 						<h4 class="text-primary mt-0 mb-1">{{ session.title }}</h4>
 						
@@ -306,17 +307,33 @@ menus:
 <script>
 window.addEventListener('load', () => {
 	const dates = document.querySelectorAll('.programme-dates');
-	const currentDate = (new Date()).toISOString().substring(0,10);
-
 	var shownDate = false;
-	dates.forEach((date) => {
-		console.log(date.dataset.date + " == " + currentDate);
-		if(!shownDate && date.dataset.date == currentDate) {
-			(new bootstrap.Tab("#" + date.id)).show();
+
+	if(window.location.hash && window.location.hash.startsWith("#session-")) {
+		const session = document.getElementById(window.location.hash.substring(1));
+		const tabId = "#" + session.dataset.tab;
+		if(session != undefined) {
 			shownDate = true;
-			return;
+			document.querySelector(tabId).addEventListener('shown.bs.tab', event => {
+				const top =  session.getBoundingClientRect().top;
+				window.scrollTo({
+					top: top,
+					behavior: "smooth",
+				});
+			});
+			(new bootstrap.Tab("#" + session.dataset.tab)).show();
 		}
-	});
+	} else {
+		const currentDate = (new Date()).toISOString().substring(0,10);
+		dates.forEach((date) => {
+			if(!shownDate && date.dataset.date == currentDate) {
+				(new bootstrap.Tab("#" + date.id)).show();
+				shownDate = true;
+				return;
+			}
+		});
+	}
+
 	if(!shownDate) {
 		(new bootstrap.Tab("#" + dates[0].id)).show();
 	}
