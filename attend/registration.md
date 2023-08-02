@@ -16,17 +16,19 @@ menus:
 
 
 
-Registration for the TAS Symposium 2023 is now open. 
+<!--Registration for the TAS Symposium 2023 is now open. -->
+Registration has now closed.
 
 Authors with papers accepted must register by midday on 30th June 2023. At least one author of each accepted paper must be registered to attend the conference in person. A paper without a corresponding registration may be withheld from publication. There will be no onsite registration.
 
 Please ensure you register at the correct rate—if you do not, you will be liable to pay the difference. You can revise your registration online up to one week before the conference.
 
 
-
+<!--
 <div class="text-center mb-3">
 <a href="https://store.nottingham.ac.uk/conferences-and-events/conferences/schools-and-departments/computer-science/first-international-symposium-on-trustworthy-autonomous-systems-tas23" class="my-3 btn btn-lg btn-dark text-light border" title="Register for TAS '23">Register now →</a>
 </div>
+-->
 
 
 ## Registration fees

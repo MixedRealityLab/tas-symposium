@@ -29,7 +29,8 @@ Where possible, we also encourage applicants to actively apply for other sources
 
 ## How do I apply?
 
-Please submit your application form for a Travel Grant [here](https://forms.office.com/e/rZxwu1LKwU "Apply for a TAS '23 Travel Grant").
+<!--Please submit your application form for a Travel Grant [here](https://forms.office.com/e/rZxwu1LKwU "Apply for a TAS '23 Travel Grant").-->
+Applications for travel grants have now closed.
 
 **The deadline to submit is <u>24th May 2023</u>.**
 
