@@ -18,9 +18,21 @@ submissions:
 
 
 homepage:
-  -  label: ECR Day
-     date: Mon 10 July, 15.00–18.00
+  -  label: Paper submissions due
+     date: 1st March 2023
+
+  -  label: Poster submissions due
+     date: 15th March 2023
+
+  -  label: Notifications
+     date: May 2023
+
+  -  label: Revised papers due
+     date: 19th May 2023
+     
+  -  label: Camera ready due
+     date: 9th June 2023
 
   -  label: Symposium
-     date: Tues. 11th and Wed. 12th July 2023
+     date: 11th–12th July 2023
 
