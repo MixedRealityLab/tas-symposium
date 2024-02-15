@@ -28,7 +28,7 @@
 {% else %}
 <meta name="twitter:title" content="{{ page.title | escape | replace: "!!conference.shortname!!", site.conference.shortname  | replace: "!!conference.longname!!", site.conference.longname  }} - {{ site.title }}">
 {% endif %}
-<meta name="twitter:image" content="{{ site.social.twitter.card | absolute_url }}?{{ cache }}">
+<meta name="twitter:image" content="{{ site.social.twitter.card | relative_url }}?{{ cache }}">
 <meta name="twitter:image:alt" content="{{ site.social.twitter.card_alt }}">
 
 {%- if page contains 'description' %}
@@ -36,7 +36,7 @@
 	<meta name="description" content="{{ page.description | escape | replace: "!!conference.shortname!!", site.conference.shortname | replace: "!!conference.longname!!", site.conference.longname  }}">
 {%- endif -%}
 
-<meta name="og:image" content="{{ site.social.twitter.card | absolute_url }}?{{ cache }}">
+<meta name="og:image" content="{{ site.social.twitter.card | relative_url }}?{{ cache }}">
 <meta name="og:image:width" content="750">
 <meta name="og:image:height" content="750">
 

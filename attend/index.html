@@ -19,7 +19,7 @@ menu:
 <ul>
 {% for item in site.menus.attend %}
     <li>
-        <a class="" href="{{ item.url | absolute_url }}" title="{{ item.alt | escape | replace: "!!conference.year!!", site.conference.year  | replace: "!!conference.location!!", site.conference.location  | replace: "!!conference.dates!!", site.conference.dates }}">
+        <a class="" href="{{ item.url | relative_url }}" title="{{ item.alt | escape | replace: "!!conference.year!!", site.conference.year  | replace: "!!conference.location!!", site.conference.location  | replace: "!!conference.dates!!", site.conference.dates }}">
             {{ item.title }}
         </a>
     </li>

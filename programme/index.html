@@ -158,11 +158,11 @@ menus:
 							{% endunless  %}
 							{% endif %}
 							<!--{% capture calendar_url %}/programme/ics/{{ session.id }}.ics{% endcapture %}
-							<a href="{{ calendar_url | absolute_url }}" title="Download an iCal (ICS) file for this session in the programme" class="d-block prg-icon-cal me-2">
+							<a href="{{ calendar_url | relative_url }}" title="Download an iCal (ICS) file for this session in the programme" class="d-block prg-icon-cal me-2">
 								<span class="visually-hidden">iCalendar (ICS) file for this session</span>
 							</a>-->
 							{% capture session_url %}/programme/link/{{ session.id }}{% endcapture %}
-							<a href="{{ session_url | absolute_url }}" title="Get the permanent link to this session in the programme" class="d-block prg-icon-link">
+							<a href="{{ session_url | relative_url }}" title="Get the permanent link to this session in the programme" class="d-block prg-icon-link">
 								<span class="visually-hidden">Permalink to this session</span>
 							</a>
 						</div>
