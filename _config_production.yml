@@ -1,2 +1,2 @@
-baseurl: "/2023" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://symposium.tas.ac.uk" # the base hostname & protocol for your site, e.g. http://example.com
