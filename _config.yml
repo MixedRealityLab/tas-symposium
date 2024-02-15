@@ -40,6 +40,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 permalink: /blog/:year/:month/:day/:title/
 
 repository: mixedrealitylab/tas-symposium
+produrl: https://symposium.tas.ac.uk/2024/
 
 # Social settings
 social:
