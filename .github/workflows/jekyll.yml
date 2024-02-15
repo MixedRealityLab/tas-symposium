@@ -47,7 +47,7 @@ jobs:
         env:
           JEKYLL_ENV: production
       - name: Move root file into place
-        run: mkdir ./_site/2024/ && mv ./_site/* ./_site/2024 && mv ./_site/2024/redirect_to_year/index.html ./_site/index.html
+        run: mv ./_site/2024/redirect_to_year/index.html ./_site/index.html
         env:
           JEKYLL_ENV: production
       - name: Upload artifact
