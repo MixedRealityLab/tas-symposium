@@ -32,7 +32,7 @@ conference:
   shortname: TAS '24
   completename: Second International Symposium on Trustworthy Autonomous Systems (TAS '24)
   year: 2024
-  location: Texas, United States of America
+  location: Texas, United States
   dates: 'XXX'
 
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -40,7 +40,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 permalink: /blog/:year/:month/:day/:title/
 
 repository: mixedrealitylab/tas-symposium
-produrl: https://symposium.tas.ac.uk/2024/
+produrl: https://symposium.tas.ac.uk/2024
 
 # Social settings
 social:
