@@ -1,0 +1,320 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//porcheron.uk//Martin Porcheron
+X-WR-CALNAME:https://symposium.tas.ac.uk/2023/programme/ics/all.ics
+NAME:https://symposium.tas.ac.uk/2023/programme/ics/all.ics
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+DTSTAMP:20240215T110700Z
+UID:20230710T140000Z@2021.conversationaluserinterfaces.org
+DTSTART:20230710T140000Z
+DTEND:20230710T170000Z
+SUMMARY: 2023: ECR Day (for PhD students and those who identify as Early Career Researchers)
+DESCRIPTION:Ahead of the main programme we will be running an optional event for Early Career Researchers (ECR). This will be open to all PhD students and those who identify as ECRs who are attending the symposium. It will provide an opportunity for relaxed engagement and networking.Please indicate that you wish to attend this session when you register.  All are welcome, but we have a limited space in the room so sign up is necessary.\n\nPlease see https://symposium.tas.ac.uk/2023/programme/link/ecr_day for more detailed session information.
+LOCATION:Edinburgh Business School, Heriot-Watt University
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20240215T110700Z
+UID:20230710T140000Z@2021.conversationaluserinterfaces.org
+DTSTART:20230710T140000Z
+DTEND:20230710T141500Z
+SUMMARY: 2023: 
+DESCRIPTION:Registration and coffee\n\nPlease see https://symposium.tas.ac.uk/2023/programme/link/ecr_1 for more detailed session information.
+LOCATION:
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20240215T110700Z
+UID:20230710T141500Z@2021.conversationaluserinterfaces.org
+DTSTART:20230710T141500Z
+DTEND:20230710T143000Z
+SUMMARY: 2023: 
+DESCRIPTION:Introduction: Zhengxin Yu, Helena Webb, Mohammad Soorati, Joe Deville\n\nPlease see https://symposium.tas.ac.uk/2023/programme/link/ecr_2 for more detailed session information.
+LOCATION:
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20240215T110700Z
+UID:20230710T143000Z@2021.conversationaluserinterfaces.org
+DTSTART:20230710T143000Z
+DTEND:20230710T145000Z
+SUMMARY: 2023: 
+DESCRIPTION:Speed networking (round 1)\n\nPlease see https://symposium.tas.ac.uk/2023/programme/link/ecr_3 for more detailed session information.
+LOCATION:
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20240215T110700Z
+UID:20230710T145000Z@2021.conversationaluserinterfaces.org
+DTSTART:20230710T145000Z
+DTEND:20230710T152500Z
+SUMMARY: 2023: 
+DESCRIPTION:Roundtable 1: Engaging with RRI as an ECR Scholar\n\nPlease see https://symposium.tas.ac.uk/2023/programme/link/ecr_3 for more detailed session information.
+LOCATION:
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20240215T110700Z
+UID:20230710T152500Z@2021.conversationaluserinterfaces.org
+DTSTART:20230710T152500Z
+DTEND:20230710T154500Z
+SUMMARY: 2023: 
+DESCRIPTION:Break\n\nPlease see https://symposium.tas.ac.uk/2023/programme/link/ecr_4 for more detailed session information.
+LOCATION:
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20240215T110700Z
+UID:20230710T154500Z@2021.conversationaluserinterfaces.org
+DTSTART:20230710T154500Z
+DTEND:20230710T160500Z
+SUMMARY: 2023: 
+DESCRIPTION:Speed networking (round 2)\n\nPlease see https://symposium.tas.ac.uk/2023/programme/link/ecr_5 for more detailed session information.
+LOCATION:
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20240215T110700Z
+UID:20230710T160500Z@2021.conversationaluserinterfaces.org
+DTSTART:20230710T160500Z
+DTEND:20230710T164500Z
+SUMMARY: 2023: 
+DESCRIPTION:Roundtable 2: Engaging with Industry\n\nPlease see https://symposium.tas.ac.uk/2023/programme/link/ecr_6 for more detailed session information.
+LOCATION:
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20240215T110700Z
+UID:20230710T164500Z@2021.conversationaluserinterfaces.org
+DTSTART:20230710T164500Z
+DTEND:20230717T170000Z
+SUMMARY: 2023: 
+DESCRIPTION:Concluding discussion\n\nPlease see https://symposium.tas.ac.uk/2023/programme/link/ecr_7 for more detailed session information.
+LOCATION:
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20240215T110700Z
+UID:20230711T081500Z@2021.conversationaluserinterfaces.org
+DTSTART:20230711T081500Z
+DTEND:20230711T084500Z
+SUMMARY: 2023: Registration
+DESCRIPTION:Register and collect your badges for TAS '23. Refreshments on arrival.\n\nPlease see https://symposium.tas.ac.uk/2023/programme/link/registration for more detailed session information.
+LOCATION:James Watt Auditorium 
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20240215T110700Z
+UID:20230711T084500Z@2021.conversationaluserinterfaces.org
+DTSTART:20230711T084500Z
+DTEND:20230711T090000Z
+SUMMARY: 2023: Welcome
+DESCRIPTION:Welcome to TAS '23 from the symposium chairs, Kate Devlin and Joel Fischer.\n\nPlease see https://symposium.tas.ac.uk/2023/programme/link/welcome for more detailed session information.
+LOCATION:James Watt Auditorium 
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20240215T110700Z
+UID:20230711T090000Z@2021.conversationaluserinterfaces.org
+DTSTART:20230711T090000Z
+DTEND:20230711T100000Z
+SUMMARY: 2023: Session 1: Plenary: Prof. Sharon Strover
+DESCRIPTION:Chaired byKate Devlin & Joel Fischer\n\nPlease see https://symposium.tas.ac.uk/2023/programme/link/session_1 for more detailed session information.
+LOCATION:James Watt Auditorium 
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20240215T110700Z
+UID:20230711T102000Z@2021.conversationaluserinterfaces.org
+DTSTART:20230711T102000Z
+DTEND:20230711T113000Z
+SUMMARY: 2023: Session 2a (twin track): Robotics and robot encounters
+DESCRIPTION:Chaired byLiz Dowthwaite\n\nPlease see https://symposium.tas.ac.uk/2023/programme/link/session_2a for more detailed session information.
+LOCATION:James Watt Auditorium 
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20240215T110700Z
+UID:20230711T102000Z@2021.conversationaluserinterfaces.org
+DTSTART:20230711T102000Z
+DTEND:20230711T113000Z
+SUMMARY: 2023: Session 2b (twin track): Health and wellbeing in Autonomous Systems
+DESCRIPTION:Chaired byPeter McKenna\n\nPlease see https://symposium.tas.ac.uk/2023/programme/link/session_2b for more detailed session information.
+LOCATION:Hall
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20240215T110700Z
+UID:20230711T120000Z@2021.conversationaluserinterfaces.org
+DTSTART:20230711T120000Z
+DTEND:20230711T130000Z
+SUMMARY: 2023: Session 3: Posters
+DESCRIPTION:Posters are presented in the James Watt Lounge during the last hour of the lunch break.\n\nPlease see https://symposium.tas.ac.uk/2023/programme/link/session_3 for more detailed session information.
+LOCATION:James Watt Lounge
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20240215T110700Z
+UID:20230711T130000Z@2021.conversationaluserinterfaces.org
+DTSTART:20230711T130000Z
+DTEND:20230711T141000Z
+SUMMARY: 2023: Session 4: Questions of ethics in Autonomous Systems
+DESCRIPTION:Chaired byGisela Reyes Cruz\n\nPlease see https://symposium.tas.ac.uk/2023/programme/link/session_4 for more detailed session information.
+LOCATION:James Watt Auditorium 
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20240215T110700Z
+UID:20230711T143000Z@2021.conversationaluserinterfaces.org
+DTSTART:20230711T143000Z
+DTEND:20230711T153000Z
+SUMMARY: 2023: Session 5: Five provocations for a more creative TAS
+DESCRIPTION:Paper presented by Steve Benford, with responses from Kate Devlin, Marion Oswald, Gopal Ramchurn, and Luca Vigano.\n\nChaired byJoe Deville\n\nPlease see https://symposium.tas.ac.uk/2023/programme/link/session_5 for more detailed session information.
+LOCATION:James Watt Auditorium 
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20240215T110700Z
+UID:20230711T154500Z@2021.conversationaluserinterfaces.org
+DTSTART:20230711T154500Z
+DTEND:20230711T170000Z
+SUMMARY: 2023: National Robotarium reception
+DESCRIPTION:ECR Awards presentation.\n\nPlease see https://symposium.tas.ac.uk/2023/programme/link/reception for more detailed session information.
+LOCATION:The National<br>Robotarium
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20240215T110700Z
+UID:20230711T180000Z@2021.conversationaluserinterfaces.org
+DTSTART:20230711T180000Z
+DTEND:20230711T210000Z
+SUMMARY: 2023: (Optional) Symposium dinner
+DESCRIPTION:Dinner at the Surgeon’s Quarter (central Edinburgh)\n\nPlease see https://symposium.tas.ac.uk/2023/programme/link/dinner for more detailed session information.
+LOCATION:Surgeon's Quarter
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20240215T110700Z
+UID:20230712T081500Z@2021.conversationaluserinterfaces.org
+DTSTART:20230712T081500Z
+DTEND:20230712T094000Z
+SUMMARY: 2023: Session 6: Autonomous systems on land and sea
+DESCRIPTION:Chaired byBurak Yuksek\n\nPlease see https://symposium.tas.ac.uk/2023/programme/link/session_6 for more detailed session information.
+LOCATION:James Watt Auditorium 
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20240215T110700Z
+UID:20230712T100000Z@2021.conversationaluserinterfaces.org
+DTSTART:20230712T100000Z
+DTEND:20230712T110000Z
+SUMMARY: 2023: Session 7: Plenary: Prof. Gina Neff
+DESCRIPTION:Gina Neff is the Executive Director of the Minderoo Centre for Technology & Democracy at the University of Cambridge. Her books include Venture Labor (MIT Press 2012), Self-Tracking (MIT Press 2016) and Human-Centered Data Science (MIT Press 2022). Read more...\n\nChaired byGopal Ramchurn & Helena Webb\n\nPlease see https://symposium.tas.ac.uk/2023/programme/link/session_7 for more detailed session information.
+LOCATION:James Watt Auditorium 
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20240215T110700Z
+UID:20230712T113000Z@2021.conversationaluserinterfaces.org
+DTSTART:20230712T113000Z
+DTEND:20230712T123000Z
+SUMMARY: 2023: Session 8: Posters
+DESCRIPTION:Posters are presented in the James Watt Lounge during the last hour of the lunch break.\n\nPlease see https://symposium.tas.ac.uk/2023/programme/link/session_8 for more detailed session information.
+LOCATION:James Watt<br>Lounge 
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20240215T110700Z
+UID:20230712T123000Z@2021.conversationaluserinterfaces.org
+DTSTART:20230712T123000Z
+DTEND:20230712T140000Z
+SUMMARY: 2023: Session 9: How can we trust in and engage with Autonomous Systems?
+DESCRIPTION:Chaired byKatie Parnell\n\nPlease see https://symposium.tas.ac.uk/2023/programme/link/session_9 for more detailed session information.
+LOCATION:James Watt Auditorium 
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20240215T110700Z
+UID:20230712T143000Z@2021.conversationaluserinterfaces.org
+DTSTART:20230712T143000Z
+DTEND:20230712T153000Z
+SUMMARY: 2023: Session 10: Responsibility in TAS
+DESCRIPTION:Panel discussion exploring what it means to be responsible in Autonomous Systems, and the place of responsible research and innovation in the TAS programme. The panel includes Samuel Baker, Shoaib Ehsan, Elvira Perez Vallejos, Alex Beach, and Shannon Vallor.\n\nChaired byJoel Fischer\n\nPlease see https://symposium.tas.ac.uk/2023/programme/link/session_10 for more detailed session information.
+LOCATION:James Watt Auditorium 
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20240215T110700Z
+UID:20230712T153000Z@2021.conversationaluserinterfaces.org
+DTSTART:20230712T153000Z
+DTEND:20230712T155000Z
+SUMMARY: 2023: Session 11: Best paper/poster award
+DESCRIPTION:Chaired byJeremie Clos & Katie Parnell\n\nPlease see https://symposium.tas.ac.uk/2023/programme/link/session_11 for more detailed session information.
+LOCATION:James Watt Auditorium 
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20240215T110700Z
+UID:20230712T155000Z@2021.conversationaluserinterfaces.org
+DTSTART:20230712T155000Z
+DTEND:20230712T160000Z
+SUMMARY: 2023: Concluding comments
+DESCRIPTION:Proceedings end with concluding comments from Kate Devlin, Joel Fischer and Gopal Ramchurn.\n\nPlease see https://symposium.tas.ac.uk/2023/programme/link/conclusion for more detailed session information.
+LOCATION:James Watt Auditorium 
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+END:VEVENT
+
+END:VCALENDAR

@@ -1,0 +1,638 @@
+[
+    {
+        "id": "ecr_day",
+        "type": "ECR",
+        "title": "ECR Day (for PhD students and those who identify as Early Career Researchers)",
+        "description": "Ahead of the main programme we will be running an optional event for Early Career Researchers (ECR). This will be open to all PhD students and those who identify as ECRs who are attending the symposium. It will provide an opportunity for relaxed engagement and networking.<br><br>Please indicate that you wish to attend this session when you register.  All are welcome, but we have a limited space in the room so sign up is necessary.",
+        "presenters": "",
+        "chairs": "",
+        "start_time": "2023-07-10T14:00:00.000Z",
+        "end_time": "2023-07-10T17:00:00.000Z",
+        "location": "Edinburgh Business School, Heriot-Watt University","location_link": "https://goo.gl/maps/b3vs3XeftPpPxbf5A","presentations": [
+        ]
+    },
+    {
+        "id": "ecr_1",
+        "type": "Innerevent",
+        "title": "",
+        "description": "Registration and coffee",
+        "presenters": "",
+        "chairs": "",
+        "start_time": "2023-07-10T14:00:00.000Z",
+        "end_time": "2023-07-10T14:15:00.000Z",
+        "presentations": [
+        ]
+    },
+    {
+        "id": "ecr_2",
+        "type": "Innerevent",
+        "title": "",
+        "description": "Introduction: Zhengxin Yu, Helena Webb, Mohammad Soorati, Joe Deville",
+        "presenters": "",
+        "chairs": "",
+        "start_time": "2023-07-10T14:15:00.000Z",
+        "end_time": "2023-07-10T14:30:00.000Z",
+        "presentations": [
+        ]
+    },
+    {
+        "id": "ecr_3",
+        "type": "Innerevent",
+        "title": "",
+        "description": "Speed networking (round 1)",
+        "presenters": "",
+        "chairs": "",
+        "start_time": "2023-07-10T14:30:00.000Z",
+        "end_time": "2023-07-10T14:50:00.000Z",
+        "presentations": [
+        ]
+    },
+    {
+        "id": "ecr_3",
+        "type": "Innerevent",
+        "title": "",
+        "description": "Roundtable 1: Engaging with RRI as an ECR Scholar",
+        "presenters": "",
+        "chairs": "",
+        "start_time": "2023-07-10T14:50:00.000Z",
+        "end_time": "2023-07-10T15:25:00.000Z",
+        "presentations": [
+        ]
+    },
+    {
+        "id": "ecr_4",
+        "type": "Innerevent",
+        "title": "",
+        "description": "Break",
+        "presenters": "",
+        "chairs": "",
+        "start_time": "2023-07-10T15:25:00.000Z",
+        "end_time": "2023-07-10T15:45:00.000Z",
+        "presentations": [
+        ]
+    },
+    {
+        "id": "ecr_5",
+        "type": "Innerevent",
+        "title": "",
+        "description": "Speed networking (round 2)",
+        "presenters": "",
+        "chairs": "",
+        "start_time": "2023-07-10T15:45:00.000Z",
+        "end_time": "2023-07-10T16:05:00.000Z",
+        "presentations": [
+        ]
+    },
+    {
+        "id": "ecr_6",
+        "type": "Innerevent",
+        "title": "",
+        "description": "Roundtable 2: Engaging with Industry",
+        "presenters": "",
+        "chairs": "",
+        "start_time": "2023-07-10T16:05:00.000Z",
+        "end_time": "2023-07-10T16:45:00.000Z",
+        "presentations": [
+        ]
+    },
+    {
+        "id": "ecr_7",
+        "type": "Innerevent",
+        "title": "",
+        "description": "Concluding discussion",
+        "presenters": "",
+        "chairs": "",
+        "start_time": "2023-07-10T16:45:00.000Z",
+        "end_time": "2023-07-17T17:00:00.000Z",
+        "presentations": [
+        ]
+    },
+    {
+        "id": "eod_monday",
+        "type": "EOD",
+        "title": "",
+        "description": "The main symposium activities start tomorrow",
+        "presenters": "",
+        "chairs": "",
+        "start_time": "2023-07-10T17:00:00.000Z",
+        "end_time": "2023-07-10T17:00:00.000Z",
+        "presentations": [
+        ]
+    },
+    {
+        "id": "registration",
+        "type": "Registration",
+        "title": "Registration",
+        "description": "Register and collect your badges for TAS '23. Refreshments on arrival.",
+        "presenters": "",
+        "chairs": "",
+        "start_time": "2023-07-11T08:15:00.000Z",
+        "end_time": "2023-07-11T08:45:00.000Z",
+        "location": "James Watt Auditorium ","presentations": [
+        ]
+    },
+    {
+        "id": "welcome",
+        "type": "Plenary",
+        "title": "Welcome",
+        "description": "Welcome to TAS '23 from the symposium chairs, Kate Devlin and Joel Fischer.",
+        "presenters": "",
+        "chairs": "",
+        "start_time": "2023-07-11T08:45:00.000Z",
+        "end_time": "2023-07-11T09:00:00.000Z",
+        "location": "James Watt Auditorium ","presentations": [
+        ]
+    },
+    {
+        "id": "session_1",
+        "type": "Plenary",
+        "title": "Session 1: Plenary: Prof. Sharon Strover",
+        "description": "",
+        "presenters": "",
+        "chairs": "Kate Devlin & Joel Fischer",
+        "start_time": "2023-07-11T09:00:00.000Z",
+        "end_time": "2023-07-11T10:00:00.000Z",
+        "location": "James Watt Auditorium ","presentations": [
+            {
+                "id": "keynote_1",
+                "title": "Charting a Path toward Ethical AI",
+                "authors": "",
+                
+                "type": "keynote_1"
+            }
+        ]
+    },
+    {
+        "id": "break_1",
+        "type": "Break",
+        "title": "",
+        "description": "Refreshment break (####)",
+        "presenters": "",
+        "chairs": "",
+        "start_time": "2023-07-11T10:00:00.000Z",
+        "end_time": "2023-07-11T10:20:00.000Z",
+        "presentations": [
+        ]
+    },
+    {
+        "id": "session_2a",
+        "type": "Papers",
+        "title": "Session 2a (twin track): Robotics and robot encounters",
+        "description": "",
+        "presenters": "",
+        "chairs": "Liz Dowthwaite",
+        "start_time": "2023-07-11T10:20:00.000Z",
+        "end_time": "2023-07-11T11:30:00.000Z",
+        "location": "James Watt Auditorium ","presentations": [
+            {
+                "id": "paper_1",
+                "title": "Trustworthy swarms",
+                "authors": "James Wilson, Pete Winter, Greg Chance, Suet Lee, Emma Milner, Shane Windsor, John Downer, Kerstin Eder, Jonathan Ives and Sabine Hauert",
+                "acmdl": "https://doi.org/10.1145/3597512.3599705",
+                "type": "Paper"
+            },
+            {
+                "id": "paper_2",
+                "title": "&quot;What’s that robot doing here?&quot;: Perceptions of incidental encounters with autonomous quadruped robots",
+                "authors": "Elliott Hauser, Yao-Cheng Chan, Geethika Hemkumar, Daksh Dua, Parth Chonkar, Efren Mendoza Enriquez, Tiffany Kao, Shikhar Gupta, Huihai Wang, Justin Hart, Reuth Mirsky, Joydeep Biswas, Junfeng Jiao and Peter Stone",
+                "acmdl": "https://doi.org/10.1145/3597512.3599707",
+                "type": "Paper"
+            },
+            {
+                "id": "paper_3",
+                "title": "&quot;There is a bit of grace missing&quot;: Understanding non-use of mobile robotic telepresence in a global technology company",
+                "authors": "Andriana Boudouraki, Stuart Reeves, Joel Fischer and Sean Rintel",
+                "acmdl": "https://doi.org/10.1145/3597512.3599710",
+                "type": "Paper"
+            },
+            {
+                "id": "paper_4",
+                "title": "Resilient strategies for socially compliant autonomous assistive dressing robots",
+                "authors": "Katie Parnell, Siobhan Merriman, Sinem Getir Yaman, Katherine Plant and Radu Calinescu",
+                "acmdl": "https://doi.org/10.1145/3597512.3599711",
+                "type": "Paper"
+            }
+        ]
+    },
+    {
+        "id": "session_2b",
+        "type": "Papers",
+        "title": "Session 2b (twin track): Health and wellbeing in Autonomous Systems",
+        "description": "",
+        "presenters": "",
+        "chairs": "Peter McKenna",
+        "start_time": "2023-07-11T10:20:00.000Z",
+        "end_time": "2023-07-11T11:30:00.000Z",
+        "location": "Hall","presentations": [
+            {
+                "id": "paper_5",
+                "title": "Challenges in explaining brain tumor detection",
+                "authors": "Benedicte Legastelois, Amy Rafferty, Paul Brennan, Hana Chockler, Ajitha Rajan and Vaishak Belle",
+                "acmdl": "https://doi.org/10.1145/3597512.3600208",
+                "type": "Paper"
+            },
+            {
+                "id": "paper_6",
+                "title": "Socio-technical resilience for community healthcare",
+                "authors": "Amel Bennaceur, Avelie Stuart, Blaine A. Price, Arosha Bandara, Mark Levine, Linda Clare, Jessica Cohen, Ciaran Mccormick, Vikram Mehta, Mohamed Bennasar, Daniel Gooch, Carlos Gavidia Calderon, Anastasia Kordoni and Bashar Nuseibeh",
+                "acmdl": "https://doi.org/10.1145/3597512.3599720",
+                "type": "Paper"
+            },
+            {
+                "id": "paper_7",
+                "title": "Stay stress-free with complete confidence: Trustworthiness of autonomous stress detection systems for smart devices",
+                "authors": "Héctor Menéndez and Gema Bello Orgaz",
+                "acmdl": "https://doi.org/10.1145/3597512.3599703",
+                "type": "Paper"
+            },
+            {
+                "id": "paper_8",
+                "title": "Regulating AI/ML-enabled medical devices",
+                "authors": "Phoebe Li, Robin Williams, Stephen Gilbert and Stuart Anderson",
+                "acmdl": "https://doi.org/10.1145/3597512.3599704",
+                "type": "Paper"
+            }
+        ]
+    },
+    {
+        "id": "lunch_1",
+        "type": "Break",
+        "title": "",
+        "description": "Lunch (####)",
+        "presenters": "",
+        "chairs": "",
+        "start_time": "2023-07-11T11:30:00.000Z",
+        "end_time": "2023-07-11T13:00:00.000Z",
+        "presentations": [
+        ]
+    },
+    {
+        "id": "session_3",
+        "type": "Posters",
+        "title": "Session 3: Posters",
+        "description": "Posters are presented in the James Watt Lounge during the last hour of the lunch break.",
+        "presenters": "",
+        "chairs": "",
+        "start_time": "2023-07-11T12:00:00.000Z",
+        "end_time": "2023-07-11T13:00:00.000Z",
+        "location": "James Watt Lounge","info": "https://symposium.tas.ac.uk/programme/posters/","presentations": [
+        ]
+    },
+    {
+        "id": "session_4",
+        "type": "Papers",
+        "title": "Session 4: Questions of ethics in Autonomous Systems",
+        "description": "",
+        "presenters": "",
+        "chairs": "Gisela Reyes Cruz",
+        "start_time": "2023-07-11T13:00:00.000Z",
+        "end_time": "2023-07-11T14:10:00.000Z",
+        "location": "James Watt Auditorium ","presentations": [
+            {
+                "id": "paper_9",
+                "title": "Ethics in conversation: Building an ethics assurance case for autonomous voice agents in healthcare",
+                "authors": "Marten Kaas, Zoe Porter, Ernest Lim, Aisling Higham, Sarah Khavandi and Ibrahim Habli",
+                "acmdl": "https://doi.org/10.1145/3597512.3599713",
+                "type": "Paper"
+            },
+            {
+                "id": "paper_10",
+                "title": "RE-centric recommendations for the development of trustworthy(er) Autonomous Systems",
+                "authors": "Krishna Ronanki, Beatriz Cabrero-Daniel, Christian Berger and Jennifer Horkoff",
+                "acmdl": "https://doi.org/10.1145/3597512.3599697",
+                "type": "Paper"
+            },
+            {
+                "id": "paper_11",
+                "title": "Ethics of trust/worthiness in Autonomous Systems: A scoping review ",
+                "authors": "Helen Smith, Arianna Manzini, Mari-Rose Kennedy and Jonathan Ives",
+                "acmdl": "https://doi.org/10.1145/3597512.3600207",
+                "type": "Paper"
+            },
+            {
+                "id": "paper_12",
+                "title": "Ethics and safety of human-machine teaming ",
+                "authors": "Zena Assaad and Christine Boshuijzen van Burken",
+                "acmdl": "https://doi.org/10.1145/3597512.3600205",
+                "type": "Paper"
+            }
+        ]
+    },
+    {
+        "id": "break_2",
+        "type": "Break",
+        "title": "",
+        "description": "Refreshment break (####)",
+        "presenters": "",
+        "chairs": "",
+        "start_time": "2023-07-11T14:10:00.000Z",
+        "end_time": "2023-07-11T14:30:00.000Z",
+        "presentations": [
+        ]
+    },
+    {
+        "id": "session_5",
+        "type": "Panel",
+        "title": "Session 5: Five provocations for a more creative TAS",
+        "description": "Paper presented by Steve Benford, with responses from Kate Devlin, Marion Oswald, Gopal Ramchurn, and Luca Vigano.",
+        "presenters": "",
+        "chairs": "Joe Deville",
+        "start_time": "2023-07-11T14:30:00.000Z",
+        "end_time": "2023-07-11T15:30:00.000Z",
+        "location": "James Watt Auditorium ","presentations": [
+            {
+                "id": "panel_1",
+                "title": "Five provocations for a more creative TAS",
+                "authors": "Paper authors: Steve Benford, Adrian Hazzard, Craig Vear, Helena Webb, Alan Chamberlain, Chris Greenhalgh, Richard Ramchurn and Joe Marshall",
+                "acmdl": "https://doi.org/10.1145/3597512.3599709",
+                "type": "Panel"
+            }
+        ]
+    },
+    {
+        "id": "break_3",
+        "type": "Break",
+        "title": "",
+        "description": "Finish & walk to The National Robotarium (####)",
+        "presenters": "",
+        "chairs": "",
+        "start_time": "2023-07-11T15:30:00.000Z",
+        "end_time": "2023-07-11T15:45:00.000Z",
+        "presentations": [
+        ]
+    },
+    {
+        "id": "reception",
+        "type": "Reception",
+        "title": "National Robotarium reception",
+        "description": "ECR Awards presentation.",
+        "presenters": "",
+        "chairs": "",
+        "start_time": "2023-07-11T15:45:00.000Z",
+        "end_time": "2023-07-11T17:00:00.000Z",
+        "location": "The National<br>Robotarium","presentations": [
+        ]
+    },
+    {
+        "id": "break_4",
+        "type": "Break",
+        "title": "",
+        "description": "Symposim activities have finish for the day",
+        "presenters": "",
+        "chairs": "",
+        "start_time": "2023-07-11T17:00:00.000Z",
+        "end_time": "2023-07-11T17:00:00.000Z",
+        "presentations": [
+        ]
+    },
+    {
+        "id": "dinner",
+        "type": "Dinner",
+        "title": "(Optional) Symposium dinner",
+        "description": "Dinner at the Surgeon’s Quarter (central Edinburgh)",
+        "presenters": "",
+        "chairs": "",
+        "start_time": "2023-07-11T18:00:00.000Z",
+        "end_time": "2023-07-11T21:00:00.000Z",
+        "location": "Surgeon's Quarter","location_link": "https://goo.gl/maps/Be9k5YkKZdyjvZk48","presentations": [
+        ]
+    },
+    {
+        "id": "eod_tuesday",
+        "type": "EOD",
+        "title": "",
+        "description": "The symposium resumes tomorrow",
+        "presenters": "",
+        "chairs": "",
+        "start_time": "2023-07-11T19:00:00.000Z",
+        "end_time": "2023-07-11T19:00:00.000Z",
+        "presentations": [
+        ]
+    },
+    {
+        "id": "refreshments",
+        "type": "Break",
+        "title": "",
+        "description": "Arrival Refreshments (####)",
+        "presenters": "",
+        "chairs": "",
+        "start_time": "2023-07-12T07:45:00.000Z",
+        "end_time": "2023-07-12T08:15:00.000Z",
+        "presentations": [
+        ]
+    },
+    {
+        "id": "session_6",
+        "type": "Papers",
+        "title": "Session 6: Autonomous systems on land and sea",
+        "description": "",
+        "presenters": "",
+        "chairs": "Burak Yuksek",
+        "start_time": "2023-07-12T08:15:00.000Z",
+        "end_time": "2023-07-12T09:40:00.000Z",
+        "location": "James Watt Auditorium ","presentations": [
+            {
+                "id": "paper_18",
+                "title": "Anticipating accidents through reasoned simulation",
+                "authors": "Craig Innes, Andrew Ireland, Yuhui Lin and Subramanian Ramamoorthy",
+                "acmdl": "https://doi.org/10.1145/3597512.3599698",
+                "type": ""
+            },
+            {
+                "id": "paper_19",
+                "title": "The well-being of autonomous vehicle users under uncertain situations",
+                "authors": "Mohammad Naiseh and Paurav Shukla",
+                "acmdl": "https://doi.org/10.1145/3597512.3603150",
+                "type": ""
+            },
+            {
+                "id": "paper_20",
+                "title": "Safety engineering, role responsibility and lessons from the Uber ATG Tempe accident",
+                "authors": "Philippa Ryan Conmy, John McDermid, Ibrahim Habli and Zoe Porter",
+                "acmdl": "https://doi.org/10.1145/3597512.3599718",
+                "type": ""
+            },
+            {
+                "id": "paper_21",
+                "title": "Intersectional analysis of the challenges and opportunities of equitable remote operation in the UK maritime sector",
+                "authors": "An Cai, Caitlin Bentley, Efpraxia Zamani, Mohammad Naiseh and Laura Sbaffi",
+                "acmdl": "https://doi.org/10.1145/3597512.3600202",
+                "type": ""
+            },
+            {
+                "id": "paper_22",
+                "title": "Ten regulatory principles to scaffold the design, manufacture, and use of trustworthy Autonomous Systems, illustrated in a maritime context",
+                "authors": "Rachel Horne, Caroline Law-Walsh, Zena Assaad and Keith Joiner",
+                "acmdl": "https://doi.org/10.1145/3597512.3599701",
+                "type": ""
+            }
+        ]
+    },
+    {
+        "id": "break_5",
+        "type": "Break",
+        "title": "",
+        "description": "Refreshment break (####)",
+        "presenters": "",
+        "chairs": "",
+        "start_time": "2023-07-12T09:40:00.000Z",
+        "end_time": "2023-07-12T10:00:00.000Z",
+        "presentations": [
+        ]
+    },
+    {
+        "id": "session_7",
+        "type": "Plenary",
+        "title": "Session 7: Plenary: Prof. Gina Neff",
+        "description": "Gina Neff is the Executive Director of the Minderoo Centre for Technology & Democracy at the University of Cambridge. Her books include Venture Labor (MIT Press 2012), Self-Tracking (MIT Press 2016) and Human-Centered Data Science (MIT Press 2022). <a href='https://symposium.tas.ac.uk/programme/plenaries/#gina-neff--university-of-cambridge'>Read more...</a>",
+        "presenters": "",
+        "chairs": "Gopal Ramchurn & Helena Webb",
+        "start_time": "2023-07-12T10:00:00.000Z",
+        "end_time": "2023-07-12T11:00:00.000Z",
+        "location": "James Watt Auditorium ","presentations": [
+        ]
+    },
+    {
+        "id": "lunch_2",
+        "type": "Break",
+        "title": "",
+        "description": "Lunch and posters (####)",
+        "presenters": "",
+        "chairs": "",
+        "start_time": "2023-07-12T11:00:00.000Z",
+        "end_time": "2023-07-12T12:30:00.000Z",
+        "presentations": [
+        ]
+    },
+    {
+        "id": "session_8",
+        "type": "Posters",
+        "title": "Session 8: Posters",
+        "description": "Posters are presented in the James Watt Lounge during the last hour of the lunch break.",
+        "presenters": "",
+        "chairs": "",
+        "start_time": "2023-07-12T11:30:00.000Z",
+        "end_time": "2023-07-12T12:30:00.000Z",
+        "location": "James Watt<br>Lounge ","info": "https://symposium.tas.ac.uk/programme/posters/","presentations": [
+        ]
+    },
+    {
+        "id": "session_9",
+        "type": "Papers",
+        "title": "Session 9: How can we trust in and engage with Autonomous Systems?",
+        "description": "",
+        "presenters": "",
+        "chairs": "Katie Parnell",
+        "start_time": "2023-07-12T12:30:00.000Z",
+        "end_time": "2023-07-12T14:00:00.000Z",
+        "location": "James Watt Auditorium ","presentations": [
+            {
+                "id": "paper_23",
+                "title": "An exploration of how trust online relates to psychological and subjective wellbeing",
+                "authors": "Liz Dowthwaite, Elvira Perez Vallejos, Virginia Portillo, Menisha Patel, Jun Zhao and Helen Creswick'",
+                "acmdl": "https://doi.org/10.1145/3597512.3599708",
+                "type": ""
+            },
+            {
+                "id": "paper_24",
+                "title": "The social impact of decision-making algorithms: Reviewing the influence of agency, responsibility and accountability on trust and blame",
+                "authors": "Dan Heaton, Jeremie Clos, Elena Nichele and Joel Fischer",
+                "acmdl": "https://doi.org/10.1145/3597512.3599706",
+                "type": ""
+            },
+            {
+                "id": "paper_25",
+                "title": "Perceived trustworthiness of natural language generators",
+                "authors": "Beatriz Cabrero-Daniel and Andrea Sanagustín Cabrero",
+                "acmdl": "https://doi.org/10.1145/3597512.3599715",
+                "type": ""
+            },
+            {
+                "id": "paper_26",
+                "title": "Designing for trust: A human-centered methodology for identifying metrics of operational trust in mission autonomy",
+                "authors": "Sarah Rigsbee, Alexis Basantis, Bryan Camacho and Cara LaPointe",
+                "acmdl": "https://doi.org/10.1145/3597512.3600203",
+                "type": ""
+            },
+            {
+                "id": "paper_27",
+                "title": "Recommender systems, autonomy and user engagement",
+                "authors": "Joshua Krook and Jan Blockx",
+                "acmdl": "https://doi.org/10.1145/3597512.3599712",
+                "type": ""
+            }
+        ]
+    },
+    {
+        "id": "break_6",
+        "type": "Break",
+        "title": "",
+        "description": "Refreshment break (####)",
+        "presenters": "",
+        "chairs": "",
+        "start_time": "2023-07-12T14:00:00.000Z",
+        "end_time": "2023-07-12T14:30:00.000Z",
+        "presentations": [
+        ]
+    },
+    {
+        "id": "session_10",
+        "type": "Panel",
+        "title": "Session 10: Responsibility in TAS",
+        "description": "Panel discussion exploring what it means to be responsible in Autonomous Systems, and the place of responsible research and innovation in the TAS programme. The panel includes Samuel Baker, Shoaib Ehsan, Elvira Perez Vallejos, Alex Beach, and Shannon Vallor.",
+        "presenters": "",
+        "chairs": "Joel Fischer",
+        "start_time": "2023-07-12T14:30:00.000Z",
+        "end_time": "2023-07-12T15:30:00.000Z",
+        "location": "James Watt Auditorium ","presentations": [
+        ]
+    },
+    {
+        "id": "session_11",
+        "type": "Awards",
+        "title": "Session 11: Best paper/poster award",
+        "description": "",
+        "presenters": "",
+        "chairs": "Jeremie Clos & Katie Parnell",
+        "start_time": "2023-07-12T15:30:00.000Z",
+        "end_time": "2023-07-12T15:50:00.000Z",
+        "location": "James Watt Auditorium ","presentations": [
+        ]
+    },
+    {
+        "id": "conclusion",
+        "type": "Conclusion",
+        "title": "Concluding comments",
+        "description": "Proceedings end with concluding comments from Kate Devlin, Joel Fischer and Gopal Ramchurn.",
+        "presenters": "",
+        "chairs": "",
+        "start_time": "2023-07-12T15:50:00.000Z",
+        "end_time": "2023-07-12T16:00:00.000Z",
+        "location": "James Watt Auditorium ","presentations": [
+        ]
+    },
+    {
+        "id": "end",
+        "type": "Break",
+        "title": "",
+        "description": "Symposium finishes",
+        "presenters": "",
+        "chairs": "",
+        "start_time": "2023-07-12T16:00:00.000Z",
+        "end_time": "2023-07-12T16:00:00.000Z",
+        "presentations": [
+        ]
+    },
+    {
+        "id": "eod_wednesday",
+        "type": "EOD",
+        "title": "",
+        "description": "",
+        "presenters": "",
+        "chairs": "",
+        "start_time": "2023-07-12T16:00:00.000Z",
+        "end_time": "2023-07-12T16:00:00.000Z",
+        "presentations": [
+        ]
+    }
+]
