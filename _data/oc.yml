@@ -3,12 +3,12 @@
         contact: yes
         email: mailto:contact@tas.ac.uk
         people:
-          - name: Kate Devlin
-            institution: King's College London
-            country: UK
-          - name: Joel Fischer
+          - name: Liz Dowthwaite
             institution: University of Nottingham
             country: UK
+          - name: Justin Hart
+            institution: Good Systems, The University of Texas at Austin
+            country: US
   - programme:
         label: Programme chairs
         people:

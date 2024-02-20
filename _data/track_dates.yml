@@ -18,21 +18,15 @@ submissions:
 
 
 homepage:
-  -  label: Paper submissions due
-     date: 1st March 2023
-
-  -  label: Poster submissions due
-     date: 15th March 2023
+  -  label: Submission of poster abstracts, full papers, and workshop proposals
+     date: 3 May 2023
 
   -  label: Notifications
-     date: May 2023
+     date: July 2023
 
-  -  label: Revised papers due
-     date: 19th May 2023
-     
-  -  label: Camera ready due
-     date: 9th June 2023
+  -  label: Workshops
+     date: 16 September 2023
 
   -  label: Symposium
-     date: 11th–12th July 2023
+     date: 17–18 July 2023
 

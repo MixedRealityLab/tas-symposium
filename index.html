@@ -4,8 +4,8 @@ permalink: /
 title: About
 layout: outerpage
 
-description: > 
- TAS '24 will take place at the University of Texas on XXXX
+description: >
+  TAS '24 will take place at the University of Texas on XXXX
 
 track:
   dates: homepage
@@ -16,99 +16,70 @@ menus:
     weight: 1
 ---
 
-{%- include outerpage_splash.html title="Second International Symposium on Trustworthy Autonomous Systems" -%}
-
-{%- include outerpage_feature.html title="Welcome!" body="The Trustworthy Autonomous Systems 2024 symposium focuses on <strong>novel and creative multidisciplinary responsible research & innovation of trustworthy autonomous systems)</strong>." -%}
-
-{%- include outerpage_contentstart.html -%}
+{%- include outerpage_splash.html title="Second International Symposium on Trustworthy Autonomous Systems" -%} {%-
+include outerpage_feature.html title="Welcome!" body="The Trustworthy Autonomous Systems 2024 symposium focuses on
+<strong
+  >novel and creative multidisciplinary responsible research & innovation of trustworthy autonomous systems)</strong
+>." -%}{%- include outerpage_contentstart.html -%}
 
 <article class="col-lg-8 col-12">
   <h2 id="our-call-for-papers">Our call for papers</h2>
 
-    <p>
-        We invite full-paper submissions and poster abstracts that take a multidisciplinary approach to address the challenges of designing, building, and deploying Trustworthy Autonomous Systems (TAS). Contributions should consider social, legal, ethical, and technical issues and their impacts on individuals, society, and the economy.
-    </p>
+  <p>
+    We invite submissions on research focused on trustworthy autonomous systems (TAS), responsible and ethical
+    artificial intelligence, and human-machine interaction.
+  </p>
 
-    <p>
-        TAS ‘23 seeks to showcase creative, multi- and interdisciplinary responsible research & innovation which focuses on the challenging question of how to ensure that the design, engineering, and operation of autonomous systems generates positive outcomes and mitigates potentially harmful outcomes for people, societies, economies and the environment.
-    </p>
+  <p>
+    Autonomous systems involve software applications and machines that can take actions with little or no human
+    supervision. We are particularly interested in socio-technical systems involving both humans and machines working
+    together, and automated decision-making processes and the ways in which they are employed by and impacting people.
+    Trustworthy autonomous systems (TAS) generate positive outcomes and mitigate potentially harmful outcomes for
+    people, societies, economies, and the environment.
+  </p>
 
-    <p>
-        Your research may adopt specific perspectives on governance, design and deployment of autonomous systems from disciplines including but not limited to psychology, social sciences, law, computer science, engineering, and arts & humanities.
-    </p>
+  <p>
+    We invite full-paper submissions, poster abstracts, and workshop proposals on research that addresses the challenges
+    of designing, building, and deploying Trustworthy Autonomous Systems (TAS). Contributions may consider technical,
+    social, legal, and ethical issues and their impacts on individuals, society, and the economy. Submissions may come
+    from disciplines including, but not limited to, engineering, computer science, psychology, social sciences, law, and
+    arts & humanities.
+  </p>
 
-    <p>
-        We welcome submissions that reflect on the potential or actual real-world impacts of autonomous systems and strongly encourage the adoption of frameworks for responsible research (such as the <a href="https://www.ukri.org/councils/epsrc/guidance-for-applicants/what-to-include-in-your-proposal/health-technologies-impact-and-translation-toolkit/research-integrity-in-healthcare-technologies/responsible-research-and-innovation/" title="UKRI Research integrity in healthcare technologies">responsible research & innovation (RRI) framework</a>). Successful submissions would seek to address factors that impact the trustworthiness of autonomous systems, including but not limited to:   
-    </p>
+  <p>
+    Submissions will be selected for publication following peer review. Submission information will be released soon.
+    The proceedings, including full papers and abstracts, will be published in the ACM Digital Library.
+  </p>
 
-    <ul>
-      <li>Their robustness in dynamic and uncertain environments.</li>
-      <li>The assurance of their design and operation through verification and validation processes.</li>
-      <li>The confidence they inspire as they evolve their functionality.</li>
-      <li>Their explainability, accountability, and understandability to a diverse set of users and stakeholders.</li>
-      <li>Their defences against attacks on the systems, users, and the environment they are deployed in.</li>
-      <li>Their governance and the regulation of their design and operation.</li>
-      <li>Public perception and explorations of their adoption, and (non-)use.</li>
-      <li>The consideration of human values and ethics in their development, deployment, and use.</li>
-    </ul>
-
-    <p>
-        Submissions will be selected for publication following peer review. More information on how to prepare your submissions will be released soon. The proceedings, including full papers and abstracts, will be published in the ACM Digital Library. Accepted full papers will be invited to submit to a special issue, such as in the Journal of Responsible Technology and Journal of Autonomous Agents and Multi-Agent Systems.  
-    </p>
-
-    <p>
-        We understand an autonomous system to be a system involving software applications, machines, and people, that is able to take actions with little or no human supervision. Our definition includes socio-technical systems involving both humans and machines working together (e.g., human-agent collectives or human-machine teams), and automated decision-making processes and the ways in which they are employed by and impacting on people (e.g., automated recruitment, facial recognition systems). Machine-to-machine or Human-to-Human trust may also be important but these are not in scope of the TAS symposium.
-    </p>
-
-    <p>
-        The symposium is aligned with the aims and values of the <a href="https://tas.ac.uk" title="The Trustworthy Autonomous Systems Hub">TAS programme</a>.
-    </p>
-
-    <p>
-        The symposium will include a networking event for Early Career Researchers (ECRs) and travel grants will be available for ECRs.        
-    </p>
-
+  <p>
+    {%- for chairs in site.data.oc -%}
+      {%- for role in chairs -%}
+        {% if role[1]['contact'] -%}
+          {% assign use_and = role[1]['people'] | size | plus: -1 -%}
+          {%- for person in role[1]['people'] -%}
+            {{- person.name -}}, {{ person.institution -}}, {{ person.country -}}<br>
+          {%- endfor -%}
+          <a href="{{ role[1].email }}" title="Send an email to the CUI {{ site.conference.year }} {{ role[1].label }}">
+            {{ site.conference.shortname }} {{ role[1].label }}
+          </a>
+          {%- break -%}
+        {%- endif -%}
+      {%- endfor -%}
+    {%- endfor -%}
+  </p>
 </article>
 
 <aside class="col-lg-4 col-12 ps-xl-5 ps-md-4">
-<!--
-	<div class="text-center mb-3">
-<a href="{{ "/attend/registration" | relative_url }}" class="my-3 btn btn-lg btn-dark text-light border" title="Register for TAS '24">Register for TAS '24 now →</a>
-</div>-->
+  <div class="my-3 p-xl-4 p-3 shadow">
+    <h3>Important dates</h3>
 
-   <div class="my-3 p-xl-4 p-3 shadow">
-        <h3>Upcoming dates</h3>
-
-{% for date in site.data.track_dates[page.track.dates] -%}
-<p {% if forloop.last %}class="mb-0"{% endif %}><strong>{{ date.label }}</strong><br>{% if date.extended_date %}<strike>{{ date.date }}</strike> {{ date.extended_date }}{% else %}{{ date.date }}{% endif %}</p>
-{%- endfor -%}
-
-    </div>
-    
-    
-   <!-- <div class="my-3 p-xl-4 p-3 shadow">
-
-        <h3>Doctoral / ECR Colloquium</h3>
-
-		<p class="mb-0">
-			<strong>Mon. 10 July 2024 (afternoon)</strong><br>
-			A pre-Symposium event for PhD students and Early Career Researchers.
-		</p>
-
-    </div>
-
-    <div class="my-3 p-xl-4 p-3 shadow">
-
-        <h3>Travel Grants</h3>
-
-		<p class="mb-0">
-			The TAS Hub will offer a limited number of <a href="{{ "/attend/travel-grants/" | relative_url }}" title="TAS '24 Travel Grants'">travel grants for ECRs to attend TAS '24</a>.
-		</p>
-
-    </div>-->
-
-
+    {% for date in site.data.track_dates[page.track.dates] -%}
+    <p {% if forloop.last %}class="mb-0" {% endif %}>
+      <strong>{{ date.label }}</strong><br />{% if date.extended_date %}<strike>{{ date.date }}</strike> {{
+      date.extended_date }}{% else %}{{ date.date }}{% endif %}
+    </p>
+    {%- endfor -%}
+  </div>
 </aside>
 
 {%- include outerpage_contentend.html -%}
-
