@@ -21,7 +21,7 @@ gem 'nokogiri'
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem "jekyll-datapage-generator", "~> 1.3.0"
+  gem "jekyll-datapage-generator", "~> 1.4.0"
   gem "jekyll-feed"
   gem "jekyll-menus", :git => "https://github.com/forestryio/jekyll-menus.git"
   gem 'jekyll-titles-from-headings'
