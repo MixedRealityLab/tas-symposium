@@ -8,7 +8,7 @@
         {%- include header_css.html -%}
         {%- include header_javascript.html -%}
         {%- if page.url == "/" %}
-            <title>{{ site.conference.longname }}</title>
+            <title>{{ site.conference.shortname }}: {{ site.conference.longname }}</title>
         {%- else -%}
             <title>
                 {{- page.title | escape | replace: "!!conference.shortname!!", site.conference.shortname | replace: "!!conference.longname!!", site.conference.longname }} - {{ site.title -}}
