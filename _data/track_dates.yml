@@ -1,20 +1,21 @@
 submissions:
   -  label: Paper submissions due
-     date: 1st
-     extended_date: 8th March 2023
+     date: 3 May 2024
 
   -  label: Poster submissions due
-     date: 15th
-     extended_date: 22nd March 2023
+     date: 3 May 2024
+
+  -  label: Workshop submissions due
+     date: 3 May 2024
 
   -  label: Notifications
-     date: May 2023
+     date: June 2024
 
   -  label: Revised papers due
-     date: 19th May 2023
+     date: July 2024
      
   -  label: Camera ready due
-     date: 9th June 2023
+     date: 21st July 2024
 
 
 homepage:
@@ -22,7 +23,7 @@ homepage:
      date: 3 May 2024
 
   -  label: Notifications
-     date: July 2024
+     date: June 2024
 
   -  label: Workshops
      date: 16 September 2024
