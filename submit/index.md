@@ -1,7 +1,7 @@
 ---
 title: Submission instructions
 label: Submission instructions
-description: Information on submitting to TAS '23
+description: Information on submitting to TAS '24
 
 splash_title: Submission instructions
 
@@ -16,7 +16,7 @@ menus:
     identifier: submit
     weight: 2
   submit:
-    title: Archival Instructions
+    title: Submission Instructions
     alt: Instructions on submitting to TAS '23
     weight: 0
 ---
@@ -46,14 +46,14 @@ We strongly encourage authors to include in their submissions a consideration of
 All submissions will proceed through the following process. Please contact the Posters or Papers chairs if you have any questions.
 
 ### 1. Preparing your submission
-Submissions of both full papers and extended abstracts for posters must be in English and in PDF format; anonymised using the CHI anonymization policy; and include figures, tables, proofs, appendixes, and any other content. Extended abstracts for the posters track should be no longer than 3,000 words, and full papers should be approximately 6,000-8,000 words excluding references and acknowledgements.
+Submissions of both full papers and extended abstracts for posters must be in English and in PDF format; anonymised using the [CHI anonymization policy](https://chi2024.acm.org/submission-guides/chi-anonymization-policy/ "CHI 2024 anonymisation policy"); and include figures, tables, proofs, appendixes, and any other content. Extended abstracts for the posters track should be no longer than 3,000 words, and full papers should be approximately 6,000-8,000 words excluding references and acknowledgements.
 
-For more information about the paper templates, please refer to the ACM TAPS workflow.
+For more information about the paper templates, please refer to [the ACM TAPS workflow](https://authors.acm.org/proceedings/production-information/taps-production-workflow "The ACM Publishing System workflow").
 
 ### 2. Submitting your paper or extended abstract
 Submit your paper or extended abstract to the conference submission system (opening soon). Include your title, abstract, author details, and the paper or extended abstract as a PDF. Your submission must be anonymised; otherwise, it may be desk rejected.
 
-We ask you to ensure your submission is accessible for all users. To accomplish this, please follow the SIGCHI Guide to an Accessible Submission.
+We ask you to ensure your submission is accessible for all users. To accomplish this, please follow the [SIGCHI Guide to an Accessible Submission](https://sigchi.org/conferences/author-resources/accessibility-guide/ "ACM SIGCHI guide to making publications accessible").
 
 ### 3. Peer review
 
@@ -66,39 +66,39 @@ Submissions for which there is a very high agreement among reviewers regarding r
 Reviewers and ACs may request an ethics review of a submission, in which case the submission will be sent to the ethics review committee, whose comments then will be considered by the AC. Note that papers cannot be rejected directly by the ethics review committee, but they may be rejected by the program chairs due to concerns such as ethics considerations, inadequate scientific quality, and lack of contribution.
 
 ### 4. Preparing your submission for publication
-If your paper or extended abstract (poster) is accepted, you should de-anonymise it. You also must include CCS concepts and keywords for publication.
+
+If your paper or extended abstract (poster) is accepted, you should de-anonymise it. You also must include [CCS concepts](https://dl.acm.org/ccs "ACM CCS concepts on the Digital Library" ) and keywords for publication.
 
 At least one author of each accepted submission must register for the conference to guarantee publication of your work. 
 
-Accepted papers and extended abstracts will be archived in the ACM Digital Library.
+Accepted papers and extended abstracts will be archived in the [ACM Digital Library](http://dl.acm.org/ "The ACM Digital Library").
 
-You will receive an email from ACM to assign the rights for your paper. Next, you will receive an email from “The ACM Publishing System” (TAPS), which will handle the generation of the final version of your paper. Accepted papers and extended abstracts will be produced from LaTeX or Word source files into a single column HTML document and a two-column PDF for publication. We recommend all authors read ACM’s guidance for TAPS Best Practice.
+You will receive an email from ACM to assign the rights for your paper. Next, you will receive an email from “The ACM Publishing System” (TAPS), which will handle the generation of the final version of your paper. Accepted papers and extended abstracts will be produced from LaTeX or Word source files into a single column HTML document and a two-column PDF for publication. We recommend all authors read ACM’s guidance for [TAPS Best Practice](https://www.acm.org/publications/taps/taps-best-practices "TAPS best practice from ACM").
 
-Please ensure that you and your co-authors obtain an ORCID ID, which will enable you to complete the publishing process for your accepted paper. ACM has been involved in ORCID from the start, and has recently made it a requirement that ORCID IDs are provided by all of our published authors. We are committed to improving author discoverability, ensuring proper attribution, and contributing to ongoing community efforts around name normalization; your ORCID ID will help in these efforts.
+Please ensure that you and your co-authors obtain an [ORCID ID](https://orcid.org/register "OCIRD registration"), which will enable you to complete the publishing process for your accepted paper. ACM has been involved in ORCID from the start, and has recently [made it a requirement that ORCID IDs are provided by all of our published authors](https://authors.acm.org/author-resources/orcid-faqs "ACM policy on ORCID"). We are committed to improving author discoverability, ensuring proper attribution, and contributing to ongoing community efforts around name normalization; your ORCID ID will help in these efforts.
 
-All ACM publications follow the Green Open Access route by default, although authors have the opportunity to independently pay a fee for Gold Open Access. The total fee payable depends on the author(s)’ ACM membership status.
+All ACM publications follow the [Green Open Access route by default](https://www.acm.org/publications/openaccess#green "ACM Open Access policy"), although authors have the opportunity to independently pay a fee for [Gold Open Access](https://www.acm.org/publications/openaccess#oapricing "ACM policy on Open Access"). The total fee payable depends on the author(s)’ ACM membership status.
 
 You should, at this stage, produce the final design for your poster based on your extended abstract.
 
 ### 5. Presenting your work
 
-Papers. Authors of accepted papers will be invited to present their paper as a talk in a paper session at the TAS 2024 symposium. The specific details of the presentation will be provided closer to the conference.
+**Papers**. Authors of accepted papers will be invited to present their paper as a talk in a paper session at the TAS 2024 symposium. The specific details of the presentation will be provided closer to the conference.
 
-Posters. Accepted posters will be on display during the symposium, and presenters will have the opportunity to discuss their work with attendees during designated poster sessions. Authors are welcome to design their own posters; alternatively, an optional poster template is available.
+**Posters**. Accepted posters will be on display during the symposium, and presenters will have the opportunity to discuss their work with attendees during designated poster sessions. Authors are welcome to design their own posters; alternatively, [an optional poster template](https://symposium.tas.ac.uk/2023/assets/pptx/UKRI-TAS-Hub-Research-Poster-Template.pptx "Poster template for TAS '24") is available.
 
-Workshops. Accepted workshops will be provided with a room for the duration of the workshop (half-day or full-day). The organising committee can help should the workshop require special equipment (e.g., speakers, projector, TV etc.).
+**Workshops**. Accepted workshops will be provided with a room for the duration of the workshop (half-day or full-day). The organising committee can help should the workshop require special equipment (e.g., speakers, projector, TV etc.).
 
-Ensuring Accessibility of Papers and Presentations
+## Ensuring Accessibility of Papers and Presentations
 
-We strongly encourage authors to consider the accessibility of their papers and presentations, such as by including figure descriptions. For more information about accessibility requirements for papers and posters, please see the TAS  guidance on making your paper accessible. If you have any questions about creating accessible submissions, please contact us.
+We strongly encourage authors to consider the accessibility of their papers and presentations, such as by including figure descriptions. For more information about accessibility requirements for papers and posters, please see the [TAS  guidance on making your paper accessible](/submit/accessibility/). If you have any questions about creating accessible submissions, please contact us.
 
 Questions?
 If you have any questions, please contact the Poster Chair (Gisela Reyes Cruz),  the Papers Chair (Katie Parnell), or Workshop Chair (Eike Schneiders) here.
 
 
 ## Questions?
-
-If you have any questions, please contact the Poster chairs (Jeremie Clos,  Xinwei Fang) at [tas2023posters@gmail.com](mailto:tas2023posters@gmail.com "Send an email to the TAS '23 Posters chairs") or the Papers chairs (Benedicte Legastelois, Daria Onitiu, Burak Yuksek, Katie Parnell) at [tas2023papers@gmail.com](mailto:tas2023papers@gmail.com  "Send an email to the TAS '23 Papers chairs").  
+If you have any questions, please contact the Poster Chair (Gisela Reyes Cruz),  the Papers Chair (Katie Parnell), or Workshop Chair (Eike Schneiders) [here](mailto:contact@tas.ac.uk).
 
 
 
