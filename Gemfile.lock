@@ -88,6 +88,7 @@ PLATFORMS
 DEPENDENCIES
   execjs
   http_parser.rb (~> 0.6.0)
+  jekyll (~> 4.3.3)
   jekyll-datapage-generator (~> 1.4.0)
   jekyll-feed
   jekyll-menus!
