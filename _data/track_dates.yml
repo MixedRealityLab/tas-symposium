@@ -1,29 +1,29 @@
-submissions:
-  -  label: Paper submissions due
-     date: 3 May 2024
-
-  -  label: Poster submissions due
-     date: 3 May 2024
-
-  -  label: Workshop submissions due
+papers_posters:
+  -  label: Submissions due
      date: 3 May 2024
 
   -  label: Notifications
-     date: June 2024
+     date: Early July 2024
 
   -  label: Revised papers due
-     date: July 2024
+     date: Mid July 2024
      
   -  label: Camera ready due
-     date: 21st July 2024
+     date: 31st July 2024
 
+workshops:
+  -  label: Submissions due
+     date: 8 July 2024
+
+  -  label: Notifications
+     date: August 2024
 
 homepage:
   -  label: Submission of poster abstracts, full papers, and workshop proposals
-     date: 3 May 2024
+     date: 3 June 2024
 
   -  label: Notifications
-     date: June 2024
+     date: Early July 2024
 
   -  label: Workshops
      date: 16 September 2024
