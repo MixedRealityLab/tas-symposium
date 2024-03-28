@@ -12,6 +12,7 @@ menus:
     title: Accessibility Instructions
     alt: Information on making your paper accessible with TAPS
     weight: 6
+    sep_before: true
 ---
 
 Authors are strongly encouraged to create accessible submissions so that their work can be readable by the greatest number of people. This includes submitting accessible source files and the final PDF version during the TAPS process.
