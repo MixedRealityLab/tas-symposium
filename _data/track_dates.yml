@@ -19,11 +19,17 @@ workshops:
      date: August 2024
 
 homepage:
-  -  label: Submission of poster abstracts, full papers, and workshop proposals
+  -  label: Posters and papers due
      date: 3 June 2024
 
   -  label: Notifications
      date: Early July 2024
+
+  -  label: Workshop proposals due
+     date: 8 July 2024
+
+  -  label: Notifications (workshops)
+     date: August 2024
 
   -  label: Workshops
      date: 16 September 2024
