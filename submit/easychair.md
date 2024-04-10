@@ -2,12 +2,12 @@
 label: Submission system
 description: Go to the EasyChair submission system.
 layout: redirection
-target: https://easychair.org/my/conference?conf=tas23
+target: https://easychair.org/conferences/?conf=tas24
 
 menus:
   submit:
     title: EasyChair login
-    alt: Go to the submission system for TAS '23
+    alt: Go to the submission system for TAS '24
     weight: 4
     sep_before: true
 ---

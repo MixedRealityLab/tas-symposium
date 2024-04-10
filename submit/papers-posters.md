@@ -23,7 +23,7 @@ menus:
 
 We invite full-paper submissions and posters (extended abstracts) that take a multidisciplinary approach to address the challenges of designing, building, and deploying Trustworthy Autonomous Systems (TAS). Contributions should consider social, legal, ethical, and technical issues and their impacts on individuals, society, and the economy. 
 
-__The Submission system for posters and papers will be open on 8th April 2024__
+**Submit your papers on [EasyChair](https://easychair.org/conferences/?conf=tas24 "EasyChair submission site for TAS '24").**
 
 ## Key dates
 
@@ -51,7 +51,7 @@ Submissions of both full papers and extended abstracts for posters must be in En
 For more information about the paper templates, please refer to [the ACM TAPS workflow](https://authors.acm.org/proceedings/production-information/taps-production-workflow "The ACM Publishing System workflow").
 
 ### 2. Submitting your paper or extended abstract
-Submit your paper or extended abstract to the conference submission system (opening 8th April 2024). Include your title, abstract, author details, and the paper or extended abstract as a PDF. Your submission must be anonymised; otherwise, it may be desk rejected.
+Submit your paper or extended abstract to [the conference submission system](https://easychair.org/conferences/?conf=tas24 "EasyChair submission site for TAS '24"). Include your title, abstract, author details, and the paper or extended abstract as a PDF. Your submission must be anonymised; otherwise, it may be desk rejected.
 
 We ask you to ensure your submission is accessible for all users. To accomplish this, please follow the [SIGCHI Guide to an Accessible Submission](https://sigchi.org/conferences/author-resources/accessibility-guide/ "ACM SIGCHI guide to making publications accessible").
 
