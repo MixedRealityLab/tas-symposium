@@ -71,7 +71,7 @@ If your paper or extended abstract (poster) is accepted, you should de-anonymise
 
 At least one author of each accepted submission must register for the conference to guarantee publication of your work. 
 
-We intend for accepted papers and extended abstracts to be archived in the [ACM Digital Library](http://dl.acm.org/ "The ACM Digital Library").
+Accepted papers and extended abstracts will be archived in the [ACM Digital Library](http://dl.acm.org/ "The ACM Digital Library").
 
 You will receive an email from ACM to assign the rights for your paper. Next, you will receive an email from “The ACM Publishing System” (TAPS), which will handle the generation of the final version of your paper. Accepted papers and extended abstracts will be produced from LaTeX or Word source files into a single column HTML document and a two-column PDF for publication. We recommend all authors read ACM’s guidance for [TAPS Best Practice](https://www.acm.org/publications/taps/taps-best-practices "TAPS best practice from ACM").
 
