@@ -58,7 +58,7 @@
             institution: University of Nottingham
             country: UK
   - accessibility:
-        label: Local Arrangements chair
+        label: Accessibility chair
         people:
           - name: Genovefa Kefalidou
             institution: University of Leicester
@@ -84,4 +84,17 @@
           - name: Luis Sentis
             institution: University of Texas at Austin
             country: US
+  - steering:
+        label: Steering Committee
+        people:
+          - name: Joel Fischer
+            institution: University of Nottingham
+            country: UK
+          - name: Gopal Ramchurn
+            institution: University of Southampton
+            country: UK
+          - name: Kate Devlin
+            institution: King’s College London
+            country: UK
+
  
