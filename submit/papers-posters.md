@@ -48,7 +48,8 @@ All submissions will proceed through the following process. Please contact the P
 ### 1. Preparing your submission
 Submissions of both full papers and extended abstracts for posters must be in English and in PDF format; anonymised using the [CHI anonymization policy](https://chi2024.acm.org/submission-guides/chi-anonymization-policy/ "CHI 2024 anonymisation policy"); and include figures, tables, proofs, appendixes, and any other content. Extended abstracts for the posters track should be no longer than 3,000 words, and full papers should be approximately 6,000-8,000 words excluding references and acknowledgements.
 
-For more information about the paper templates, please refer to [the ACM TAPS workflow](https://authors.acm.org/proceedings/production-information/taps-production-workflow "The ACM Publishing System workflow").
+For more information about the paper templates, including downloading the [LaTeX](
+https://authors.acm.org/proceedings/production-information/preparing-your-article-with-latex) or [Word](https://authors.acm.org/proceedings/production-information/preparing-your-article-with-microsoft-word) templates, please refer to [the ACM TAPS workflow](https://authors.acm.org/proceedings/production-information/taps-production-workflow "The ACM Publishing System workflow") guidance.
 
 ### 2. Submitting your paper or extended abstract
 Submit your paper or extended abstract to [the conference submission system](https://easychair.org/conferences/?conf=tas24 "EasyChair submission site for TAS '24"). Include your title, abstract, author details, and the paper or extended abstract as a PDF. Your submission must be anonymised; otherwise, it may be desk rejected.
@@ -73,13 +74,22 @@ At least one author of each accepted submission must register for the conference
 
 Accepted papers and extended abstracts will be archived in the [ACM Digital Library](http://dl.acm.org/ "The ACM Digital Library").
 
-You will receive an email from ACM to assign the rights for your paper. Next, you will receive an email from “The ACM Publishing System” (TAPS), which will handle the generation of the final version of your paper. Accepted papers and extended abstracts will be produced from LaTeX or Word source files into a single column HTML document and a two-column PDF for publication. We recommend all authors read ACM’s guidance for [TAPS Best Practice](https://www.acm.org/publications/taps/taps-best-practices "TAPS best practice from ACM").
+You will receive an email from ACM to assign the rights for your paper. Next, you will receive an email from “The ACM Publishing System” (TAPS), which will handle the generation of the final version of your paper. Accepted papers and extended abstracts will be produced from [LaTeX](https://authors.acm.org/proceedings/production-information/preparing-your-article-with-latex) or [Word](https://authors.acm.org/proceedings/production-information/preparing-your-article-with-microsoft-word) source files into a single column HTML document and a two-column PDF for publication. We recommend all authors read ACM’s guidance for [TAPS Best Practice](https://www.acm.org/publications/taps/taps-best-practices "TAPS best practice from ACM").
 
 Please ensure that you and your co-authors obtain an [ORCID ID](https://orcid.org/register "OCIRD registration"), which will enable you to complete the publishing process for your accepted paper. ACM has been involved in ORCID from the start, and has recently [made it a requirement that ORCID IDs are provided by all of our published authors](https://authors.acm.org/author-resources/orcid-faqs "ACM policy on ORCID"). We are committed to improving author discoverability, ensuring proper attribution, and contributing to ongoing community efforts around name normalization; your ORCID ID will help in these efforts.
 
-All ACM publications follow the [Green Open Access route by default](https://www.acm.org/publications/openaccess#green "ACM Open Access policy"), although authors have the opportunity to independently pay a fee for [Gold Open Access](https://www.acm.org/publications/openaccess#oapricing "ACM policy on Open Access"). The total fee payable depends on the author(s)’ ACM membership status.
-
 You should, at this stage, produce the final design for your poster based on your extended abstract.
+
+#### Important note to authors about the new ACM open access publishing model
+
+ACM has introduced a new open access publishing model for the International Conference Proceedings Series (ICPS). Authors based at institutions that are not yet part of the [ACM Open program](https://libraries.acm.org/acmopen/open-participants) and do not qualify for a waiver will be required to pay an article processing charge (APC) to publish their ICPS article in the ACM Digital Library. To determine whether or not an APC will be applicable to your article, please follow the detailed guidance here: https://www.acm.org/publications/icps/author-guidance.
+
+Further information may be found on the ACM website, as follows:
+
+* [Full details of the new ICPS publishing model](https://www.acm.org/publications/icps/faq)<br>
+* [Full details of the ACM Open program](https://www.acm.org/publications/openaccess)
+
+Please direct all questions about the new model to [icps-info@acm.org](mailto:icps-info@acm.org).
 
 ### 5. Presenting your work
 
