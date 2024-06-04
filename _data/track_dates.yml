@@ -1,6 +1,7 @@
 papers_posters:
   -  label: Submissions due
-     date: 3 June 2024
+     date: 3
+     extended_date: 17 June 2024
 
   -  label: Notifications
      date: Early July 2024
@@ -20,7 +21,8 @@ workshops:
 
 homepage:
   -  label: Posters and papers due
-     date: 3 June 2024
+     date: 3
+     extended_date: 17 June 2024
 
   -  label: Notifications
      date: Early July 2024
