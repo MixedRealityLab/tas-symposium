@@ -1,32 +1,96 @@
 ---
-title: Sponsor TAS '24
-label: Sponsor TAS '24
-description: Information on Sponsoring TAS '24
+title: Sponsors
+label: Sponsor
+description: TAS '24 Sponsors and information on becoming a sponsor
 
-splash_title: Sponsorship Information
+splash_title: Sponsors
 
+layout: outerpage
 lastmod: page
 
 #menus:
-#title: Sponsorship
+#title: Sponsors
 #  main:
 #    identifier: sponsor
 #    weight: 4
 ---
 
-<p>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu nisl eu magna viverra mattis sit amet vitae nisl. Aenean quis purus eu diam gravida dictum at eget erat. Nunc id porttitor arcu.
-</p>
+{%- include outerpage_splash.html title="Sponsors" -%}
+
+{% capture feature %}
+<div class="d-flex flex-row justify-content-center align-items-center py-3">
+    <div class="mx-2">
+        <a href="https://bridgingbarriers.utexas.edu/good-systems" title="Good Systems - Ethical AI at UT Austin">
+            <img src="{{ "/assets/partners/goodsystems.png" | relative_url }}" alt="Good Systems" style="height: 40px">
+        </a>
+    </div>
+    <div class="mx-2">
+        <a href="https://rai.ac.uk" title="Responsible AI UK">
+            <img src="{{ "/assets/partners/raiuk.png" | relative_url }}" alt="Responsible AI UK" style="height: 40px">
+        </a>
+    </div>
+    <div class="mx-2">
+        <a href="https://tas.ac.uk" title="UKRI Trustworthy Autonomous Systems Hub">
+            <img src="{{ "/assets/partners/tas.png" | relative_url }}" alt="UKRI Trustworthy Autonomous Systems Hub" style="height: 90px">
+        </a>
+    </div>
+</div>
+{% endcapture %}
+
+<!-- {%- include outerpage_feature.html raw=feature -%} -->
+
+<div class="d-flex flex-column container col-md-8 col-12 mt-md-5 mt-3 px-3">
+
+    <p>
+        TAS '24 is grateful for all of our generous sponsors. The financial support of our Platinum, Gold, Silver, and Bronze Sponsors and the support of our organiser partners and the Main Sponsor are greatly appreciated.
+    </p>
+
+</div>
+
+    <div class="mt-4" style="background: #e8e8e8">  
+        <div class="container col-md-8 col-12 py-4">     
+            <div class="row row-cols-2 bg-white rounded">
+                <div class="col">
+                    <a href="https://bridgingbarriers.utexas.edu/good-systems" title="Good Systems - Ethical AI at UT Austin" class="streched-link d-flex flex-column align-items-center p-4 text-decoration-none text-primary">
+                        <img src="{{ "/assets/partners/goodsystems.png" | relative_url }}" alt="Good Systems" style="max-width: 70%" class="mb-5">
+                        <div class="badge rounded-pill bg-secondary flex-grow-0 flex-shrink-1 mb-4">Organiser</div>
+                        <p><small>Our goal is to better understand what changes new technologies will bring, predict how those changes will unfold, and mitigate the harms or unintended consequences they could cause while still leveraging the benefits AI provides.</small></p>
+                    </a>
+                </div>
+
+                <div class="col">
+                    <a href="https://rai.ac.uk" title="Responsible AI UK" class="streched-link d-flex flex-column align-items-center p-4 text-decoration-none text-primary">
+                        <img src="{{ "/assets/partners/raiuk.png" | relative_url }}" alt="Responsible AI UK" style="max-width: 70%" class="mb-4">
+                        <div class="badge rounded-pill bg-secondary flex-grow-0 flex-shrink-1 mb-4">Organiser</div>
+                        <p><small>RAi UK brings together researchers from across the four nations of the UK to understand how we should shape the development of AI to benefit people, communities and society.</small></p>
+                    </a>
+                </div>
+
+                <div class="col">
+                    <a href="https://tas.ac.uk" title="UKRI Trustworthy Autonomous Systems Hub" class="streched-link d-flex flex-column align-items-center p-4 text-decoration-none text-primary">
+                        <img src="{{ "/assets/partners/tas.png" | relative_url }}" alt="UKRI Trustworthy Autonomous Systems Hub" style="max-width: 70%" class="mb-4">
+                        <div class="badge rounded-pill bg-primary flex-grow-0 flex-shrink-1 mb-4">Main Sponsor</div>
+                        <p><small>The UKRI TAS Hub assembles a team from the Universities of Southampton, Nottingham and King’s College London. The Hub sits at the centre of the £33M Trustworthy Autonomous Systems Programme, funded by the UKRI Strategic Priorities Fund.</small></p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div> 
+
+    <div class="d-flex flex-column container col-md-8 col-12 mt-md-5 mt-3 px-3">
+
+
+    <h2 class="mt-3">Become a sponsor</h2>
 
 <p>
     Below are sponsorship packages for TAS '24 ($ are USD); discounted sponsorship rates are offered to supported organisations. À la carte packages are also available below to enhance or customise your TAS '24 sponsorship. (Sponsorship opportunities and availability are subject to change.)
 </p>
 
 <p>
-    To become a TAS '24 sponsor or to discuss our sponsorship packages, please contact the XXXX.
+    To become a TAS '24 sponsor or to discuss our sponsorship packages, please contact the <a href="mailto:contact@tas.ac.uk">TAS '24 General chairs</a>.
 </p>
 
-<div class="border border-3 mx-auto mb-3">
+<div class="w-100 border border-3 mx-auto mt-4 mb-4">
     <table class="w-100 border border-3 border-white rounded p-3">
         <thead class="">
             <tr>
@@ -300,3 +364,6 @@ lastmod: page
         </table>
     </div>
 </div>
+
+
+{%- include outerpage_contentend.html -%}
