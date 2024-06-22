@@ -8,8 +8,8 @@ lastmod: page
 
 menu:
   main:
-    text: Submit
-    title: Information about submitting to TAS '24
+    title: Submit
+    alt: Information about submitting to TAS '24
     weight: 2
     identifier: submit
 ---
