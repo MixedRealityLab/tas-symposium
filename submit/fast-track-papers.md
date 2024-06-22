@@ -3,7 +3,7 @@ title: Fast-Track Papers
 label: Fast-Track Papers
 description: Information on submitting fast-track papers to TAS '24
 
-splash_title: Fast-track posters<br>submission instructions
+splash_title: Fast-track papers<br>submission instructions
 
 lastmod: page
 
