@@ -19,7 +19,7 @@ menu:
     {% if item.is_track != true %}{% continue %}{% endif %}
     <li>
         <a class="" href="{{ item.url | absolute_url }}" title="{{ item.alt | escape | replace: "!!conference.year!!", site.conference.year | replace: "!!conference.location!!", site.conference.location | replace: "!!conference.dates!!", site.conference.dates }}">
-            {{ item.text }}
+            {{ item.title }}
         </a>
     </li>
 {% endfor %}
