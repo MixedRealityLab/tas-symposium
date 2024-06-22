@@ -11,10 +11,6 @@ track:
   dates: papers_posters
 
 menus:
-  main:
-    title: Submit
-    identifier: submit
-    weight: 2
   submit:
     title: Papers and Posters Instructions
     alt: Instructions on submitting papers and posters to TAS '24
