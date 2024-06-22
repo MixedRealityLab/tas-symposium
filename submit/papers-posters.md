@@ -15,6 +15,7 @@ menus:
     title: Papers and Posters Instructions
     alt: Instructions on submitting papers and posters to TAS '24
     weight: 0
+    is_track: true
 ---
 
 We invite full-paper submissions and posters (extended abstracts) that take a multidisciplinary approach to address the challenges of designing, building, and deploying Trustworthy Autonomous Systems (TAS). Contributions should consider social, legal, ethical, and technical issues and their impacts on individuals, society, and the economy. 
