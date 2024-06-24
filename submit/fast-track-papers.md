@@ -12,9 +12,9 @@ track:
 
 menus:
   submit:
-    title: Fast-Track Papers Instructions
+    title: Fast-Track Papers
     alt: Instructions on submitting fast-track papers to TAS '24
-    weight: 2
+    weight: 1
     is_track: true
 ---
 

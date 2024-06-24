@@ -12,7 +12,7 @@ track:
 
 menus:
   submit:
-    title: Papers and Posters Instructions
+    title: Papers and Posters
     alt: Instructions on submitting papers and posters to TAS '24
     weight: 0
     is_track: true

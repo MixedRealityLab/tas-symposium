@@ -12,9 +12,9 @@ track:
 
 menus:
   submit:
-    title: Workshops Instructions
+    title: Workshops
     alt: Instructions on submitting workshop proposals to TAS '24
-    weight: 1
+    weight: 2
 ---
 
 We invite authors to submit a proposal (maximum six pages + references) for either a half-day workshop or a full-day workshop. Workshop proposals should include a strong motivation as to what makes the topic addressed by the workshop interesting and important. Furthermore, the proposal should include a description of the workshop format (i.e., hybrid etc.) and duration, a preliminary workshop schedule, a description of the planned workshop activities, and the expected outcomes of the workshop, as well as a short biography for each author. Accepted workshops will be provided with a room for the duration of the workshop (half-day or full-day). The organising committee can help should the workshop require special equipment (e.g., speakers, projector, TV etc.)

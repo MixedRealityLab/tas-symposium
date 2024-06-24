@@ -20,21 +20,26 @@ workshops:
      date: August 2024
 
 homepage:
-  -  label: Posters and papers due
-     date: 3
-     extended_date: 17 June 2024
-
-  -  label: Notifications
+  -  label: Posters and papers notifications
      date: Early July 2024
 
   -  label: Workshop proposals due
      date: 8 July 2024
 
-  -  label: Notifications (workshops)
+  -  label: Fast-track papers due
+     date: 25 July 2024
+
+  -  label: Showcase papers due
+     date: 25 July 2024
+
+  -  label: Workshops notifications
      date: August 2024
+     
+  -  label: Non-archival poseters due
+     date: 2 September 2024
 
   -  label: Doctoral and ECR event
-     date: 15th September
+     date: 15th September 2024
 
   -  label: Workshops
      date: 16 September 2024

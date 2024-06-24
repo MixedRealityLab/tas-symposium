@@ -11,7 +11,7 @@ menus:
   submit:
     title: Accessibility Instructions
     alt: Information on making your paper accessible with TAPS
-    weight: 6
+    weight: 20
     sep_before: true
 ---
 

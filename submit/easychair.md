@@ -8,6 +8,6 @@ menus:
   submit:
     title: EasyChair login
     alt: Go to the submission system for TAS '24
-    weight: 4
+    weight: 10
     sep_before: true
 ---
