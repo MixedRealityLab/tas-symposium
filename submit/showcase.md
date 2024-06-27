@@ -18,4 +18,6 @@ menus:
     is_track: true
 ---
 
-A track for previously published papers that we will showcase and discuss at the Symposium, but not publish in the conference proceedings (self-nominations for these also due July 25). A submission form will be available soon.
+A track for previously published papers that we will showcase and discuss at the Symposium, but not publish in the conference proceedings (self-nominations for previously published papers are due July 25).
+
+**Submit your showcase papers using [this form](https://forms.office.com/Pages/ResponsePage.aspx?id=7qe9Z4D970GskTWEGCkKHp2EasU_-spHkqt41lPTetxUMTEyMFVOUlRCOUdIRFlWTDNQRDdGTzg1RS4u).**

@@ -19,4 +19,7 @@ menus:
     sep_before: true
 ---
 
-A non-archival posters track, particularly suitable for researchers more used to non-archival conferences (poster proposals due September 2). A submission form will be available soon.
+A non-archival posters track, particularly suitable for researchers more used to non-archival conferences (poster proposals due September 2).
+
+**Submit your non-archival posters using [this form](https://forms.office.com/Pages/ResponsePage.aspx?id=7qe9Z4D970GskTWEGCkKHp2EasU_-spHkqt41lPTetxUQlRQS0NPSkZWWk43QThXVzhDNVRBREdGUi4u).**
+
