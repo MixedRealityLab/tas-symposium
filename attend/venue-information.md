@@ -10,7 +10,7 @@ lastmod: page
 menus:
   attend:
     title: Venue Information
-    alt: Information about the TAS '23 venue
+    alt: Information about the TAS '24 venue
     weight: 6
 ---
 
