@@ -1,6 +1,5 @@
 ---
 title: Venue Information
-label: Venue information
 description: Information about the Etter-Harbin Alumni Center
 
 splash_title: Information about the Etter-Harbin Alumni Center

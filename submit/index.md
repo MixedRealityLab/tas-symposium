@@ -1,6 +1,5 @@
 ---
 title: Submission information
-label: Submit
 description: Information on submitting to one of the TAS '24 tracks.
 
 maintainer: general

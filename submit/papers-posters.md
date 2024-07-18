@@ -1,6 +1,5 @@
 ---
-title: Submission instructions
-label: Submission instructions
+title: Papers and Posters Track
 description: Information on submitting to TAS '24
 
 splash_title: Papers and posters<br>submission instructions

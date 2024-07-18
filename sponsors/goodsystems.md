@@ -1,6 +1,7 @@
 ---
-label: Good Systems
+title: Good Systems
 description: Good Systems are helping to organise TAS '24
+
 layout: redirection
 target: https://bridgingbarriers.utexas.edu/good-systems
 

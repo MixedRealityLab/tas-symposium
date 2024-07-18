@@ -1,6 +1,5 @@
 ---
-title: Showcase Papers
-label: Showcase Papers
+title: Showcase Papers Track
 description: Information on submitting showcase papers to TAS '24
 
 splash_title: Showcase papers<br>submission instructions

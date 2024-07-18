@@ -1,6 +1,5 @@
 ---
 title: Accessible Papers Guide
-label: Accessible Papers Guide
 description: Information on making your paper accessible with TAPS
 
 splash_title: Guide to a making your paper accessible with TAPS

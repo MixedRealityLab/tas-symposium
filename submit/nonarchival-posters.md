@@ -1,6 +1,5 @@
 ---
-title: Non-archival posters track
-label: Non-archival posters track
+title: Non-archival Posters Track
 description: Information on submitting non-archival posters to TAS '24
 
 splash_title: Non-archival posters<br>submission instructions

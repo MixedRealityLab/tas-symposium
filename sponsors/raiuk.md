@@ -1,6 +1,7 @@
 ---
-label: RAi
+title: RAi
 description:  RAi are the TAS '24 Main Sponsor
+
 layout: redirection
 target: https://rai.ac.uk/
 

@@ -1,6 +1,5 @@
 ---
-title: Submission instructions
-label: Submission instructions
+title: Workshops Track
 description: Information on submitting workshop proposals for TAS '24
 
 splash_title: Workshop submission instructions

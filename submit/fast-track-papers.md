@@ -1,6 +1,5 @@
 ---
-title: Fast-Track Papers
-label: Fast-Track Papers
+title: Fast-Track Papers Track
 description: Information on submitting fast-track papers to TAS '24
 
 splash_title: Fast-track papers<br>submission instructions

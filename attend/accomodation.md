@@ -1,6 +1,5 @@
 ---
-title: Local accommodation information
-label: Local accommodation information
+title: Local accommodation
 description: Information about accommodation close to the TAS '24 venue at The University of Texas at Austin.
 
 splash_title: Information about accommodation for TAS '24
