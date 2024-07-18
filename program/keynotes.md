@@ -17,7 +17,7 @@ menus:
     weight: 1
 ---
 
-We are delighted to announce that S. Shyam Sundar from Penn State University is a TAS '24 symposium keynote speakers.
+We are delighted to announce that S. Shyam Sundar from Penn State University is a TAS '24 symposium keynote speaker.
 
 ## S. Shyam Sundar — Penn State University
 
