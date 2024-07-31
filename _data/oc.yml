@@ -31,7 +31,7 @@
             institution: University of Southampton
             country: UK
           - name: Paul Robinette
-            institution: University of Massachusetts Lowell
+            institution: The University of Massachusetts Lowell
             country: US
   - posters:
         label: Posters chairs
@@ -49,7 +49,7 @@
         label: Workshops chairs
         people:
           - name: Cynthia Matuszek
-            institution: University of Maryland, Baltimore County
+            institution: The University of Maryland, Baltimore County
             country: US
           - name: Eike Schneiders
             institution: University of Nottingham
@@ -70,16 +70,16 @@
         label: Local Arrangements chair
         people:
           - name: Sam Baker
-            institution: University of Texas at Austin
+            institution: The University of Texas at Austin
             country: US
           - name: Katie Bradford
-            institution: University of Texas at Austin
+            institution: The University of Texas at Austin
             country: US
           - name: Lea Sabatini
-            institution: University of Texas at Austin
+            institution: The University of Texas at Austin
             country: US
           - name: Luis Sentis
-            institution: University of Texas at Austin
+            institution: The University of Texas at Austin
             country: US
   - steering:
         label: Steering Committee
@@ -91,7 +91,7 @@
             institution: University of Southampton
             country: UK
           - name: Kate Devlin
-            institution: King’s College London
+            institution: King’s College London, University of London
             country: UK
 
  
