@@ -1,6 +1,6 @@
 ---
 label: Registration
-description: Details about registration for the TAS '23 symposium.
+description: Details about registration for the TAS '24 symposium.
 registration_open: false
 title: Registration
 splash_title: Symposium registration
@@ -10,13 +10,18 @@ lastmod: page
 menus:
   attend:
     title: Registration
-    alt: Registration details for TAS '23
+    alt: Registration details for TAS '24
     weight: 1
 ---
 
+Authors with papers accepted must register by midday on 31st August 2024. At least one author of each accepted paper must be registered to attend the conference in person. A paper without a corresponding registration may be withheld from publication. There will be no onsite registration.
+
+The registration site will open shortly. Registration fees will be $250 which includes both days of the Symposium, the optional workshops day and ECR event, the welcome reception, and the conference banquet. Registrants will be able to bring a partner to the banquet at an additional cost of $50.
+
+All registration fees are inclusive of Value Added Tax (VAT).
 
 
-<!--Registration for the TAS Symposium 2023 is now open. -->
+<!--Registration for the TAS Symposium 2023 is now open. 
 Registration has now closed.
 
 Authors with papers accepted must register by midday on 30th June 2023. At least one author of each accepted paper must be registered to attend the conference in person. A paper without a corresponding registration may be withheld from publication. There will be no onsite registration.
@@ -28,7 +33,7 @@ Please ensure you register at the correct rate—if you do not, you will be liab
 <div class="text-center mb-3">
 <a href="https://store.nottingham.ac.uk/conferences-and-events/conferences/schools-and-departments/computer-science/first-international-symposium-on-trustworthy-autonomous-systems-tas23" class="my-3 btn btn-lg btn-dark text-light border" title="Register for TAS '23">Register now →</a>
 </div>
--->
+
 
 
 ## Registration fees
@@ -62,4 +67,4 @@ The reduced rates are restricted to registered and currently active students and
 All registration fees above are inclusive of Value Added Tax (VAT).
 
 ## Need support or have a question?
-If you need any support or have questions about the registration process, please contact <a href="mailto:contact@tas.ac.uk" title="TAS '23 Registration chairs">the TAS’23 Registration chairs</a>.
+If you need any support or have questions about the registration process, please contact <a href="mailto:contact@tas.ac.uk" title="TAS '23 Registration chairs">the TAS’23 Registration chairs</a>.-->
