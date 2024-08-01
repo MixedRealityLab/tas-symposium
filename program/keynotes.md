@@ -14,7 +14,8 @@ menus:
   programme:
     title: Keynote speaker
     alt: Details about the TAS '24 keynote speaker
-    weight: 1
+    weight: 2
+    sep_before: true
 ---
 
 We are delighted to announce that S. Shyam Sundar from Penn State University is a TAS '24 symposium keynote speaker.

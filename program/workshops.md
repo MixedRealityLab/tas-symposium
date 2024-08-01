@@ -9,7 +9,7 @@ menus:
   programme:
     title: Workshops
     alt: Details about the TAS '24 workshops
-    weight: 3
+    weight: 4
 ---
 
 The day prior to the main programme, 15th September 2024, we will be hosting a series of workshops related to the themes of the conference. You will be able to register for these when you register for the main conference, at no extra cost. These will take place in the Julius Glickman Conference Center.
