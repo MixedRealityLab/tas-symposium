@@ -16,7 +16,7 @@ More information, including a complete program, will be provided soon.
 
 <table class="table table-bordered">
     <tr>
-        <td colspan="3" class="bg-primary text-white fw-bold">Sunday 14th September</td>
+        <td colspan="3" class="bg-primary text-white fw-bold">Sunday 13rd September</td>
     </tr>
     <tr>
         <td>Afternoon</td>
@@ -24,7 +24,7 @@ More information, including a complete program, will be provided soon.
         <td>Julius Glickman Conference Center</td>
     </tr>
     <tr>
-        <td colspan="3" class="bg-primary text-white fw-bold">Monday 15th September</td>
+        <td colspan="3" class="bg-primary text-white fw-bold">Monday 14th September</td>
     </tr>
     <tr>
         <td>All day</td>
@@ -37,7 +37,7 @@ More information, including a complete program, will be provided soon.
         <td>AHG</td>
     </tR>
     <tr>
-        <td colspan="3" class="bg-primary text-white fw-bold">Tuesday 16th September</td>
+        <td colspan="3" class="bg-primary text-white fw-bold">Tuesday 15th September</td>
     </tr>
     <tr>
         <td>All day</td>
@@ -50,7 +50,7 @@ More information, including a complete program, will be provided soon.
         <td>Texas Science and Natural History Museum</td>
     </tR>
     <tr>
-        <td colspan="3" class="bg-primary text-white fw-bold">Wednesday 17th September</td>
+        <td colspan="3" class="bg-primary text-white fw-bold">Wednesday 16th September</td>
     </tr>
     <tr>
         <td>All day</td>
