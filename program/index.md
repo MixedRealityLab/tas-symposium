@@ -10,6 +10,7 @@ menus:
     title: Program
     alt: Details about the TAS '24 program
     identifier: programme
+    weight: 8
   programme:
     title: Program
     alt: Information about the TAS '24 symposium program
