@@ -1,9 +1,9 @@
 ---
 title: Symposium keynotes
 description: >
-  Gina Neff from the University of Cambridge and Sharon Strover from the University of Texas at Austin are the TAS '23 symposium plenary speakers.
+  Maria De-Arteaga from The University of Texas at Austin and S. Shyam Sundar from Penn State University are the TAS '24 symposium keynotes.
 
-splash_title: Keynote speaker
+splash_title: Keynote speakers
 
 menus:
   main:
