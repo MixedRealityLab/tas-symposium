@@ -6,6 +6,10 @@ description: >
 splash_title: TAS '24 schedule
 
 menus:
+  main:
+    title: Program
+    alt: Details about the TAS '24 program
+    identifier: programme
   programme:
     title: Program
     alt: Information about the TAS '24 symposium program
