@@ -12,7 +12,7 @@ menus:
     weight: 4
 ---
 
-The day prior to the main programme, 15th September 2024, we will be hosting a series of workshops related to the themes of the conference.  There will be no extra cost for attendance of any of the workshops, but we ask that you do let us know if you plan to attend, as some workshops have limited capacity. These will take place in the Julius Glickman Conference Center.
+The day prior to the main programme, 16th September 2024, we will be hosting a series of workshops related to the themes of the conference.  There will be no extra cost for attendance of any of the workshops, but we ask that you do let us know if you plan to attend, as some workshops have limited capacity. These will take place in the Julius Glickman Conference Center.
 
 <div class="d-flex flex-row w-100">
     <img src="{{ "/assets/img/workshops/thumbnail_IMG_2521.jpg" | relative_url }}" alt="A photo of the Julius Glickman Conference Center" class="flex-shrink-1 m-2 rounded" style="max-width: 50%">
