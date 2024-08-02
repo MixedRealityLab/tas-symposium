@@ -18,11 +18,11 @@ menus:
     sep_before: true
 ---
 
-There will be a plenary session on the Trustworthy Autonomous Systems Hub and it's legacy, and one from Good Systems researcher Maria De-Arteaga on "The limits of Automation". Details of these talks will follow.
+There will be a plenary session on the Trustworthy Autonomous Systems Hub and it's legacy, and one from Good Systems researcher Maria De-Arteaga on "The limits of Automation".
 
 We are also delighted to announce that S. Shyam Sundar from Penn State University is a TAS '24 symposium keynote speaker.
 
-## Maria De-Arteaga — Penn State University
+## Maria De-Arteaga — The University of Texas at Austin
 
 <div class="row">
 	<div class="col-xl-8 col-lg-7 col-md-6 col-12">
