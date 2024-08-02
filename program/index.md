@@ -20,7 +20,7 @@ More information, including a complete program, will be provided soon.
     </tr>
     <tr>
         <td>Afternoon</td>
-        <td>ECR event</td>
+        <td><a href="https://symposium.tas.ac.uk/2024/program/ecr-event/">ECR event</a></td>
         <td>Julius Glickman Conference Center</td>
     </tr>
     <tr>
@@ -28,7 +28,7 @@ More information, including a complete program, will be provided soon.
     </tr>
     <tr>
         <td>All day</td>
-        <td>Workshops</td>
+        <td><a href="https://symposium.tas.ac.uk/2024/program/workshops/">Workshops</a></td>
         <td>Julius Glickman Conference Center</td>
     </tR>
     <tr>
