@@ -6,11 +6,6 @@ description: >
 splash_title: Keynote speakers
 
 menus:
-  main:
-    title: Program
-    alt: The online programme for the TAS '24 symposium
-    weight: 8
-    identifier: programme
   programme:
     title: Keynote speakers
     alt: Details about the TAS '24 keynote speakers
