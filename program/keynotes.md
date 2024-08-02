@@ -1,5 +1,5 @@
 ---
-title: Symposium keynote
+title: Symposium keynotes
 description: >
   Gina Neff from the University of Cambridge and Sharon Strover from the University of Texas at Austin are the TAS '23 symposium plenary speakers.
 
@@ -12,8 +12,8 @@ menus:
     weight: 8
     identifier: programme
   programme:
-    title: Keynote speaker
-    alt: Details about the TAS '24 keynote speaker
+    title: Keynote speakers
+    alt: Details about the TAS '24 keynote speakers
     weight: 2
     sep_before: true
 ---
