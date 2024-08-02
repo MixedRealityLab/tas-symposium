@@ -41,7 +41,7 @@ More information, including a complete program, will be provided soon.
     </tr>
     <tr>
         <td>All day</td>
-        <td>Day one of the Symposium - keynotes, papers, and poster session</td>
+        <td>Day one of the Symposium - <a href="https://symposium.tas.ac.uk/2024/program/keynotes/">keynotes</a>, papers, and poster session</td>
         <td>Etter-Harbin Alumni Center</td>
     </tR>
     <tr>
@@ -54,7 +54,7 @@ More information, including a complete program, will be provided soon.
     </tr>
     <tr>
         <td>All day</td>
-        <td>Day two of the Symposium - keynotes, papers, and prizes</td>
+        <td>Day two of the Symposium - <a href="https://symposium.tas.ac.uk/2024/program/keynotes/">keynotes</a>, papers, and prizes</td>
         <td>Etter-Harbin Alumni Center</td>
     </tR>
 </table>
