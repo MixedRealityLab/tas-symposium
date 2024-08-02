@@ -18,7 +18,9 @@ menus:
     sep_before: true
 ---
 
-We are delighted to announce that S. Shyam Sundar from Penn State University is a TAS '24 symposium keynote speaker.
+There will be a plenary session on the Trustworthy Autonomous Systems Hub and it's legacy, and one from Good Systems researcher Maria De-Arteaga on "The limits of Automation". Details of these talks will follow.
+
+We are also delighted to announce that S. Shyam Sundar from Penn State University is a TAS '24 symposium keynote speaker.
 
 ## S. Shyam Sundar — Penn State University
 
