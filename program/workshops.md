@@ -21,10 +21,10 @@ Details for workshops are below.
   <h3 class="mt-0 pt-0 text-primary">{{ workshop.title }}</h3>
   {{ workshop.description | markdownify }}
   {% if workshop.website %}<div class="d-block"><em><a href="{{ workshop.website }}" title="{{ workshop.title }} website">Workshop website &raquo;</a></em></div>{% endif %}
-</div>
+{</div>
+{% endfor %}
 
-
-The confirmed workshops are:
+More workshops are planned, and details will be avaialble soon:
 
 * Coming Together: Addressing Ethical AI with Diverse Teams and Perspectives
 * A Hands-on Workshop for Responsible Research and Innovation
