@@ -12,9 +12,9 @@ menus:
     weight: 4
 ---
 
-The day prior to the main program, 15th September 2024, we will be hosting a series of workshops related to the themes of the conference. You will be able to register for these when you register for the main conference, at no extra cost. These will take place in the Julius Glickman Conference Center.
+The day prior to the main program, 16th September 2024, we will be hosting a series of workshops related to the themes of the conference. You will be able to register for these when you register for the main conference, at no extra cost. These will take place in the Julius Glickman Conference Center.
 
-There are {{ site.data.workshops | size }} workshops at TAS '24:
+Details for workshops are below.
 
 {% for workshop in site.data.workshops %}
 <div class="background-lightgray rounded border mb-3 p-3">
@@ -22,4 +22,13 @@ There are {{ site.data.workshops | size }} workshops at TAS '24:
   {{ workshop.description | markdownify }}
   {% if workshop.website %}<div class="d-block"><em><a href="{{ workshop.website }}" title="{{ workshop.title }} website">Workshop website &raquo;</a></em></div>{% endif %}
 </div>
-{% endfor %}
+
+
+The confirmed workshops are:
+
+* Coming Together: Addressing Ethical AI with Diverse Teams and Perspectives
+* A Hands-on Workshop for Responsible Research and Innovation
+* Human-AI Alignment: Developing a Research Agenda by Bridging Interdisciplinary Approaches
+* The regulation of workplaces in the age of collaborative robotics towards trustworthy embodied autonomous systems.
+
+Further details and sign up information will be up on this page soon.

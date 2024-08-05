@@ -18,9 +18,9 @@ Authors with papers accepted must register by midday on 31st August 2024. At le
 
 The registration site will open shortly. Registration fees will be $250 which includes both days of the Symposium, the optional workshops day and ECR event, the welcome reception, and the conference banquet. Registrants will be able to bring a partner to the banquet at an additional cost of $50.
 
-All registration fees are inclusive of Value Added Tax (VAT).
+<!--All registration fees are inclusive of Value Added Tax (VAT).
 
-
+-->
 <!--Registration for the TAS Symposium 2023 is now open. 
 Registration has now closed.
 
