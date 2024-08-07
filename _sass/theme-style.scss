@@ -158,6 +158,20 @@ article {
     }
 }
 
+.collapse-link-chevron {
+  & > span {
+    margin-right: 30px;
+  }
+  & i {
+    transition-timing-function: $transition-timing-function;
+    transition-duration: $transition-duration/2;
+    transition-property: transform;
+  }
+  &[aria-expanded="true"] i {
+    transform: rotate(90deg);
+  }
+}
+
 @include media-breakpoint-up(lg) {
     .navbar-container {
         margin-right: -8px;
