@@ -12,4 +12,12 @@ menus:
     weight: 3
 ---
 
-Ahead of the main programme, on 15th September 2024,  we will be running an optional half day event for Early Career Researchers (ECR). This will be open to all PhD students and those who identify as ECRs who are attending the Symposium. It will provide an opportunity for relaxed engagement and networking. Please indicate that you wish to attend this session when you register. All are welcome, but we have a limited space in the room so sign up will be necessary. This event is an no additional cost to registration and will take place in the Julius Glickman conference Center.
+Join us for the Early Career Researcher Event at the TAS Symposium, a special gathering designed to connect, inspire, and support PhD students, postdoctoral researchers and early career academics in trustworthy autonomous systems.  The event will include invited speakers and discussion activities. Participants will have opportunities to network, socialise, gain mentorship insights and share their experiences in a more relaxed and informal setting.   
+
+## When?
+
+The event takes place in the afternoon and evening before the main conference 2pm on the 15th September 2024. 
+
+## Where? 
+
+The event will take place at the [Julius Glickman Conference Center]({{ "/attend/venue-information/" | relative_url }}) (same venue as the workshops the following day).
