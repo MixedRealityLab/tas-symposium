@@ -16,11 +16,11 @@ The day prior to the main program, 16th September 2024, we will be hosting a se
 
 {% for workshop in site.data.workshops %}
 <div class="background-lightgray rounded border mb-3 p-3">
-  <h3 class="m-0 p-0 text-primary d-flex flex-row collapse-link-chevron small" data-bs-toggle="collapse" href="#workshop{{ forloop.index }}" role="button" aria-expanded="false" aria-controls="workshop{{ forloop.index }}">
+  <h3 class="m-0 p-0 text-primary d-flex flex-row align-items-start collapse-link-chevron small" data-bs-toggle="collapse" href="#workshop{{ forloop.index }}" role="button" aria-expanded="false" aria-controls="workshop{{ forloop.index }}">
     <span class="flex-grow-1">
     {{ workshop.title }}
     </span>
-    <i class="float-right bi bi-chevron-right mt-1"></i>
+    <i class="flex-grow-0 float-right bi bi-chevron-right mt-1"></i>
   </h3>
   <div class="description collapse pt-3 mb-0" id="workshop{{ forloop.index }}">
     {{ workshop.description | markdownify }}
