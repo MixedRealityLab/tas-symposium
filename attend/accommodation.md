@@ -8,13 +8,13 @@ lastmod: page
 
 menus:
   attend:
-    title: Accommodation Information
+    title: Accommodation
     alt: Information about accommodation close to the TAS '24 venue
     weight: 7
 ---
 
 <div class="text-center">
-The below accommodation options are close to the <a href="/2024/attend/venue-information">TAS '24 venue</a>.
+The below accommodation options are close to the <a href="/2024/attend/venues/">TAS '24 venues</a>.
 </div>
 
  <div class="d-flex flex-wrap justify-content-center">
