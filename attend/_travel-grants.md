@@ -36,5 +36,5 @@ Applications for travel grants have now closed.
 
 We will notify applicants by 31st May, allowing time to register for the Symposium before the Early Bird Registration deadline (7th June). Details of how to submit claims will be communicated directly to successful applicants.
 
-If you require a letter to confirm your attendance at the Symposium in support of a visa application, please get in touch with the Organising Committee via [opsteam@tas.ac.uk](mailto:opsteam@tas.ac.uk "Email the TAS Operations team").
+If you require a letter to confirm your attendance at the Symposium in support of a visa application, please get in touch with the Organizing Committee via [opsteam@tas.ac.uk](mailto:opsteam@tas.ac.uk "Email the TAS Operations team").
 
