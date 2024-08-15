@@ -14,7 +14,7 @@ menus:
     weight: 1
 ---
 
-Authors with papers accepted must register by midday on 31st August 2024. At least one author of each accepted paper must be registered to attend the conference in person. A paper without a corresponding registration may be withheld from publication. There will be no onsite registration.
+Authors with papers accepted must register by midday on 2nd September at 11:59 Texas time. At least one author of each accepted paper must be registered to attend the conference in person. A paper without a corresponding registration may be withheld from publication. There will be no onsite registration.
 
 <div class="text-center mb-3">
 <a href="https://cvent.utexas.edu/wnPOZm" class="my-3 btn btn-lg btn-dark text-light border" title="Register for TAS '24">Register now →</a>
