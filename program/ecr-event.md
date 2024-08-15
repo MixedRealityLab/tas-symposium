@@ -20,4 +20,4 @@ The event takes place in the afternoon and evening before the main conference 2p
 
 ## Where? 
 
-The event will take place at the [Julius Glickman Conference Center]({{ "/attend/venue-information/" | relative_url }}) (same venue as the workshops the following day).
+The event will take place at the [Julius Glickman Conference Center]({{ "/attend/venues/" | relative_url }}) (same venue as the workshops the following day).

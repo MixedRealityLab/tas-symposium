@@ -12,7 +12,7 @@ menus:
     weight: 4
 ---
 
-The day prior to the main program, 16th September 2024, we will be hosting a series of workshops related to the themes of the conference. You will be able to register for these when you register for the main conference, at no extra cost. All workshops will take place in the [Julius Glickman Conference Center]({{ "/attend/venue-information/" | relative_url }}).
+The day prior to the main program, 16th September 2024, we will be hosting a series of workshops related to the themes of the conference. You will be able to register for these when you register for the main conference, at no extra cost. All workshops will take place in the [Julius Glickman Conference Center]({{ "/attend/venues/" | relative_url }}).
 
 {% for workshop in site.data.workshops %}
 <div class="background-lightgray rounded border mb-3 p-3">

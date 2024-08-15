@@ -1,16 +1,17 @@
 ---
 title: Venue Information
-description: Information about the Etter-Harbin Alumni Center
+description: Information about the various TAS '24 symposium venues
 
-splash_title: Information about the Etter-Harbin Alumni Center
+splash_title: Information about the TAS '24 venues
 
 lastmod: page
 
 menus:
   attend:
-    title: Venue Information
-    alt: Information about the TAS '24 venue
+    title: Venues
+    alt: Information about the TAS '24 venues
     weight: 6
+    sep_before: true
 ---
 
 ## Etter-Harbin Alumni Center
@@ -18,10 +19,10 @@ menus:
 The main TAS '24 program will be held at the <a href="https://www.etterharbinalumnicenter.com/">Etter-Harbin Alumni Center</a> at The University of Texas at Austin (<a href="https://maps.app.goo.gl/u9t9NXbt6fMkBym96" title="Etter-Harbin Alumni Center on Google maps">Google Maps</a>).
 
 <div class="d-flex flex-row flex-wrap mx-auto justify-content-center mb-2">
-  <div class="p-2 m-1"><img src="{{ "/assets/img/venue/Connally Ballroom1.jpg" | relative_url }}" alt="Connally Ballrom at Etter-Harbin Alumni Center" style="width: 350px"></div>
-  <div class="p-2 m-1"><img src="{{ "/assets/img/venue/Connally Ballroom2.jpg" | relative_url }}" alt="Connally Ballrom at Etter-Harbin Alumni Center" style="width: 350px"></div>
-  <div class="p-2 m-1"><img src="{{ "/assets/img/venue/Connally Ballroom3.jpg" | relative_url }}" alt="Connally Ballrom at Etter-Harbin Alumni Center" style="width: 350px"></div>
-  <div class="p-2 m-1"><img src="{{ "/assets/img/venue/Connally Ballroom5.jpg" | relative_url }}" alt="Connally Ballrom at Etter-Harbin Alumni Center" style="width: 350px"></div>
+  <div class="p-2 m-1"><img src="{{ "/assets/img/venues/Connally Ballroom1.jpg" | relative_url }}" alt="Connally Ballrom at Etter-Harbin Alumni Center" style="width: 350px"></div>
+  <div class="p-2 m-1"><img src="{{ "/assets/img/venues/Connally Ballroom2.jpg" | relative_url }}" alt="Connally Ballrom at Etter-Harbin Alumni Center" style="width: 350px"></div>
+  <div class="p-2 m-1"><img src="{{ "/assets/img/venues/Connally Ballroom3.jpg" | relative_url }}" alt="Connally Ballrom at Etter-Harbin Alumni Center" style="width: 350px"></div>
+  <div class="p-2 m-1"><img src="{{ "/assets/img/venues/Connally Ballroom5.jpg" | relative_url }}" alt="Connally Ballrom at Etter-Harbin Alumni Center" style="width: 350px"></div>
 </div>
 
 ## Julius Glickman Conference Center
