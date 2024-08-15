@@ -1,6 +1,6 @@
 ---
 title: Local accommodation
-description: Information about accommodation close to the TAS '24 venue at The University of Texas at Austin.
+description: Information about accommodation close to the TAS '24 venues at The University of Texas at Austin.
 
 splash_title: Information about accommodation for TAS '24
 
@@ -9,7 +9,7 @@ lastmod: page
 menus:
   attend:
     title: Accommodation
-    alt: Information about accommodation close to the TAS '24 venue
+    alt: Information about accommodation close to the TAS '24 venues
     weight: 7
 ---
 
