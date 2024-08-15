@@ -16,7 +16,11 @@ menus:
 
 Authors with papers accepted must register by midday on 31st August 2024. At least one author of each accepted paper must be registered to attend the conference in person. A paper without a corresponding registration may be withheld from publication. There will be no onsite registration.
 
-The registration site will open shortly. Registration fees will be $250 which includes both days of the Symposium, the optional workshops day and ECR event, the welcome reception, and the conference banquet. Registrants will be able to bring a partner to the banquet at an additional cost of $50.
+<div class="text-center mb-3">
+<a href="https://cvent.utexas.edu/wnPOZm" class="my-3 btn btn-lg btn-dark text-light border" title="Register for TAS '24">Register now →</a>
+</div>
+
+Registration fees are $250, which includes both days of the Symposium, the optional workshops day and ECR event, the welcome reception, and the conference banquet. Registrants will be able to bring a partner to the banquet at an additional cost of $50.
 
 <!--All registration fees are inclusive of Value Added Tax (VAT).
 
@@ -30,9 +34,7 @@ Please ensure you register at the correct rate—if you do not, you will be liab
 
 
 <!--
-<div class="text-center mb-3">
-<a href="https://store.nottingham.ac.uk/conferences-and-events/conferences/schools-and-departments/computer-science/first-international-symposium-on-trustworthy-autonomous-systems-tas23" class="my-3 btn btn-lg btn-dark text-light border" title="Register for TAS '23">Register now →</a>
-</div>
+
 
 
 

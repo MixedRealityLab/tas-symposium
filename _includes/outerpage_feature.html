@@ -4,7 +4,7 @@
     {% else %}
     <div class="col-md-8 col-12 container d-flex flex-md-row flex-column mx-auto px-3">
         <div class="py-md-5 pt-3 pe-md-5"><h2>{{ include.title }}</h2></div>
-        <div class="align-self-stretch py-md-5 pb-3">{{ include.body }}</div>
+        <div class="align-self-stretch py-md-5 pb-3">{{ include.body | raw }}</div>
     </div>
     {% endif %}
 </div>
