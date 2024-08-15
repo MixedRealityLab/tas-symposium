@@ -16,7 +16,7 @@ Join us for the Early Career Researcher Event at the TAS Symposium, a special ga
 
 ## When?
 
-The event takes place in the afternoon and evening before the main conference 2pm on the 15th September 2024. 
+The event takes place in the afternoon and evening before the main conference: 2pm to 6pm on the 15th September 2024. Please sign up for the ECR Event during symposium registration.
 
 ## Where? 
 
