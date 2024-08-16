@@ -19,13 +19,22 @@
 
 
 
-- id: workshops
+- id: workshops_am
   type: Workshops
-  title: Workshops
-  description: 'The day prior to the main program, 16th September 2024, we will be hosting a series of workshops related to the themes of the conference. You will be able to register for these when you register for the main conference, at no extra cost. <br ><br>More details of accepted workshops is <a href="https://symposium.tas.ac.uk/2024/program/workshops/">available here</a>. Times for workshops will be confirmed soon.'
+  title: Morning workshops
+  description: 'Please register for a workshop during symposium registration—there is no extra cost. Times are estimates and will be confirmed.'
   location: Julius Glickman Conference Center
   location_link: https://maps.app.goo.gl/soBe9PDd9oxP72z1A
   start_time: 2024-09-16T14:00:00.000Z
+  end_time: 2024-09-16T18:00:00.000Z
+
+- id: workshops_pm
+  type: Workshops
+  title: Afternoon workshops
+  description: 'Please register for a workshop during symposium registration—there is no extra cost. Times are estimates and will be confirmed.'
+  location: Julius Glickman Conference Center
+  location_link: https://maps.app.goo.gl/soBe9PDd9oxP72z1A
+  start_time: 2024-09-16T19:00:00.000Z
   end_time: 2024-09-16T23:00:00.000Z
 
 

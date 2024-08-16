@@ -232,7 +232,7 @@ menus:
 						{% if presentations.size > 0 %}
 						<ol class="list-group mt-3">
 						{%- for presentation in site.data.prg_presentations[session.id] %}
-							<li class="list-group-item pb-3">
+							<li class="list-group-item pb-2">
 								{% if presentation.aaai %}
 								<div class="float-end">
 									<a href="{{ presentation.aaai }}" title="View the paper on the AAAI website" class="d-block prg-inner-icon prg-icon-aaai">
@@ -268,12 +268,15 @@ menus:
 									</a>
 								</div>
 								{% endif %}
+								<div class="m-0 p-0 text-primary d-flex flex-row align-items-start collapse-link-chevron small" data-bs-toggle="collapse" href="#{{ presentation.id }}_abstract" role="button" aria-expanded="false" aria-controls="{{ presentation.id }}_abstract"></h3>
 								{% if presentation.title %}
-								<strong class="d-block">{{ presentation.title }}{% if presentation.type != "Panel Member" %}{% if presentation.type != "Panel" %} <span class="badge badge-secondary">{{ presentation.type }}</span>{% endif %}{% endif %}</strong>
+								<span class="flex-grow-1"><strong class="d-block">{{ presentation.title }}{% if presentation.type != "Panel Member" %}{% if presentation.type != "Panel" %}{% endif %}{% endif %}</strong></span>
+								{% if presentation.collapsable %}<i class="flex-grow-0 float-right bi bi-chevron-right mt-1"></i>{% endif %}
 								{% endif %}
 								{% if presentation.subtitle %}
 								<strong class="d-block"><small><em>{{ presentation.subtitle }}</em></small></strong>
 								{% endif %}
+								</div>
 
 								{% if presentation.authors %}
 								<span  class="d-block">{{ presentation.authors }}</span>
@@ -288,7 +291,15 @@ menus:
 								{% endif %}
 
 								{% if presentation.abstract %}
-								<span class="d-block">{{ presentation.abstract }}</span>
+								<div class="{% if presentation.collapsable %}collapse{% else %}d-block{% endif %}" id="{{ presentation.id }}_abstract">
+									{{ presentation.abstract }}
+
+									{% if presentation.website %}
+									<div class="d-block mb-0">
+									<em><a href="{{ presentation.website }}" title="{{ presentation.title }} website">Website &raquo;</a></em>
+									</div>
+									{% endif %}
+								</div>
 								{% endif %}
 							</li>
 						{%- endfor -%}
