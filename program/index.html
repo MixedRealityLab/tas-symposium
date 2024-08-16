@@ -35,7 +35,7 @@ menus:
 {% assign sorted_sessions = site.data.prg_sessions | sort: "start_time" %}
 {% assign days = "" | split: ',' %}
 {% for session in sorted_sessions %}
-    {% assign day = session.start_time | date: "%-d %B %Y" %}
+    {% assign day = session.start_time | date: "%-d %b %Y" %}
     {% assign days = days | push: day %}
 
     {% if session.type == 'EOD' %}
@@ -107,7 +107,7 @@ menus:
 					{% assign end_time = session.end_time %}
 				{% endif %}
 
-				{% assign temp_day = start_time | date: "%-d %B %Y" %}
+				{% assign temp_day = start_time | date: "%-d %b %Y" %}
 				{% if temp_day != day %}
 					{% continue %}
 				{% endif %}
