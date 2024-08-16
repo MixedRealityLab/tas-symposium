@@ -10,7 +10,7 @@
 - id: ecr_day
   type: ECR
   title: ECR Event
-  description: "Join us for the Early Career Researcher Event at the TAS Symposium, a special gathering designed to connect, inspire, and support PhD students, postdoctoral researchers and early career academics in trustworthy autonomous systems. The event will include invited speakers and discussion activities. Participants will have opportunities to network, socialise, gain mentorship insights and share their experiences in a more relaxed and informal setting."
+  description: "Join us for the Early Career Researcher Event at the TAS Symposium, a special gathering designed to connect, inspire, and support PhD students, postdoctoral researchers and early career academics in trustworthy autonomous systems. The event will include invited speakers and discussion activities. Participants will have opportunities to network, socialise, gain mentorship insights and share their experiences in a more relaxed and informal setting.<br><br>Please sign up for the ECR Event during symposium registration."
   location: Julius Glickman Conference Center
   location_link: https://maps.app.goo.gl/soBe9PDd9oxP72z1A
   start_time: 2024-09-15T19:00:00.000Z
@@ -22,7 +22,7 @@
 - id: workshops
   type: Workshops
   title: Workshops
-  description: 'All workshops for will take place on September 16. More details of workshops is <a href="https://symposium.tas.ac.uk/2024/program/workshops/">available here</a>. Times for workshops will be confirmed soon.'
+  description: 'The day prior to the main program, 16th September 2024, we will be hosting a series of workshops related to the themes of the conference. You will be able to register for these when you register for the main conference, at no extra cost. <br ><br>More details of accepted workshops is <a href="https://symposium.tas.ac.uk/2024/program/workshops/">available here</a>. Times for workshops will be confirmed soon.'
   location: Julius Glickman Conference Center
   location_link: https://maps.app.goo.gl/soBe9PDd9oxP72z1A
   start_time: 2024-09-16T14:00:00.000Z
