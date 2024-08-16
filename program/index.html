@@ -1,21 +1,21 @@
 ---
-label: Programme
-title:  Programme
+label: Program
+title:  Program
 redirect_from: 
-  - /program/
+  - /programme/
 description: The online programme for TAS '24 symposium.
 
-splash_title:  TAS '23 programme
+splash_title:  TAS '24 program
 
 menus:
   main:
     title: Program
-    alt: The online programme for the TAS '24 symposium
+    alt: The online program for the TAS '24 symposium
     weight: 8
     identifier: programme
   programme:
     title: Program
-    alt: The online programme for the TAS '24 symposium
+    alt: The online program for the TAS '24 symposium
     weight: 0
 
 ---
@@ -71,7 +71,7 @@ menus:
 {% assign days = days | uniq %}
 {% assign num_days = days | size %}
 
-<!--<p>The below programme is provisional, and will be updated soon with more details including specific presentations, posters, and other session details.</p>-->
+<p>The below programme is provisional, and will be updated soon with more details including specific presentations, posters, and other session details.</p>
 
 <ul class="nav nav-pills mb-3 pg-days-selector justify-items-center" role="tablist" aria-label="Days of the conference">
 	{% for day in days %}
@@ -88,7 +88,7 @@ menus:
 				{%- assign suffix = "th" -%}
 			{%- endif -%}
 			{% assign rest = day | slice: 2, 100 | truncatewords: 1, '' %}
-			<button class="programme-dates small nav-link me-md-2 me-1 px-md-3 p-2" id="programmeDay{{ forloop.index0 }}" data-date="{{ day | date: "%F" }}" data-bs-toggle="pill" data-bs-target="#programme{{ forloop.index0 }}" type="button" role="tab" aria-controls="programme{{ forloop.index0 }}" aria-selected="{% if forloop.index0 == 0 %}true{% else %}false{% endif %}">{{ date }}{{ suffix }} {{ rest }}</button>
+			<button class="programme-dates small nav-link me-md-2 me-1 px-md-3 p-2" id="programmeDay{{ forloop.index0 }}" data-date="{{ day | date: "%F" }}" data-bs-toggle="pill" data-bs-target="#programme{{ forloop.index0 }}" type="button" role="tab" aria-controls="programme{{ forloop.index0 }}" aria-selected="{% if forloop.index0 == 0 %}true{% else %}false{% endif %}">{{ rest }} {{ date }}</button>
 		</li>
 	{% endfor %}
 </ul>

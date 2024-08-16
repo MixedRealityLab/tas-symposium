@@ -9,296 +9,230 @@
 
 - id: ecr_day
   type: ECR
-  title: ECR Day (for PhD students and those who identify as Early Career Researchers)
-  description: "Ahead of the main programme we will be running an optional event for Early Career Researchers (ECR). This will be open to all PhD students and those who identify as ECRs who are attending the symposium. It will provide an opportunity for relaxed engagement and networking.<br><br>Please indicate that you wish to attend this session when you register.  All are welcome, but we have a limited space in the room so sign up is necessary."
-  location: Edinburgh Business School, Heriot-Watt University
-  location_link: https://goo.gl/maps/b3vs3XeftPpPxbf5A
-  start_time: 2023-07-10T14:00:00.000Z
-  end_time: 2023-07-10T17:00:00.000Z
+  title: ECR Event
+  description: "Join us for the Early Career Researcher Event at the TAS Symposium, a special gathering designed to connect, inspire, and support PhD students, postdoctoral researchers and early career academics in trustworthy autonomous systems. The event will include invited speakers and discussion activities. Participants will have opportunities to network, socialise, gain mentorship insights and share their experiences in a more relaxed and informal setting."
+  location: Julius Glickman Conference Center
+  location_link: https://maps.app.goo.gl/soBe9PDd9oxP72z1A
+  start_time: 2024-09-15T19:00:00.000Z
+  end_time: 2024-09-15T23:00:00.000Z
   
-- id: ecr_1
-  type: Innerevent
-  description: "Registration and coffee"
-  start_time: 2023-07-10T14:00:00.000Z
-  end_time: 2023-07-10T14:15:00.000Z
-  
-- id: ecr_2
-  type: Innerevent
-  description: "Introduction: Zhengxin Yu, Helena Webb, Mohammad Soorati, Joe Deville"
-  start_time: 2023-07-10T14:15:00.000Z
-  end_time: 2023-07-10T14:30:00.000Z
-  
-- id: ecr_3
-  type: Innerevent
-  description: "Speed networking (round 1)"
-  start_time: 2023-07-10T14:30:00.000Z
-  end_time: 2023-07-10T14:50:00.000Z
-  
-- id: ecr_3
-  type: Innerevent
-  description: "Roundtable 1: Engaging with RRI as an ECR Scholar"
-  start_time: 2023-07-10T14:50:00.000Z
-  end_time: 2023-07-10T15:25:00.000Z
-  
-- id: ecr_4
-  type: Innerevent
-  description: "Break"
-  start_time: 2023-07-10T15:25:00.000Z
-  end_time: 2023-07-10T15:45:00.000Z
-  
-- id: ecr_5
-  type: Innerevent
-  description: "Speed networking (round 2)"
-  start_time: 2023-07-10T15:45:00.000Z
-  end_time: 2023-07-10T16:05:00.000Z
-  
-- id: ecr_6
-  type: Innerevent
-  description: "Roundtable 2: Engaging with Industry"
-  start_time: 2023-07-10T16:05:00.000Z
-  end_time: 2023-07-10T16:45:00.000Z
-  
-- id: ecr_7
-  type: Innerevent
-  description: "Concluding discussion"
-  start_time: 2023-07-10T16:45:00.000Z
-  end_time: 2023-07-17T17:00:00.000Z
-
-# 15:00 Registration and coffee
-# 15:15 Introduction: Zhengxin Yu, Helena Webb, Mohammad Soorati, Joe Deville
-# 15:30 Speed networking (round 1)
-# 15:50 Roundtable 1: Engaging with RRI as an ECR Scholar
-# 16:25 Break
-# 16:45 Speed networking (round 2)
-# 17:05 Roundtable 2: Engaging with Industry
-# 17:45 Concluding discussion
-# 18:00 Close
-
-- id: eod_monday
-  type: EOD
-  description: The main symposium activities start tomorrow
-  start_time: 2023-07-10T17:00:00.000Z
-  end_time: 2023-07-10T17:00:00.000Z
 
 
 
+- id: workshops
+  type: Workshops
+  title: Workshops
+  description: 'All workshops for will take place on September 16. More details of workshops is <a href="https://symposium.tas.ac.uk/2024/program/workshops/">available here</a>. Times for workshops will be confirmed soon.'
+  location: Julius Glickman Conference Center
+  location_link: https://maps.app.goo.gl/soBe9PDd9oxP72z1A
+  start_time: 2024-09-16T14:00:00.000Z
+  end_time: 2024-09-16T23:00:00.000Z
+
+
+- id: reception
+  type: Break
+  description: Welcome reception (details TBC)
+  location: AHG
+  start_time: 2024-09-16T
+  end_time: 2024-09-16T
 
 
 - id: registration
   type: Registration
   title: Registration
-  description: Register and collect your badges for TAS '23. Refreshments on arrival.
-  location: James Watt Auditorium 
-  start_time: 2023-07-11T08:15:00.000Z
-  end_time: 2023-07-11T08:45:00.000Z
+  description: Register and collect your badges for TAS '24. Refreshments on arrival.
+  location: Etter-Harbin Alumni Center
+  location_link: https://maps.app.goo.gl/u9t9NXbt6fMkBym96
+  start_time: 2024-09-17T14:00:00.000Z
+  end_time: 2024-09-17T14:30:00.000Z
 
 - id: welcome
-  type: Plenary
-  title: "Welcome"
-  description: "Welcome to TAS '23 from the symposium chairs, Kate Devlin and Joel Fischer."
-  location: James Watt Auditorium 
-  start_time: 2023-07-11T08:45:00.000Z
-  end_time: 2023-07-11T09:00:00.000Z
+  type: plenary
+  title: Welcome to TAS '24!
+  location: Etter-Harbin Alumni Center
+  location_link: https://maps.app.goo.gl/u9t9NXbt6fMkBym96
+  description: A welcome from the TAS '24 General Chairs, Liz Dowthwaite and Justin Hart.
+  start_time: 2024-09-17T14:30:00.000Z
+  end_time: 2024-09-17T14:45:00.000Z
 
-- id: session_1
-  type: Plenary
-  title: "Session 1: Plenary: Prof. Sharon Strover"
-  chairs: "Kate Devlin & Joel Fischer"
-  location: James Watt Auditorium 
-  start_time: 2023-07-11T09:00:00.000Z
-  end_time: 2023-07-11T10:00:00.000Z
+- id: plenary_1
+  type: plenary
+  title: TAS and its legacy
+  location: Etter-Harbin Alumni Center
+  location_link: https://maps.app.goo.gl/u9t9NXbt6fMkBym96
+  start_time: 2024-09-17T14:45:00.000Z
+  end_time: 2024-09-17T15:30:00.000Z
 
 - id: break_1
   type: Break
   description: Refreshment break (####)
-  start_time: 2023-07-11T10:00:00.000Z
-  end_time: 2023-07-11T10:20:00.000Z
+  start_time: 2024-09-17T15:30:00.000Z
+  end_time: 2024-09-17T15:50:00.000Z
 
-- id: session_2a
+- id: session_2
   type: Papers
-  title: "Session 2a (twin track): Robotics and robot encounters"
-  chairs: "Liz Dowthwaite"
-  location: James Watt Auditorium 
-  start_time: 2023-07-11T10:20:00.000Z
-  end_time: 2023-07-11T11:30:00.000Z
-
-- id: session_2b
-  type: Papers
-  title: "Session 2b (twin track): Health and wellbeing in Autonomous Systems"
-  chairs: "Peter McKenna"
-  location: Hall
-  start_time: 2023-07-11T10:20:00.000Z
-  end_time: 2023-07-11T11:30:00.000Z
+  title: "Human-AS interaction"
+  description: "<em>A list of papers will be available soon</em>"
+  location: Etter-Harbin Alumni Center
+  location_link: https://maps.app.goo.gl/u9t9NXbt6fMkBym96
+  start_time: 2024-09-17T15:50:00.000Z
+  end_time: 2024-09-17T17:00:00.000Z
 
 - id: lunch_1
   type: Break
-  description: Lunch (####)
-  start_time: 2023-07-11T11:30:00.000Z
-  end_time: 2023-07-11T13:00:00.000Z
+  description: Lunch and poster session (####)
+  start_time: 2024-09-17T17:00:00.000Z
+  end_time: 2024-09-17T18:30:00.000Z
 
-- id: session_3
-  type: Posters
-  title: "Session 3: Posters"
-  description: "Posters are presented in the James Watt Lounge during the last hour of the lunch break."
-  location: James Watt Lounge
-  info: https://symposium.tas.ac.uk/programme/posters/
-  start_time: 2023-07-11T12:00:00.000Z
-  end_time: 2023-07-11T13:00:00.000Z
-
-- id: session_4
-  type: Papers
-  title: "Session 4: Questions of ethics in Autonomous Systems"
-  chairs: Gisela Reyes Cruz
-  location: James Watt Auditorium 
-  start_time: 2023-07-11T13:00:00.000Z
-  end_time: 2023-07-11T14:10:00.000Z
+- id: poster_panel
+  type: Panel
+  title: "Poster panel"
+  description: "<em>A list of panel memberrs will be available soon</em>"
+  location: Etter-Harbin Alumni Center
+  location_link: https://maps.app.goo.gl/u9t9NXbt6fMkBym96
+  start_time: 2024-09-17T18:30:00.000Z
+  end_time: 2024-09-17T19:30:00.000Z
 
 - id: break_2
   type: Break
   description: Refreshment break (####)
-  start_time: 2023-07-11T14:10:00.000Z
-  end_time: 2023-07-11T14:30:00.000Z
+  start_time: 2024-09-17T19:30:00.000Z
+  end_time: 2024-09-17T19:50:00.000Z
 
-- id: session_5
-  type: Panel
-  title: "Session 5: Five provocations for a more creative TAS"
-  chairs: Joe Deville
-  start_time: 2023-07-11T14:30:00.000Z
-  location: James Watt Auditorium 
-  description: "Paper presented by Steve Benford, with responses from Kate Devlin, Marion Oswald, Gopal Ramchurn, and Luca Vigano."
-  end_time: 2023-07-11T15:30:00.000Z
+- id: session_2
+  type: Papers
+  title: "Robots"
+  description: "<em>A list of papers will be available soon</em>"
+  location: Etter-Harbin Alumni Center
+  location_link: https://maps.app.goo.gl/u9t9NXbt6fMkBym96
+  start_time: 2024-09-17T19:50:00.000Z
+  end_time: 2024-09-17T20:40:00.000Z
 
 - id: break_3
   type: Break
-  description: Finish & walk to The National Robotarium (####)
-  start_time: 2023-07-11T15:30:00.000Z
-  end_time: 2023-07-11T15:45:00.000Z
+  description: Refreshment break (####)
+  start_time: 2024-09-17T20:40:00.000Z
+  end_time: 2024-09-17T21:00:00.000Z
 
-- id: reception
+- id: session_3
+  type: Papers
+  title: "Governance and regulation"
+  description: "<em>A list of papers will be available soon</em>"
+  location: Etter-Harbin Alumni Center
+  location_link: https://maps.app.goo.gl/u9t9NXbt6fMkBym96
+  start_time: 2024-09-17T21:00:00.000Z
+  end_time: 2024-09-17T22:10:00.000Z
+
+- id: eod_1
+  type: EOD
+  description: End of Day 1
+  start_time: 2024-09-17T22:10:00.000Z
+  end_time: 2024-09-17T23:30:00.000Z
+
+- id: banquet
   type: Reception
-  title: National Robotarium reception
-  location: The National<br>Robotarium
-  description: ECR Awards presentation.
-  start_time: 2023-07-11T15:45:00.000Z
-  end_time: 2023-07-11T17:00:00.000Z
+  title: Symposium banquet
+  description: "Join us for a banquet at the Texas Science and Natural History Museum. Included in symposium registration."
+  location: Texas Science and Natural History Museum
+  location_link: https://maps.app.goo.gl/mEUxgfSJR5aiVgxWA
+  start_time: 2024-09-17T23:30:00.000Z
+  end_time: 2024-09-18T03:30:00.000Z
+
+
 
 - id: break_4
   type: Break
-  description: Symposim activities have finish for the day
-  start_time: 2023-07-11T17:00:00.000Z
-  end_time: 2023-07-11T17:00:00.000Z
+  description: Morning refreshments (####)
+  start_time: 2024-09-18T14:30:00.000Z
+  end_time: 2024-09-18T14:50:00.000Z
 
-- id: dinner
-  type: Dinner
-  title: (Optional) Symposium dinner
-  description: "Dinner at the Surgeon’s Quarter (central Edinburgh)"
-  location: Surgeon's Quarter
-  location_link: https://goo.gl/maps/Be9k5YkKZdyjvZk48
-  start_time: 2023-07-11T18:00:00.000Z
-  end_time: 2023-07-11T21:00:00.000Z
-
-- id: eod_tuesday
-  type: EOD
-  description: The symposium resumes tomorrow
-  start_time: 2023-07-11T19:00:00.000Z
-  end_time: 2023-07-11T19:00:00.000Z
-
-
-
-
-
-- id: refreshments
-  type: Break
-  description: Arrival Refreshments (####)
-  start_time: 2023-07-12T07:45:00.000Z
-  end_time: 2023-07-12T08:15:00.000Z
-
-- id: session_6
+- id: session_4
   type: Papers
-  title: "Session 6: Autonomous systems on land and sea"
-  chairs: Burak Yuksek
-  location: James Watt Auditorium 
-  start_time: 2023-07-12T08:15:00.000Z
-  end_time: 2023-07-12T09:40:00.000Z
+  title: "Human-Centred approaches"
+  description: "<em>A list of papers will be available soon</em>"
+  location: Etter-Harbin Alumni Center
+  location_link: https://maps.app.goo.gl/u9t9NXbt6fMkBym96
+  start_time: 2024-09-18T14:30:00.000Z
+  end_time: 2024-09-18T15:40:00.000Z
 
 - id: break_5
   type: Break
   description: Refreshment break (####)
-  start_time: 2023-07-12T09:40:00.000Z
-  end_time: 2023-07-12T10:00:00.000Z
+  start_time: 2024-09-18T15:40:00.000Z
+  end_time: 2024-09-18T16:00:00.000Z
 
-- id: session_7
-  type: Plenary
-  title: "Session 7: Plenary: Prof. Gina Neff"
-  description: "Gina Neff is the Executive Director of the Minderoo Centre for Technology & Democracy at the University of Cambridge. Her books include Venture Labor (MIT Press 2012), Self-Tracking (MIT Press 2016) and Human-Centered Data Science (MIT Press 2022). <a href='https://symposium.tas.ac.uk/programme/plenaries/#gina-neff--university-of-cambridge'>Read more...</a>"
-  chairs: Gopal Ramchurn & Helena Webb
-  location: James Watt Auditorium 
-  start_time: 2023-07-12T10:00:00.000Z
-  end_time: 2023-07-12T11:00:00.000Z
+- id: keynote
+  type: Keynote
+  title: "Keynote"
+  location: Etter-Harbin Alumni Center
+  location_link: https://maps.app.goo.gl/u9t9NXbt6fMkBym96
+  start_time: 2024-09-18T16:00:00.000Z
+  end_time: 2024-09-18T17:00:00.000Z
 
 - id: lunch_2
   type: Break
-  description: Lunch and posters (####)
-  start_time: 2023-07-12T11:00:00.000Z
-  end_time: 2023-07-12T12:30:00.000Z
+  description: Lunch (posters available) (####)
+  start_time: 2024-09-18T17:00:00.000Z
+  end_time: 2024-09-18T18:00:00.000Z
 
-- id: session_8
-  type: Posters
-  title: "Session 8: Posters"
-  description: "Posters are presented in the James Watt Lounge during the last hour of the lunch break."
-  location: James Watt<br>Lounge 
-  info: https://symposium.tas.ac.uk/programme/posters/
-  start_time: 2023-07-12T11:30:00.000Z
-  end_time: 2023-07-12T12:30:00.000Z
-
-- id: session_9
+- id: session_5
   type: Papers
-  title: "Session 9: How can we trust in and engage with Autonomous Systems?"
-  location: James Watt Auditorium 
-  chairs: Katie Parnell
-  start_time: 2023-07-12T12:30:00.000Z
-  end_time: 2023-07-12T14:00:00.000Z
+  title: "Risk and failure"
+  description: "<em>A list of papers will be available soon</em>"
+  location: Etter-Harbin Alumni Center
+  location_link: https://maps.app.goo.gl/u9t9NXbt6fMkBym96
+  start_time: 2024-09-18T18:00:00.000Z
+  end_time: 2024-09-18T19:10:00.000Z
 
 - id: break_6
   type: Break
   description: Refreshment break (####)
-  start_time: 2023-07-12T14:00:00.000Z
-  end_time: 2023-07-12T14:30:00.000Z
+  start_time: 2024-09-18T19:10:00.000Z
+  end_time: 2024-09-18T19:30:00.000Z
 
-- id: session_10
-  type: Panel
-  title: "Session 10: Responsibility in TAS"
-  chairs: Joel Fischer
-  description: "Panel discussion exploring what it means to be responsible in Autonomous Systems, and the place of responsible research and innovation in the TAS programme. The panel includes Samuel Baker, Shoaib Ehsan, Elvira Perez Vallejos, Alex Beach, and Shannon Vallor."
-  location: James Watt Auditorium 
-  start_time: 2023-07-12T14:30:00.000Z
-  end_time: 2023-07-12T15:30:00.000Z
-  
-- id: session_11
-  type: Awards
-  title: "Session 11: Best paper/poster award"
-  location: James Watt Auditorium 
-  chairs: Jeremie Clos & Katie Parnell
-  start_time: 2023-07-12T15:30:00.000Z
-  end_time: 2023-07-12T15:50:00.000Z
+- id: plenary_2
+  type: Plenary
+  title: "The Limits of Automation"
+  location: Etter-Harbin Alumni Center
+  location_link: https://maps.app.goo.gl/u9t9NXbt6fMkBym96
+  start_time: 2024-09-18T19:30:00.000Z
+  end_time: 2024-09-18T20:15:00.000Z
 
-- id: conclusion
-  type: Conclusion
-  title: Concluding comments
-  description: "Proceedings end with concluding comments from Kate Devlin, Joel Fischer and Gopal Ramchurn."
-  location: James Watt Auditorium 
-  start_time: 2023-07-12T15:50:00.000Z
-  end_time: 2023-07-12T16:00:00.000Z
-
-- id: end
+- id: break_7
   type: Break
-  description: "Symposium finishes"
-  start_time: 2023-07-12T16:00:00.000Z
-  end_time: 2023-07-12T16:00:00.000Z
+  description: Refreshment break (####)
+  start_time: 2024-09-18T20:15:00.000Z
+  end_time: 2024-09-18T20:35:00.000Z
 
-- id: eod_wednesday
+- id: session_6
+  type: Papers
+  title: "Building trust in automation"
+  description: "<em>A list of papers will be available soon</em>"
+  location: Etter-Harbin Alumni Center
+  location_link: https://maps.app.goo.gl/u9t9NXbt6fMkBym96
+  start_time: 2024-09-18T20:35:00.000Z
+  end_time: 2024-09-18T21:45:00.000Z
+
+- id: session_6
+  type: Papers
+  title: "Awards and Close"
+  location: Etter-Harbin Alumni Center
+  location_link: https://maps.app.goo.gl/u9t9NXbt6fMkBym96
+  start_time: 2024-09-18T21:45:00.000Z
+  end_time: 2024-09-18T22:00:00.000Z
+
+- id: eod_2
   type: EOD
-  start_time: 2023-07-12T16:00:00.000Z
-  end_time: 2023-07-12T16:00:00.000Z
+  description: End of TAS '24
+  start_time: 2024-09-17T22:00:00.000Z
+  end_time: 2024-09-17T22:00:00.000Z
+
+
+
+
+
+
+
+
 
 

@@ -1,145 +1,16 @@
 
 
-session_1:
+plenary_1:
+ - id: plenary_1
+   type: plenary
+   abstract: <b>Kate Devlin</b> will talk the about the Trustworthy Autonomous Systems Hub and its legacy.
+
+keynote:
  - id: keynote_1
-   type: keynote_1
-   title: Charting a Path toward Ethical AI
-   abstract: Getting beyond simple binaries of good AI and bad AI means developing a more nuanced understanding of how large scale technologies become integrated into broad social processes.  Designing AI for good purposes is only the beginning of a path toward a working, ethical framework for a society penetrated with data gathering and algorithmic routines.  The agenda for scholarly researchers needs to consider how we can prepare people for a datafied life.<hr>Dr. Strover is the Philip G. Warner Regents Professor in Communication, former Chair of the Radio-TV-Film Department at the University of Texas, and now Professor in the School of Journalism and Media where she teaches communication technology and policy courses and directs the Technology and Information Policy Institute. <a href='https://symposium.tas.ac.uk/programme/plenaries/#sharon-strover--university-of-texas-at-austin'>Read more...</a>
+   type: keynote
+   abstract: <b>S. Shyam Sundar</b> (PhD, Stanford University) is Evan Pugh University Professor and James P. Jimirro Professor of Media Effects, co-director of the Media Effects Research Laboratory, and Director of the Center for Socially Responsible Artificial Intelligence at Penn State University. Prof. Sundar is a theorist as well as an experimentalist. His theoretical contributions include several original models on the social and psychological consequences of communication technology such as Modality-Agency-Interactivity-Navigability (MAIN) Model, and the Theory of Interactive Media Effects (TIME), along with its extension to Human-AI Interaction (HAII-TIME). His research examines social and psychological effects of interactive media, specifically the role played by technological affordances in shaping user experience of mediated communications. Current research pertains to psychological effects of Human-AI interaction in media contexts, ranging from personalization and recommendation to fake news and content moderation. His research portfolio includes extensive examination of user responses to online sources, including machine sources such as chatbots and smart speakers. His research is supported by National Science Foundation (NSF) and National Institutes of Health (NIH), among others. He is editor of the first-ever Handbook of the Psychology of Communication Technology (Blackwell Wiley, 2015). He served as editor-in-chief of the Journal of Computer-Mediated Communication, 2013-2017.
 
-
-session_2a:
- - id: paper_1
-   type: Paper
-   title: 'Trustworthy swarms'
-   authors: James Wilson, Pete Winter, Greg Chance, Suet Lee, Emma Milner, Shane Windsor, John Downer, Kerstin Eder, Jonathan Ives and Sabine Hauert
-   acmdl: https://doi.org/10.1145/3597512.3599705
-
- - id: paper_2
-   type: Paper
-   title: '"What’s that robot doing here?": Perceptions of incidental encounters with autonomous quadruped robots'
-   authors: Elliott Hauser, Yao-Cheng Chan, Geethika Hemkumar, Daksh Dua, Parth Chonkar, Efren Mendoza Enriquez, Tiffany Kao, Shikhar Gupta, Huihai Wang, Justin Hart, Reuth Mirsky, Joydeep Biswas, Junfeng Jiao and Peter Stone 
-   acmdl: https://doi.org/10.1145/3597512.3599707
-
- - id: paper_3
-   type: Paper
-   title: '"There is a bit of grace missing": Understanding non-use of mobile robotic telepresence in a global technology company'
-   authors: Andriana Boudouraki, Stuart Reeves, Joel Fischer and Sean Rintel 
-   acmdl: https://doi.org/10.1145/3597512.3599710
-
- - id: paper_4
-   type: Paper
-   title: 'Resilient strategies for socially compliant autonomous assistive dressing robots'
-   authors: Katie Parnell, Siobhan Merriman, Sinem Getir Yaman, Katherine Plant and Radu Calinescu
-   acmdl: https://doi.org/10.1145/3597512.3599711
-
-
-session_2b:
- - id: paper_5
-   type: Paper
-   title: 'Challenges in explaining brain tumor detection'
-   authors: Benedicte Legastelois, Amy Rafferty, Paul Brennan, Hana Chockler, Ajitha Rajan and Vaishak Belle
-   acmdl: https://doi.org/10.1145/3597512.3600208
-
- - id: paper_6
-   type: Paper
-   title: 'Socio-technical resilience for community healthcare'
-   authors: Amel Bennaceur, Avelie Stuart, Blaine A. Price, Arosha Bandara, Mark Levine, Linda Clare, Jessica Cohen, Ciaran Mccormick, Vikram Mehta, Mohamed Bennasar, Daniel Gooch, Carlos Gavidia Calderon, Anastasia Kordoni and Bashar Nuseibeh
-   acmdl: https://doi.org/10.1145/3597512.3599720
-
- - id: paper_7
-   type: Paper
-   title: 'Stay stress-free with complete confidence: Trustworthiness of autonomous stress detection systems for smart devices'
-   authors: Héctor Menéndez and Gema Bello Orgaz
-   acmdl: https://doi.org/10.1145/3597512.3599703
-
- - id: paper_8
-   type: Paper
-   title: 'Regulating AI/ML-enabled medical devices'
-   authors: Phoebe Li, Robin Williams, Stephen Gilbert and Stuart Anderson
-   acmdl: https://doi.org/10.1145/3597512.3599704
-
-
-session_4:
- - id: paper_9
-   type: Paper
-   title: "Ethics in conversation: Building an ethics assurance case for autonomous voice agents in healthcare"
-   authors: Marten Kaas, Zoe Porter, Ernest Lim, Aisling Higham, Sarah Khavandi and Ibrahim Habli
-   acmdl: https://doi.org/10.1145/3597512.3599713
-
- - id: paper_10
-   type: Paper
-   title: "RE-centric recommendations for the development of trustworthy(er) Autonomous Systems"
-   authors: Krishna Ronanki, Beatriz Cabrero-Daniel, Christian Berger and Jennifer Horkoff
-   acmdl: https://doi.org/10.1145/3597512.3599697
-
- - id: paper_11
-   type: Paper
-   title: "Ethics of trust/worthiness in Autonomous Systems: A scoping review "
-   authors: Helen Smith, Arianna Manzini, Mari-Rose Kennedy and Jonathan Ives
-   acmdl: https://doi.org/10.1145/3597512.3600207
-
- - id: paper_12
-   type: Paper
-   title: "Ethics and safety of human-machine teaming "
-   authors: Zena Assaad and Christine Boshuijzen van Burken
-   acmdl: https://doi.org/10.1145/3597512.3600205
-
-session_5:
- - id: panel_1
-   type: Panel
-   title: Five provocations for a more creative TAS
-   authors: "Paper authors: Steve Benford, Adrian Hazzard, Craig Vear, Helena Webb, Alan Chamberlain, Chris Greenhalgh, Richard Ramchurn and Joe Marshall"
-   acmdl: https://doi.org/10.1145/3597512.3599709
-   
-session_6:
- - id: paper_18
-   title: 'Anticipating accidents through reasoned simulation'
-   authors: Craig Innes, Andrew Ireland, Yuhui Lin and Subramanian Ramamoorthy
-   acmdl: https://doi.org/10.1145/3597512.3599698
-
- - id: paper_19
-   title: 'The well-being of autonomous vehicle users under uncertain situations'
-   authors: Mohammad Naiseh and Paurav Shukla
-   acmdl: https://doi.org/10.1145/3597512.3603150
-
- - id: paper_20
-   title: 'Safety engineering, role responsibility and lessons from the Uber ATG Tempe accident'
-   authors: Philippa Ryan Conmy, John McDermid, Ibrahim Habli and Zoe Porter
-   acmdl: https://doi.org/10.1145/3597512.3599718
-
- - id: paper_21
-   title: 'Intersectional analysis of the challenges and opportunities of equitable remote operation in the UK maritime sector'
-   authors: An Cai, Caitlin Bentley, Efpraxia Zamani, Mohammad Naiseh and Laura Sbaffi
-   acmdl: https://doi.org/10.1145/3597512.3600202
-
- - id: paper_22
-   title: 'Ten regulatory principles to scaffold the design, manufacture, and use of trustworthy Autonomous Systems, illustrated in a maritime context'
-   authors: Rachel Horne, Caroline Law-Walsh, Zena Assaad and Keith Joiner
-   acmdl: https://doi.org/10.1145/3597512.3599701
-
-session_9:
- - id: paper_23
-   title: 'An exploration of how trust online relates to psychological and subjective wellbeing'
-   authors: Liz Dowthwaite, Elvira Perez Vallejos, Virginia Portillo, Menisha Patel, Jun Zhao and Helen Creswick'
-   acmdl: https://doi.org/10.1145/3597512.3599708
-
- - id: paper_24
-   title: 'The social impact of decision-making algorithms: Reviewing the influence of agency, responsibility and accountability on trust and blame'
-   authors: Dan Heaton, Jeremie Clos, Elena Nichele and Joel Fischer
-   acmdl: https://doi.org/10.1145/3597512.3599706
-
- - id: paper_25
-   title: 'Perceived trustworthiness of natural language generators'
-   authors: Beatriz Cabrero-Daniel and Andrea Sanagustín Cabrero
-   acmdl: https://doi.org/10.1145/3597512.3599715
-
- - id: paper_26
-   title: 'Designing for trust: A human-centered methodology for identifying metrics of operational trust in mission autonomy'
-   authors: Sarah Rigsbee, Alexis Basantis, Bryan Camacho and Cara LaPointe
-   acmdl: https://doi.org/10.1145/3597512.3600203
-
- - id: paper_27
-   title: 'Recommender systems, autonomy and user engagement'
-   authors: Joshua Krook and Jan Blockx
-   acmdl: https://doi.org/10.1145/3597512.3599712
-   
+plenary_2:
+ - id: plenary_2
+   type: plenary
+   abstract: <b>Maria De-Arteaga</b> is an Assistant Professor at the Information, Risk and Operation Management (IROM) Department at the University of Texas at Austin, where she is also a core faculty member in the Machine Learning Laboratory and an affiliated faculty of Good Systems. She holds a joint PhD in Machine Learning and Public Policy and a M.Sc. in Machine Learning, both from Carnegie Mellon University, and a. B.Sc. in Mathematics from Universidad Nacional de Colombia. Her research focuses on the risks and opportunities of using AI to support experts’ decisions in high-stakes settings, with a particular interest in algorithmic fairness and human-AI collaboration. As part of her work, she characterizes risks of bias and erosion of decision quality when relying on AI, and develops algorithms and sociotechnical systems to enable responsible human-AI complementarity. She currently serves in the Executive Committee of the ACM FAccT Conference.
