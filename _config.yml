@@ -33,7 +33,7 @@ conference:
   completename: Second International Symposium on Trustworthy Autonomous Systems (TAS '24)
   year: 2024
   location: Texas, United States
-  dates: '15-18 September 2024'
+  dates: 'September 15-18, 2024'
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
