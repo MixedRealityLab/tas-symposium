@@ -71,7 +71,7 @@ menus:
 {% assign days = days | uniq %}
 {% assign num_days = days | size %}
 
-<p>The below programme is provisional, and will be updated soon with more details including specific presentations, posters, and other session details.</p>
+<p>The program below is provisional and will be updated with more details soon. Please note that each paper presentation is allocated 16 minutes INCLUDING time for questions. We recommend that presenters speak for 12-13 minutes to allow a few minutes for questions. The paper sessions will be strictly timed so that we don’t overrun.</p>
 
 <ul class="nav nav-pills mb-3 pg-days-selector justify-items-center" role="tablist" aria-label="Days of the conference">
 	{% for day in days %}
@@ -113,6 +113,13 @@ menus:
 				{% endif %}
 
 				{% if session.type == "EOD" %}
+				<li class="d-flex p-3 bg-lightest border-bottom rounded-0" id="session-{{ session.id }}" data-tab="programmeDay{{ day_index }}">
+					<div class="flex-grow-1 ms-3 text-center text-muted">
+						{% if session.description %}
+						{{ session.description  }}
+						{% endif %}
+					</div>
+				</li>
 				{% elsif session.type == "Innerevent" %}
 				{% elsif session.type == "Innerbreak" %}
 				{% elsif session.type == "Break" %}

@@ -64,9 +64,9 @@
   start_time: 2024-09-17T14:30:00.000Z
   end_time: 2024-09-17T14:45:00.000Z
 
-- id: plenary_1
-  type: plenary
-  title: TAS and its legacy
+- id: session_1
+  type: keynote
+  title: "The TAS Program and its legacy"
   location: Etter-Harbin Alumni Center
   location_link: https://maps.app.goo.gl/u9t9NXbt6fMkBym96
   start_time: 2024-09-17T14:45:00.000Z
@@ -80,8 +80,7 @@
 
 - id: session_2
   type: Papers
-  title: "Human-AS interaction"
-  description: "<em>A list of papers will be available soon</em>"
+  title: "Human-Machine/AS interaction"
   location: Etter-Harbin Alumni Center
   location_link: https://maps.app.goo.gl/u9t9NXbt6fMkBym96
   start_time: 2024-09-17T15:50:00.000Z
@@ -93,10 +92,9 @@
   start_time: 2024-09-17T17:00:00.000Z
   end_time: 2024-09-17T18:30:00.000Z
 
-- id: poster_panel
+- id: session_3
   type: Panel
   title: "Poster panel"
-  description: "<em>A list of panel memberrs will be available soon</em>"
   location: Etter-Harbin Alumni Center
   location_link: https://maps.app.goo.gl/u9t9NXbt6fMkBym96
   start_time: 2024-09-17T18:30:00.000Z
@@ -108,10 +106,9 @@
   start_time: 2024-09-17T19:30:00.000Z
   end_time: 2024-09-17T19:50:00.000Z
 
-- id: session_2
+- id: session_4
   type: Papers
-  title: "Robots"
-  description: "<em>A list of papers will be available soon</em>"
+  title: "Robots and robotics"
   location: Etter-Harbin Alumni Center
   location_link: https://maps.app.goo.gl/u9t9NXbt6fMkBym96
   start_time: 2024-09-17T19:50:00.000Z
@@ -123,10 +120,9 @@
   start_time: 2024-09-17T20:40:00.000Z
   end_time: 2024-09-17T21:00:00.000Z
 
-- id: session_3
+- id: session_5
   type: Papers
   title: "Governance and regulation"
-  description: "<em>A list of papers will be available soon</em>"
   location: Etter-Harbin Alumni Center
   location_link: https://maps.app.goo.gl/u9t9NXbt6fMkBym96
   start_time: 2024-09-17T21:00:00.000Z
@@ -134,13 +130,13 @@
 
 - id: eod_1
   type: EOD
-  description: End of Day 1
+  description: Close of Day 1
   start_time: 2024-09-17T22:10:00.000Z
   end_time: 2024-09-17T23:30:00.000Z
 
 - id: banquet
   type: Reception
-  title: Symposium banquet
+  title: Symposium banquet (optional)
   description: "Join us for a banquet at the Texas Science and Natural History Museum. Included in symposium registration."
   location: Texas Science and Natural History Museum
   location_link: https://maps.app.goo.gl/mEUxgfSJR5aiVgxWA
@@ -152,13 +148,12 @@
 - id: break_4
   type: Break
   description: Morning refreshments (####)
-  start_time: 2024-09-18T14:30:00.000Z
-  end_time: 2024-09-18T14:50:00.000Z
+  start_time: 2024-09-18T14:00:00.000Z
+  end_time: 2024-09-18T14:30:00.000Z
 
-- id: session_4
+- id: session_7
   type: Papers
-  title: "Human-Centred approaches"
-  description: "<em>A list of papers will be available soon</em>"
+  title: "Human-Centered approaches"
   location: Etter-Harbin Alumni Center
   location_link: https://maps.app.goo.gl/u9t9NXbt6fMkBym96
   start_time: 2024-09-18T14:30:00.000Z
@@ -170,7 +165,7 @@
   start_time: 2024-09-18T15:40:00.000Z
   end_time: 2024-09-18T16:00:00.000Z
 
-- id: keynote
+- id: session_8
   type: Keynote
   title: "Keynote"
   location: Etter-Harbin Alumni Center
@@ -184,10 +179,9 @@
   start_time: 2024-09-18T17:00:00.000Z
   end_time: 2024-09-18T18:00:00.000Z
 
-- id: session_5
+- id: session_9
   type: Papers
-  title: "Risk and failure"
-  description: "<em>A list of papers will be available soon</em>"
+  title: "AS risk and failure"
   location: Etter-Harbin Alumni Center
   location_link: https://maps.app.goo.gl/u9t9NXbt6fMkBym96
   start_time: 2024-09-18T18:00:00.000Z
@@ -199,7 +193,7 @@
   start_time: 2024-09-18T19:10:00.000Z
   end_time: 2024-09-18T19:30:00.000Z
 
-- id: plenary_2
+- id: session_10
   type: Plenary
   title: "The Limits of Automation"
   location: Etter-Harbin Alumni Center
@@ -213,16 +207,15 @@
   start_time: 2024-09-18T20:15:00.000Z
   end_time: 2024-09-18T20:35:00.000Z
 
-- id: session_6
+- id: session_11
   type: Papers
   title: "Building trust in automation"
-  description: "<em>A list of papers will be available soon</em>"
   location: Etter-Harbin Alumni Center
   location_link: https://maps.app.goo.gl/u9t9NXbt6fMkBym96
   start_time: 2024-09-18T20:35:00.000Z
   end_time: 2024-09-18T21:45:00.000Z
 
-- id: session_6
+- id: plenary_3
   type: Papers
   title: "Awards and Close"
   location: Etter-Harbin Alumni Center
@@ -232,9 +225,9 @@
 
 - id: eod_2
   type: EOD
-  description: End of TAS '24
-  start_time: 2024-09-17T22:00:00.000Z
-  end_time: 2024-09-17T22:00:00.000Z
+  description: Symposium ends
+  start_time: 2024-09-18T22:00:00.000Z
+  end_time: 2024-09-18T22:00:00.000Z
 
 
 
