@@ -5,6 +5,11 @@ description: >
 
 splash_title: Workshops at TAS '24
 
+lastmod:
+  type: data
+  files:
+    - workshops.yml
+
 menus:
   programme:
     title: Workshops

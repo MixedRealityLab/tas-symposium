@@ -5,6 +5,14 @@ GIT
     jekyll-menus (0.6.1)
       jekyll (>= 3.6, < 5.0)
 
+GIT
+  remote: https://github.com/mporcheron/jekyll-last-commit.git
+  revision: 35b771f9c6aafd87ba92190f843daa16d6b4487f
+  specs:
+    jekyll-last-commit (0.0.3)
+      jekyll (>= 3.7, < 5.0)
+      rugged (~> 1.1)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -79,6 +87,7 @@ GEM
     rexml (3.3.6)
       strscan
     rouge (4.3.0)
+    rugged (1.7.2)
     safe_yaml (1.0.5)
     sass-embedded (1.77.8-arm64-darwin)
       google-protobuf (~> 4.26)
@@ -100,6 +109,7 @@ DEPENDENCIES
   jekyll (~> 4.3.3)
   jekyll-datapage-generator (~> 1.4.0)
   jekyll-feed
+  jekyll-last-commit!
   jekyll-menus!
   jekyll-titles-from-headings
   nokogiri

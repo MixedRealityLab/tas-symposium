@@ -42,6 +42,10 @@ permalink: /blog/:year/:month/:day/:title/
 repository: mixedrealitylab/tas-symposium
 produrl: https://symposium.tas.ac.uk/2024
 
+github:
+  repo: https://github.com/mixedrealitylab/tas-symposium/
+  link_title: "View edit on GitHub"
+
 # Social settings
 social:
     browser:
@@ -67,7 +71,11 @@ plugins:
 #  - jekyll-datapage-generator
 #  - jekyll-target-blank
 
-# Liquid config
+jekyll-last-commit:
+  date_format: '%d-%b-%Y %R'       # default: `%B %d, %Y`
+  should_fall_back_to_mtime: false # default: `true`
+  data_files_key: 'meta'           # default: meta
+
 liquid:
   error_mode: strict
   strict_variables: false
