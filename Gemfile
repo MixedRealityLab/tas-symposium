@@ -24,6 +24,7 @@ group :jekyll_plugins do
   gem "jekyll-datapage-generator", "~> 1.4.0"
   gem "jekyll-last-commit", :git => "https://github.com/mporcheron/jekyll-last-commit.git"
   gem "jekyll-feed"
+  gem "jekyll-redirect-from"
   gem "jekyll-menus", :git => "https://github.com/forestryio/jekyll-menus.git"
   gem 'jekyll-titles-from-headings'
 end
