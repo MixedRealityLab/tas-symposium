@@ -77,7 +77,12 @@ menus:
 {% assign days = days | uniq %}
 {% assign num_days = days | size %}
 
-<p>The program below is provisional and will be updated with more details soon. Please note that each paper presentation is allocated 16 minutes INCLUDING time for questions. We recommend that presenters speak for 12-13 minutes to allow a few minutes for questions. The paper sessions will be strictly timed so that we don’t overrun.</p>
+<p>
+	The program below is provisional so please check for updates
+</p>
+<p>
+	Each paper presentation is allocated 15 minutes INCLUDING time for questions. We recommend that presenters speak for 10-12 minutes to allow a few minutes for questions. The paper sessions will be strictly timed so that we don’t overrun. Presenters will also be asked to submit their presentation slides in advance and to be in the room ahead of their session (e.g. during the preceding break period) to meet the session Chair. Further details will provided to presenters in due course.</p>
+</p>
 
 <ul class="nav nav-pills mb-3 pg-days-selector justify-items-center" role="tablist" aria-label="Days of the conference">
 	{% for day in days %}
@@ -170,10 +175,10 @@ menus:
 							</a>
 							{% endunless  %}
 							{% endif %}
-							{% capture calendar_url %}/program/ics/{{ session.id }}.ics{% endcapture %}
+							<!--{% capture calendar_url %}/program/ics/{{ session.id }}.ics{% endcapture %}
 							<a href="{{ calendar_url | relative_url }}" title="Download an iCal (ICS) file for this session in the program" class="d-block prg-icon-cal me-2">
 								<span class="visually-hidden">iCalendar (ICS) file for this session</span>
-							</a>
+							</a>-->
 							{% capture session_url %}/program/link/{{ session.id }}{% endcapture %}
 							<a href="{{ session_url | relative_url }}" title="Get the permanent link to this session in the program" class="d-block prg-icon-link">
 								<span class="visually-hidden">Permalink to this session</span>
@@ -327,10 +332,10 @@ menus:
 	</div>
 {% endfor %}
 </div>
-
+<!--
 <a href="/program/ics/all.ics" title="Download an iCal (ICS) file for all sessions in the program" class="d-block prg-icon-cal mt-3 mx-2 small text-center">
 	Download an iCalendar (ICS) file for all sessions
-</a>
+</a>-->
 
 <script>
 window.addEventListener('load', () => {
