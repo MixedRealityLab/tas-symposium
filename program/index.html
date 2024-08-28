@@ -281,7 +281,7 @@ menus:
 									</a>
 								</div>
 								{% endif %}
-								<div class="m-0 p-0 text-primary d-flex flex-row align-items-start collapse-link-chevron small" data-bs-toggle="collapse" href="#{{ presentation.id }}_abstract" role="button" aria-expanded="false" aria-controls="{{ presentation.id }}_abstract"></h3>
+								<div class="m-0 p-0 text-primary d-flex flex-row align-items-start {% if presentation.collapsable %}collapse-link-chevron{% endif %} small" {% if presentation.collapsable %}data-bs-toggle="collapse" href="#{{ presentation.id }}_abstract" role="button" aria-expanded="false" aria-controls="{{ presentation.id }}_abstract"{% endif %}></h3>
 								{% if presentation.title %}
 								<span class="flex-grow-1"><strong class="d-block">{{ presentation.title }}{% if presentation.type != "Panel Member" %}{% if presentation.type != "Panel" %}{% endif %}{% endif %}</strong></span>
 								{% if presentation.collapsable %}<i class="flex-grow-0 float-right bi bi-chevron-right mt-1"></i>{% endif %}
