@@ -4,5 +4,5 @@ layout: none
 {%- assign session_id = page.name | replace: ".html", "" -%}
 {%- for session in site.data.prg_sessions %}
 {%- if session_id != session.id %}{%- continue -%}{% endif -%}
-<meta http-equiv="refresh" content="0; URL='{{ site.url }}{{ site.baseurl }}/programme/#session-{{ session_id }}'" /> 
+<meta http-equiv="refresh" content="0; URL='{{ site.url }}{{ site.baseurl }}/program/#session-{{ session_id }}'" /> 
 {% endfor %}

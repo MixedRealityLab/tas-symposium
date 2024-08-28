@@ -3,7 +3,7 @@ label: Program
 title:  Program
 redirect_from: 
   - /programme/
-description: The online programme for TAS '24 symposium.
+description: The online program for TAS '24 symposium.
 
 splash_title:  TAS '24 program
 
@@ -94,15 +94,15 @@ menus:
 				{%- assign suffix = "th" -%}
 			{%- endif -%}
 			{% assign rest = day | slice: 2, 100 | truncatewords: 1, '' %}
-			<button class="programme-dates small nav-link me-md-2 me-1 px-md-3 p-2" id="programmeDay{{ forloop.index0 }}" data-date="{{ day | date: "%F" }}" data-bs-toggle="pill" data-bs-target="#programme{{ forloop.index0 }}" type="button" role="tab" aria-controls="programme{{ forloop.index0 }}" aria-selected="{% if forloop.index0 == 0 %}true{% else %}false{% endif %}">{{ rest }} {{ date }}</button>
+			<button class="program-dates small nav-link me-md-2 me-1 px-md-3 p-2" id="programDay{{ forloop.index0 }}" data-date="{{ day | date: "%F" }}" data-bs-toggle="pill" data-bs-target="#program{{ forloop.index0 }}" type="button" role="tab" aria-controls="program{{ forloop.index0 }}" aria-selected="{% if forloop.index0 == 0 %}true{% else %}false{% endif %}">{{ rest }} {{ date }}</button>
 		</li>
 	{% endfor %}
 </ul>
 
-<div id="programmeSchedule" class="tab-content">
+<div id="programSchedule" class="tab-content">
 {% for day in days %}
 	{%- assign day_index = forloop.index0 -%}
-	<div class="card tab-pane fade show" role="tabpanel" aria-labelledby="programmeDay{{ forloop.index0 }}" id="programme{{ forloop.index0 }}">
+	<div class="card tab-pane fade show" role="tabpanel" aria-labelledby="programDay{{ forloop.index0 }}" id="program{{ forloop.index0 }}">
 		<ul class="list-unstyled prg-day mb-0 border-0 rounded-0">
 			{%- for session in site.data.prg_sessions %}
 				{% if summer_time %}
@@ -119,7 +119,7 @@ menus:
 				{% endif %}
 
 				{% if session.type == "EOD" %}
-				<li class="d-flex p-3 bg-lightest border-bottom rounded-0" id="session-{{ session.id }}" data-tab="programmeDay{{ day_index }}">
+				<li class="d-flex p-3 bg-lightest border-bottom rounded-0" id="session-{{ session.id }}" data-tab="programDay{{ day_index }}">
 					<div class="flex-grow-1 ms-3 text-center text-muted">
 						{% if session.description %}
 						{{ session.description  }}
@@ -129,7 +129,7 @@ menus:
 				{% elsif session.type == "Innerevent" %}
 				{% elsif session.type == "Innerbreak" %}
 				{% elsif session.type == "Break" %}
-				<li class="d-flex p-3 bg-lightest border-bottom rounded-0" id="session-{{ session.id }}" data-tab="programmeDay{{ day_index }}">
+				<li class="d-flex p-3 bg-lightest border-bottom rounded-0" id="session-{{ session.id }}" data-tab="programDay{{ day_index }}">
 					<div class="flex-grow-1 ms-3 text-center text-muted">
 						{% if session.description %}
 						{% assign time_str = start_time | date: "%H:%M" %}
@@ -141,11 +141,11 @@ menus:
 					</div>
 				</li>
 				{% else %}
-				<li class="d-flex prg-row p-3 rounded bg-light  border-bottom rounded-0 flex-md-row flex-column" id="session-{{ session.id }}" data-tab="programmeDay{{ day_index }}">
+				<li class="d-flex prg-row p-3 rounded bg-light  border-bottom rounded-0 flex-md-row flex-column" id="session-{{ session.id }}" data-tab="programDay{{ day_index }}">
 					<div class="prg-left flex-shrink-0 flex-grow-0 me-md-3 mb-md-0 mb-3 d-flex flex-md-column flex-row">
 						<div class="text-capitalize mb-md-2 me-3"><span class="badge bg-primary">{{ session.type }}</span></div>
 						<div class="mb-md-1 me-md-0 me-3 small">
-							<span alt="A clock" class="d-inline-block prg-icon-timing prg-icon-start me-2"></span><span class="d-inline-block prg-text-timing">Starts <span class="d-md-inline d-none">at</span> <span class="prg-timing" data-timestamp="{{ start_time | date: "%FT%T.000Z" }}" data-programme-scheduled="{{ start_time | date: "%d" }}" data-day-alert="different-day-{{ forloop.index0 }}"><span></span>{{ start_time | date: "%H:%M" }}</span>
+							<span alt="A clock" class="d-inline-block prg-icon-timing prg-icon-start me-2"></span><span class="d-inline-block prg-text-timing">Starts <span class="d-md-inline d-none">at</span> <span class="prg-timing" data-timestamp="{{ start_time | date: "%FT%T.000Z" }}" data-program-scheduled="{{ start_time | date: "%d" }}" data-day-alert="different-day-{{ forloop.index0 }}"><span></span>{{ start_time | date: "%H:%M" }}</span>
 						</div>
 						<div class="mt-md-1 small">
 							<span alt="A stopwatch" class="d-inline-block prg-icon-timing prg-icon-end me-2"></span><span class="d-inline-block prg-text-timing">Ends <span class="d-md-inline d-none">at</span> <span class="prg-timing" data-timestamp="{{ end_time | date: "%FT%T.000Z" }}"><span></span>{{ end_time | date: "%H:%M" }}</span>
@@ -170,12 +170,12 @@ menus:
 							</a>
 							{% endunless  %}
 							{% endif %}
-							<!--{% capture calendar_url %}/programme/ics/{{ session.id }}.ics{% endcapture %}
-							<a href="{{ calendar_url | relative_url }}" title="Download an iCal (ICS) file for this session in the programme" class="d-block prg-icon-cal me-2">
+							{% capture calendar_url %}/program/ics/{{ session.id }}.ics{% endcapture %}
+							<a href="{{ calendar_url | relative_url }}" title="Download an iCal (ICS) file for this session in the program" class="d-block prg-icon-cal me-2">
 								<span class="visually-hidden">iCalendar (ICS) file for this session</span>
-							</a>-->
-							{% capture session_url %}/programme/link/{{ session.id }}{% endcapture %}
-							<a href="{{ session_url | relative_url }}" title="Get the permanent link to this session in the programme" class="d-block prg-icon-link">
+							</a>
+							{% capture session_url %}/program/link/{{ session.id }}{% endcapture %}
+							<a href="{{ session_url | relative_url }}" title="Get the permanent link to this session in the program" class="d-block prg-icon-link">
 								<span class="visually-hidden">Permalink to this session</span>
 							</a>
 						</div>
@@ -330,7 +330,7 @@ menus:
 
 <script>
 window.addEventListener('load', () => {
-	const dates = document.querySelectorAll('.programme-dates');
+	const dates = document.querySelectorAll('.program-dates');
 	var shownDate = false;
 
 	if(window.location.hash && window.location.hash.startsWith("#session-")) {
