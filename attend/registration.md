@@ -14,13 +14,13 @@ menus:
     weight: 1
 ---
 
-Authors with papers accepted must register by midday on 2nd September at 11:59 Texas time. At least one author of each accepted paper must be registered to attend the conference in person. A paper without a corresponding registration may be withheld from publication. There will be no onsite registration.
+Authors with papers accepted must register by midday on 2nd September at 11:59 Texas time. At least one author of each accepted paper must be registered to attend the symposium in person. A paper without a corresponding registration may be withheld from publication. There will be no onsite registration, and everyone who plans to attend the symposium must register and pay the symposium fee.
 
 <div class="text-center mb-3">
 <a href="https://cvent.utexas.edu/wnPOZm" class="my-3 btn btn-lg btn-dark text-light border" title="Register for TAS '24">Register now →</a>
 </div>
 
-Registration fees are $250, which includes both days of the Symposium, the optional workshops day and ECR event, the welcome reception, and the conference banquet. Registrants will be able to bring a partner to the banquet at an additional cost of $50.
+Registration fees are $250, which includes both days of the Symposium, the optional workshops day and ECR event, the welcome reception, and the symposium banquet. Registrants will be able to bring a partner to the banquet at an additional cost of $50.
 
 <!--All registration fees are inclusive of Value Added Tax (VAT).
 
@@ -28,9 +28,9 @@ Registration fees are $250, which includes both days of the Symposium, the optio
 <!--Registration for the TAS Symposium 2023 is now open. 
 Registration has now closed.
 
-Authors with papers accepted must register by midday on 30th June 2023. At least one author of each accepted paper must be registered to attend the conference in person. A paper without a corresponding registration may be withheld from publication. There will be no onsite registration.
+Authors with papers accepted must register by midday on 30th June 2023. At least one author of each accepted paper must be registered to attend the symposium in person. A paper without a corresponding registration may be withheld from publication. There will be no onsite registration.
 
-Please ensure you register at the correct rate—if you do not, you will be liable to pay the difference. You can revise your registration online up to one week before the conference.
+Please ensure you register at the correct rate—if you do not, you will be liable to pay the difference. You can revise your registration online up to one week before the symposium.
 
 
 <!--
