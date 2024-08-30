@@ -247,83 +247,16 @@ menus:
 						{% endif %}
 
 						{% assign presentations = site.data.prg_presentations[session.id] %}
-						{% if presentations.size > 0 %}
-						<ol class="list-group mt-3">
-						{%- for presentation in site.data.prg_presentations[session.id] %}
-							<li class="list-group-item pb-2">
-								{% if presentation.aaai %}
-								<div class="float-end">
-									<a href="{{ presentation.aaai }}" title="View the paper on the AAAI website" class="d-block prg-inner-icon prg-icon-aaai">
-										<span class="visually-hidden">View paper on the AAAI website</span>
-									</a>
-								</div>
-								{% endif %}
-								{% if presentation.acmdl %}
-								<div class="float-end">
-									<a href="{{ presentation.acmdl }}" title="View the paper in the ACM Digital Library" class="d-block prg-inner-icon prg-icon-acmdl">
-										<span class="visually-hidden">View paper in the ACM Digital Library</span>
-									</a>
-								</div>
-								{% endif %}
-								{% if presentation.sagepub %}
-								<div class="float-end">
-									<a href="{{ presentation.sagepub }}" title="View the paper on Sage Publishing's website" class="d-block prg-inner-icon prg-icon-sagepub">
-										<span class="visually-hidden">View paper on Sage Publishing's website</span>
-									</a>
-								</div>
-								{% endif %}
-								{% if presentation.springerlink %}
-								<div class="float-end">
-									<a href="{{ presentation.springerlink }}" title="View the paper on Springer's website" class="d-block prg-inner-icon prg-icon-springerlink">
-										<span class="visually-hidden">View paper on Springer's website</span>
-									</a>
-								</div>
-								{% endif %}
-								{% if presentation.info %}
-								<div class="float-end">
-									<a href="{{ presentation.info }}" title="Read more about this presentation" class="d-block prg-inner-icon prg-icon-info">
-										<span class="visually-hidden">Read more about this presentation</span>
-									</a>
-								</div>
-								{% endif %}
-								<div class="m-0 p-0 text-primary d-flex flex-row align-items-start {% if presentation.collapsable %}collapse-link-chevron{% endif %} small" {% if presentation.collapsable %}data-bs-toggle="collapse" href="#{{ presentation.id }}_abstract" role="button" aria-expanded="false" aria-controls="{{ presentation.id }}_abstract"{% endif %}></h3>
-								{% if presentation.title %}
-								<span class="flex-grow-1"><strong class="d-block">{{ presentation.title }}{% if presentation.type != "Panel Member" %}{% if presentation.type != "Panel" %}{% endif %}{% endif %}</strong></span>
-								{% if presentation.collapsable %}<i class="flex-grow-0 float-right bi bi-chevron-right mt-1"></i>{% endif %}
-								{% endif %}
-								{% if presentation.subtitle %}
-								<strong class="d-block"><small><em>{{ presentation.subtitle }}</em></small></strong>
-								{% endif %}
-								</div>
-
-								{% if presentation.authors %}
-								<span  class="d-block">{{ presentation.authors }}</span>
-								{% endif %}
-
-								{% if presentation.preview %}
-								<span  class="d-block"><a href="{{ presentation.preview.link }}" title="{{ presentation.preview.text }}" target="_blank">{{ presentation.preview.text }} &rarr;</a></span>
-								{% endif %}
-
-								{% if presentation.award %}
-								<span class="d-block">🏆 {{ presentation.award }}</span>
-								{% endif %}
-
-								{% if presentation.abstract %}
-								<div class="{% if presentation.collapsable %}collapse{% else %}d-block{% endif %}" id="{{ presentation.id }}_abstract">
-									{{ presentation.abstract }}
-
-									{% if presentation.website %}
-									<div class="d-block mb-0">
-									<em><a href="{{ presentation.website }}" title="{{ presentation.title }} website">Website &raquo;</a></em>
-									</div>
-									{% endif %}
-								</div>
-								{% endif %}
-							</li>
-						{%- endfor -%}
-						</ol>
+						{% if presentations.groups %}
+							{%- for group in presentations.groups %}
+								<h6 class="mt-2">{{ group.title }}</h6>
+								{% include prg_presentations.html presentations=group.presentations -%}
+							{%- endfor -%}
+						{% else %}
+							{% if presentations.size > 0 %}
+								{% include prg_presentations.html presentations=presentations -%}
+							{% endif %}
 						{% endif %}
-
 					</div>
 				</li>
 				{% endif %}
