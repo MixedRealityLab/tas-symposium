@@ -249,7 +249,7 @@ menus:
 						{% assign presentations = site.data.prg_presentations[session.id] %}
 						{% if presentations.groups %}
 							{%- for group in presentations.groups %}
-								<h6 class="mt-2">{{ group.title }}</h6>
+								<h6 class="mt-3">{{ group.title }}</h6>
 								{% include prg_presentations.html presentations=group.presentations -%}
 							{%- endfor -%}
 						{% else %}
