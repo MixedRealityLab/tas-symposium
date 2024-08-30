@@ -88,6 +88,68 @@ session_2:
     title: "Show Me What’s Wrong: Impact of Explicit Alerts on Novice Supervisors of a Multi-Robot Monitoring System"
     authors: Maria-Theresa Bahodi, Niels van Berkel, Mikael Skov and Timothy Merritt
 
+session_3:
+  groups:
+    - title: Extended Abstract Posters
+      presentations:
+      - id: ea_poster_1
+        title: "Design and Evaluation of a Tool to assist Small-Medium Organisations (SMOs) to implement Automated Decision-Making (ADM)."
+        authors: Kathryn Baguley, Joel Fischer and Richard Hyde
+      - id: ea_poster_2
+        title: "An Interdependence Frame for (Semi) Autonomous Robots: The Case of Mobile Robotic Telepresence"
+        authors: Andriana Boudouraki and Gisela Reyes-Cruz
+      - id: ea_poster_3
+        title: "Investigating the Impact of Generative AI on Students and Educators: Evidence and Insights from the Literature"
+        authors: Jeremie Clos and Yoke Yie Chen
+      - id: ea_poster_4
+        title: "Designing and Evaluating a Discourse Analysis Dashboard"
+        authors: Xin Yu Liew, Nazia Hameed, Jeremie Clos and Joel Fischer
+      - id: ea_poster_5
+        title: "Responsibility and Regulation: Exploring Social Measures of Trust in Medical AI"
+        authors: Glenn McGarry, Andrew Crabtree, Alan Chamberlain and Lachlan D Urquhart
+      - id: ea_poster_6
+        title: "The Final 100 Meters: Touch and Joystick Controls for Guiding Autonomous Vehicles"
+        authors: Timothy Merritt, Eleftherios Papachristos, Victor Barsted, Hogir Hiva Ibrahim Sabir and Peter Højer Holdensgaard
+      - id: ea_poster_7
+        title: "Sound Strategies for Safe Driving: Exploring Auditory Interventions to Counteract Passive Driver Fatigue"
+        authors: Eleftherios Papachristos, Timothy Merritt, Eike Schneiders, David Jahanshiri, Alef Pir and Andrei Ciobanu
+      - id: ea_poster_8
+        title: "Responsibility Statement on research project outputs- to who and what for?"
+        authors: Virginia Portillo, Helena Webb, Peter Craigon, Robin Wilton, Liz Dowthwaite and Ephraim Luwemba
+      - id: ea_poster_9
+        title: "Reimagining the Design of Mobile Robotic Telepresence: Reflections from a Hybrid Design Workshop"
+        authors: Gisela Reyes-Cruz, Juan Martinez Avila, Eike Schneiders and Andriana Boudouraki
+      - id: ea_poster_10
+        title: "Meta-Meme: a Responsible Researcher's Tool for the analysis of Internet Memes"
+        authors: Giovanni Schiazza, Helena Webb, Jeremie Clos, Patrick Brundell and Annemarie Walter
+      - id: ea_poster_11
+        title: "A Survey of Lay People's Willingness to Generate Legal Advice using Large Language Models (LLMs)"
+        authors: Tina Seabrooke, Eike Schneiders, Liz Dowthwaite, Joshua Krook, Natalie Leesakul, Jeremie Clos, Horia Maior and Joel Fischer
+      - id: ea_poster_12
+        title: "Uneven Eyes: The Impact of Inconsistent Local Surveillance Policies on Public Trust"
+        authors: Sharon Strover, Sheila Lalwani and Azza El-Masri
+      - id: ea_poster_13
+        title: "Responsible AI in policing"
+        authors: Helena Webb, Nicholas Fitzroy-Dale, Saamiya Aqeel, Anna Maria Piskopani, Quentin Stafford-Fraser, Christos Nikolaou, Liz Dowthwaite, Derek McAuley and Christoper Hargreaves
+      - id: ea_poster_14
+        title: "Examining the Feasibility of AI-Generated Questions in Educational Settings"
+        authors: Omar Zeghouani, Zawar Ali, William Simson van Dijkhuizen, Jia Wei Hong and Jeremie Clos
+
+    - title: Non-Archival Posters
+      presentations:
+      - id: na_poster_1
+        title: "A Facilitated Residential Approach: Coalescing Collaborative Research Projects for Health Equity in AI Decisions - HEAD Residency 2024"
+        authors: Pepita Barnard
+      - id: na_poster_2
+        title: "Digital Placemaking and Co-Constitutive Evolution: The Role of Virtual Reality in How People Form a Sense of Place"
+        authors: Takayuki Suzuki
+      - id: na_poster_3
+        title: "U-Trustworthy Models. Reliability, Competence, and Confidence in Decision-Making"
+        authors: Ritwak Vashistha
+      - id: na_poster_4
+        title: "TAME Pain: Trustworthy AssessMEnt of Pain from Speech and Audio for the Empowerment of Patients"
+        authors: Tu-Quyen Dao
+
 session_4:
   - id: paper_5
     title: "Human-Robot Interaction Experiment: Minor Changes; Significant Differences"
