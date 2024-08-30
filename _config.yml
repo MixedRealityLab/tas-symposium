@@ -76,7 +76,6 @@ jekyll-last-commit:
   should_fall_back_to_mtime: false # default: `true`
   data_files_key: 'meta'           # default: meta
   index_data_files: true           # default: false
-  index_static_files: false
 
 liquid:
   error_mode: strict
