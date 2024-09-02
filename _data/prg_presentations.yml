@@ -25,6 +25,8 @@ workshops_am:
       The implementation of autonomous features in computer-mediated communication and telepresence technologies (from videoconferencing to VR and robotic telepresence) is a growing trend. Whilst automation in such technologies can offer many benefits -e.g., faster communication and reduced mental workload -, it can also reduce the users' agency over how they present themselves in social contexts. In this workshop, we will be identifying and discussing the ethical considerations, as well as implications relating to usability and accessibility, that automation introduces when used in systems for remote communication. This will be a half-day, hybrid workshop consisting of brainstorming and guided discussion activities, aiming to initiate a conversation regarding the multifaceted implications of automation in this field and set directions for future work. Please visit [our website](https://sites.google.com/view/tas24automatingtelepresence/home) for more information on the workshop and how you can participate!
     website: https://sites.google.com/view/tas24automatingtelepresence/home
  
+
+workshops_pm:
   - id: workshop_4
     type: workshop
     collapsable: true
@@ -33,7 +35,6 @@ workshops_am:
       With the increased capability and proliferation of AI systems across various domains, ensuring that these systems align with human intentions and values is crucial. Research across disciplines, such as computer science, human-computer interaction, philosophy, and policy, usually targets one aspect of AI alignment, leading to a siloed understanding of its challenges. This workshop aims to foster a comprehensive understanding of human-AI alignment through the integration of diverse disciplinary perspectives.
     website: https://sites.google.com/utexas.edu/tas24human-aialignment/home
 
-workshops_pm:
   - id: workshop_5
     type: workshop
     collapsable: true
