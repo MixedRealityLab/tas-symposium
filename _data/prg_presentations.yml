@@ -93,7 +93,8 @@ workshops_pm:
 session_1:
   - id: plenary_1
     type: plenary
-    abstract: <b>Kate Devlin</b>, King's College London, will talk the about the Trustworthy Autonomous Systems Hub and its legacy.
+    abstract: >
+      <b>Dr. Kate Devlin</b> will give a keynote address about the purpose and legacy of the Trustworthy Autonomous System Program. Dr Devlin is a Reader in Artificial Intelligence & Society in the Department of Digital Humanities, King's College London. With an undergraduate degree in archaeology (Queens University Belfast) and an MSc (Queens University Belfast) and PhD (University of Bristol) in computer science, her research investigates how people interact with and react to technologies, both past and future. Kate is the author of the critically-acclaimed book Turned On: Science, Sex and Robots (Bloomsbury, 2018), which examines the ethical and social implications of technology and intimacy.
 
 session_2:
   - id: paper_1
