@@ -37,13 +37,20 @@
   start_time: 2024-09-16T19:00:00.000Z
   end_time: 2024-09-16T23:00:00.000Z
 
-
 - id: reception
-  type: Break
-  description: Welcome reception (details TBC)
-  location: AHG
-  start_time: 2024-09-16T
-  end_time: 2024-09-16T
+  type: Reception
+  title: Welcome Reception
+  description: Join us for a reception the night before the main symposium activities kick off.
+  location: Anna Hiss Gymnasium Lobby
+  location_link: https://maps.app.goo.gl/ec67APtrRYwUo2vSA
+  start_time: 2024-09-16T22:30:00.000Z
+  end_time: 2024-09-17T00:30:00.000Z
+
+- id: eod_0
+  type: EOD
+  description: The main symposium activities start tomorrow!
+  start_time: 2024-09-17T01:30:00.000Z
+  end_time: 2024-09-17T01:30:00.000Z
 
 
 - id: registration
