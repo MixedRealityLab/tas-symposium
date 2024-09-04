@@ -173,7 +173,12 @@ session_3:
         authors: Tu-Quyen Dao
       - id: na_poster_5
         title: "Utilising AI to measure the unmeasurable: Trust in a black-box solution to measure citizen science impact"
-        authors: James Sprinks
+      - id: na_poster_6
+        title: "Guiding Concepts for Responsible AI"
+        authors: Minha Lee
+      - id: na_poster_7
+        title: "Health AI Platform for Decision Support toward Equitable Delivery of Healthcare to Multi-Factor Isolated Communities"
+        authors: Matt Kammer-Kerwick
 
 session_4:
   - id: paper_5
