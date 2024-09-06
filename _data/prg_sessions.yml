@@ -28,14 +28,20 @@
   start_time: 2024-09-16T14:00:00.000Z
   end_time: 2024-09-16T18:00:00.000Z
 
+- id: break_0
+  type: Break
+  description: Lunch (####)
+  start_time: 2024-09-16T17:30:00.000Z
+  end_time: 2024-09-16T18:30:00.000Z
+
 - id: workshops_pm
   type: Workshops
   title: Afternoon workshops
   description: 'Please register for a workshop during symposium registration—there is no extra cost. Times are estimates and will be confirmed.'
   location: Julius Glickman Conference Center
   location_link: https://maps.app.goo.gl/soBe9PDd9oxP72z1A
-  start_time: 2024-09-16T19:00:00.000Z
-  end_time: 2024-09-16T22:30:00.000Z
+  start_time: 2024-09-16T18:00:00.000Z
+  end_time: 2024-09-16T22:00:00.000Z
 
 - id: reception
   type: Reception
