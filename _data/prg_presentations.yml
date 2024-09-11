@@ -90,6 +90,7 @@ workshops_pm:
       </p><p class="mb-0">
       This workshop aims to explore the challenges of regulating a workplace that uses (or wishes to use) collaborative robots. It seeks to identify the issues that require further research or would benefit from consideration by policy-makers.
       </p>
+  website: https://sites.google.com/view/cobotlaw/home
 
 session_1:
   - id: plenary_1
