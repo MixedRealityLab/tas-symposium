@@ -201,9 +201,9 @@ session_5:
   - id: paper_9
     title: "Ethical AI Regulatory Sandboxes: Insights from cyberspace regulation and Internet governance"
     authors: Thiago Moraes
-  - id: paper_10
-    title: "What’s missing from this picture? Ethical, legal, and practical challenges for autonomous-vehicle data-recorders"
-    authors: Carolyn Ten Holter, Lars Kunze, Jo-Ann Pattinson, Pericle Salvini, Jonathan Attias and Marina Jirotka
+  - id: paper_13
+    title: "I can do anything with my AV data (but I won’t do that): Public attitudes towards data recorders in self-driving cars"
+    authors: Jo-Ann Pattinson, Carolyn Ten Holter, Keri Grieman, Pericle Salvini, Lars Kunze and Marina Jirotka
   - id: paper_11
     title: "Not the Law's First Rodeo: Towards regulating trustworthy collaborative industrial embodied autonomous systems"
     authors: Natalie Leesakul, Jeremie Clos and Richard Hyde
@@ -212,9 +212,9 @@ session_5:
     authors: Harriet Cameron, Neil McBride, Paschal Ochang and Bernd C. Stahl
 
 session_7:
-  - id: paper_13
-    title: "I can do anything with my AV data (but I won’t do that): Public attitudes towards data recorders in self-driving cars"
-    authors: Jo-Ann Pattinson, Carolyn Ten Holter, Keri Grieman, Pericle Salvini, Lars Kunze and Marina Jirotka
+  - id: paper_10
+    title: "What’s missing from this picture? Ethical, legal, and practical challenges for autonomous-vehicle data-recorders"
+    authors: Carolyn Ten Holter, Lars Kunze, Jo-Ann Pattinson, Pericle Salvini, Jonathan Attias and Marina Jirotka
   - id: paper_14
     title: "Encoding Social & Ethical Values in Autonomous Navigation: Philosophies Behind an Interactive Online Demonstration"
     authors: Yun Tang, Luke Moffat, Weisi Guo, Corinne May-Chahal, Joe Deville and Antonios Tsourdos
